@@ -1,0 +1,3 @@
+PASS: dropping an image highlights the zone and submits the file
+
+exit_code=0

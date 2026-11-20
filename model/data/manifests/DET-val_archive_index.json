@@ -1,0 +1,5502 @@
+[
+  {
+    "name": "VisDrone2019-DET-val/",
+    "size": 0,
+    "crc32": "00000000"
+  },
+  {
+    "name": "VisDrone2019-DET-val/.DS_Store",
+    "size": 10244,
+    "crc32": "6d0cd186"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/",
+    "size": 0,
+    "crc32": "00000000"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000001_02999_d_0000005.txt",
+    "size": 2962,
+    "crc32": "1098d0e1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000001_03499_d_0000006.txt",
+    "size": 1860,
+    "crc32": "77e51d0d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000001_03999_d_0000007.txt",
+    "size": 1200,
+    "crc32": "9f46fb67"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000001_04527_d_0000008.txt",
+    "size": 2960,
+    "crc32": "8df6d277"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000001_05249_d_0000009.txt",
+    "size": 2631,
+    "crc32": "65e44e2f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000001_05499_d_0000010.txt",
+    "size": 3361,
+    "crc32": "7330b8d2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000001_05999_d_0000011.txt",
+    "size": 2790,
+    "crc32": "a7e584b7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000001_07999_d_0000012.txt",
+    "size": 3220,
+    "crc32": "fa8fee96"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000001_08414_d_0000013.txt",
+    "size": 3866,
+    "crc32": "77accb00"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000021_00000_d_0000001.txt",
+    "size": 696,
+    "crc32": "2e2c7e76"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000021_00500_d_0000002.txt",
+    "size": 379,
+    "crc32": "5ad89726"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000021_00800_d_0000003.txt",
+    "size": 161,
+    "crc32": "4f489e3f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000022_00000_d_0000004.txt",
+    "size": 984,
+    "crc32": "f4508726"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000022_00500_d_0000005.txt",
+    "size": 735,
+    "crc32": "7a411787"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000022_01036_d_0000006.txt",
+    "size": 366,
+    "crc32": "c289432b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000022_01251_d_0000007.txt",
+    "size": 278,
+    "crc32": "c9591b95"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000023_00000_d_0000008.txt",
+    "size": 909,
+    "crc32": "651a128c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000023_00300_d_0000009.txt",
+    "size": 694,
+    "crc32": "aa2ba443"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000023_00868_d_0000010.txt",
+    "size": 458,
+    "crc32": "1be64cf0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000023_01233_d_0000011.txt",
+    "size": 324,
+    "crc32": "8f777210"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000024_00000_d_0000012.txt",
+    "size": 487,
+    "crc32": "266b5e65"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000024_00500_d_0000013.txt",
+    "size": 229,
+    "crc32": "223732a5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000024_01000_d_0000014.txt",
+    "size": 334,
+    "crc32": "dafbf289"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000024_01543_d_0000015.txt",
+    "size": 183,
+    "crc32": "ed01a104"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000026_00000_d_0000024.txt",
+    "size": 191,
+    "crc32": "eb0ffe4c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000026_00500_d_0000025.txt",
+    "size": 352,
+    "crc32": "d84880ba"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000026_01000_d_0000026.txt",
+    "size": 588,
+    "crc32": "cf2df8ed"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000026_01500_d_0000027.txt",
+    "size": 241,
+    "crc32": "c4210a1d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000026_02000_d_0000028.txt",
+    "size": 212,
+    "crc32": "30901d72"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000026_02500_d_0000029.txt",
+    "size": 382,
+    "crc32": "e500afcf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000026_03000_d_0000030.txt",
+    "size": 309,
+    "crc32": "5b96d887"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000026_03500_d_0000031.txt",
+    "size": 551,
+    "crc32": "d93d82c8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000026_04000_d_0000032.txt",
+    "size": 342,
+    "crc32": "95157752"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000026_04500_d_0000033.txt",
+    "size": 1074,
+    "crc32": "c3c180be"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000026_04978_d_0000034.txt",
+    "size": 1049,
+    "crc32": "f0da8abf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000055_00000_d_0000109.txt",
+    "size": 2298,
+    "crc32": "6e0512f2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000055_00714_d_0000110.txt",
+    "size": 1956,
+    "crc32": "15c134c0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000069_00001_d_0000001.txt",
+    "size": 790,
+    "crc32": "01b6a1de"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000069_00483_d_0000002.txt",
+    "size": 613,
+    "crc32": "25866564"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000069_00713_d_0000003.txt",
+    "size": 1132,
+    "crc32": "2727839f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000069_01109_d_0000004.txt",
+    "size": 690,
+    "crc32": "b05449e6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000069_01878_d_0000005.txt",
+    "size": 812,
+    "crc32": "37319695"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000069_02163_d_0000006.txt",
+    "size": 1100,
+    "crc32": "3b0f6499"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000069_02480_d_0000007.txt",
+    "size": 1518,
+    "crc32": "7761111f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000072_02834_d_0000003.txt",
+    "size": 1772,
+    "crc32": "12e677f8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000076_02142_d_0000009.txt",
+    "size": 259,
+    "crc32": "083268e6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000081_00000_d_0000001.txt",
+    "size": 2123,
+    "crc32": "da827676"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000086_00000_d_0000001.txt",
+    "size": 849,
+    "crc32": "a5ce637c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000086_00592_d_0000002.txt",
+    "size": 1466,
+    "crc32": "27dabdcd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000086_01084_d_0000003.txt",
+    "size": 3251,
+    "crc32": "df736d9b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000086_01443_d_0000004.txt",
+    "size": 2487,
+    "crc32": "e2387c27"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000086_01954_d_0000005.txt",
+    "size": 3798,
+    "crc32": "027ea5ff"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000103_00180_d_0000026.txt",
+    "size": 24,
+    "crc32": "aa31c20a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000103_00502_d_0000027.txt",
+    "size": 68,
+    "crc32": "96a84774"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000103_01734_d_0000028.txt",
+    "size": 96,
+    "crc32": "2c11bcd1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000103_02544_d_0000029.txt",
+    "size": 324,
+    "crc32": "3dcf1b4f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000103_02964_d_0000030.txt",
+    "size": 246,
+    "crc32": "ae92f912"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000103_03349_d_0000031.txt",
+    "size": 94,
+    "crc32": "eef8e44a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000103_03738_d_0000032.txt",
+    "size": 73,
+    "crc32": "355bce03"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000103_04122_d_0000033.txt",
+    "size": 92,
+    "crc32": "229e5a45"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000103_04513_d_0000034.txt",
+    "size": 48,
+    "crc32": "b312c5d6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000103_04948_d_0000035.txt",
+    "size": 21,
+    "crc32": "037fcad0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000115_00315_d_0000080.txt",
+    "size": 1456,
+    "crc32": "ea2efb5d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000115_00796_d_0000081.txt",
+    "size": 2006,
+    "crc32": "31b5a859"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000115_01031_d_0000082.txt",
+    "size": 1566,
+    "crc32": "b9992d04"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000116_00351_d_0000083.txt",
+    "size": 1813,
+    "crc32": "0c606328"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000116_00819_d_0000084.txt",
+    "size": 993,
+    "crc32": "6db78213"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000116_01059_d_0000085.txt",
+    "size": 1642,
+    "crc32": "02f56f48"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000116_01338_d_0000086.txt",
+    "size": 1355,
+    "crc32": "791935c1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000117_00112_d_0000087.txt",
+    "size": 2934,
+    "crc32": "e08df703"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000117_01326_d_0000088.txt",
+    "size": 1599,
+    "crc32": "e2a0fe1b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000117_01731_d_0000089.txt",
+    "size": 1097,
+    "crc32": "f7295f1f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000117_02708_d_0000090.txt",
+    "size": 2401,
+    "crc32": "70b2e603"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000117_03096_d_0000091.txt",
+    "size": 653,
+    "crc32": "1fb74883"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000129_02411_d_0000138.txt",
+    "size": 4382,
+    "crc32": "a321d109"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000153_00001_d_0000001.txt",
+    "size": 1321,
+    "crc32": "98285645"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000153_00401_d_0000001.txt",
+    "size": 1552,
+    "crc32": "ab8a1dc9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000153_00801_d_0000001.txt",
+    "size": 1331,
+    "crc32": "b6967a59"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000153_01201_d_0000001.txt",
+    "size": 1385,
+    "crc32": "cb83317b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000153_01601_d_0000001.txt",
+    "size": 1488,
+    "crc32": "367123bc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000153_01801_d_0000001.txt",
+    "size": 1356,
+    "crc32": "a09e1ffb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000154_00001_d_0000001.txt",
+    "size": 1321,
+    "crc32": "f2c3acfa"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000154_00401_d_0000001.txt",
+    "size": 1405,
+    "crc32": "c4bca26b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000154_00801_d_0000001.txt",
+    "size": 1677,
+    "crc32": "956c3d6a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000154_01201_d_0000001.txt",
+    "size": 2055,
+    "crc32": "7ea1e365"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000154_01601_d_0000001.txt",
+    "size": 2429,
+    "crc32": "2829902b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000154_02001_d_0000001.txt",
+    "size": 2306,
+    "crc32": "6f94cb85"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000155_00001_d_0000001.txt",
+    "size": 2245,
+    "crc32": "b2e6b805"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000155_00401_d_0000001.txt",
+    "size": 3075,
+    "crc32": "97c75f6b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000155_00801_d_0000001.txt",
+    "size": 2519,
+    "crc32": "342c9b5f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000155_01201_d_0000001.txt",
+    "size": 2325,
+    "crc32": "e359c195"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000155_01601_d_0000001.txt",
+    "size": 1738,
+    "crc32": "90e2899a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000155_01871_d_0000001.txt",
+    "size": 1382,
+    "crc32": "fdbcf277"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000162_00001_d_0000001.txt",
+    "size": 975,
+    "crc32": "e337e1f9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000162_00401_d_0000001.txt",
+    "size": 1101,
+    "crc32": "dcc5397d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000162_00801_d_0000001.txt",
+    "size": 907,
+    "crc32": "41caf4ba"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000162_01058_d_0000001.txt",
+    "size": 1340,
+    "crc32": "47d50557"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000163_00001_d_0000001.txt",
+    "size": 1638,
+    "crc32": "937e7c84"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000163_00359_d_0000001.txt",
+    "size": 1247,
+    "crc32": "b2e776b7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000165_04325_d_0000105.txt",
+    "size": 717,
+    "crc32": "85e9af75"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000166_00558_d_0000118.txt",
+    "size": 1724,
+    "crc32": "5bf37c2b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000193_00000_d_0000103.txt",
+    "size": 1633,
+    "crc32": "0dcab1a1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000193_01497_d_0000111.txt",
+    "size": 2086,
+    "crc32": "f22db592"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000193_01705_d_0000112.txt",
+    "size": 3078,
+    "crc32": "d392c8bc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000193_01876_d_0000113.txt",
+    "size": 2503,
+    "crc32": "30388659"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000193_02029_d_0000114.txt",
+    "size": 2164,
+    "crc32": "2563c104"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000193_02212_d_0000115.txt",
+    "size": 1878,
+    "crc32": "a0468503"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000193_02416_d_0000116.txt",
+    "size": 1146,
+    "crc32": "39d3859e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000193_02606_d_0000117.txt",
+    "size": 1134,
+    "crc32": "80ac18b4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000193_02725_d_0000118.txt",
+    "size": 963,
+    "crc32": "c3f777c8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000194_00000_d_0000119.txt",
+    "size": 1304,
+    "crc32": "bebe9ca7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000194_00200_d_0000120.txt",
+    "size": 1931,
+    "crc32": "a7e0ebed"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000194_00399_d_0000121.txt",
+    "size": 3289,
+    "crc32": "fcad7223"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000194_00625_d_0000122.txt",
+    "size": 1993,
+    "crc32": "7343ad6d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000194_00800_d_0000123.txt",
+    "size": 1269,
+    "crc32": "6121f2f3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000194_00998_d_0000124.txt",
+    "size": 989,
+    "crc32": "80466559"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000194_01192_d_0000125.txt",
+    "size": 581,
+    "crc32": "2c981bd7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000196_04512_d_0000144.txt",
+    "size": 1661,
+    "crc32": "eafb7d64"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000199_01269_d_0000166.txt",
+    "size": 409,
+    "crc32": "aa7eedad"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000213_02500_d_0000240.txt",
+    "size": 2246,
+    "crc32": "e39e179c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000213_02965_d_0000241.txt",
+    "size": 2240,
+    "crc32": "0e8c30f5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000213_03478_d_0000242.txt",
+    "size": 2710,
+    "crc32": "e0b3909c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000213_03920_d_0000243.txt",
+    "size": 3900,
+    "crc32": "60dce1c5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000213_04405_d_0000244.txt",
+    "size": 2532,
+    "crc32": "e41fe6a4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000213_04998_d_0000245.txt",
+    "size": 3224,
+    "crc32": "d6d18cce"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000213_05340_d_0000246.txt",
+    "size": 3194,
+    "crc32": "509b5e26"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000213_05745_d_0000247.txt",
+    "size": 2381,
+    "crc32": "fad5d51f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000215_00000_d_0000256.txt",
+    "size": 3785,
+    "crc32": "84753443"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000215_00447_d_0000257.txt",
+    "size": 1222,
+    "crc32": "912c290a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000215_00909_d_0000258.txt",
+    "size": 2098,
+    "crc32": "70fb7cfe"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000215_01395_d_0000259.txt",
+    "size": 1416,
+    "crc32": "e184319b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000215_01869_d_0000260.txt",
+    "size": 1736,
+    "crc32": "a125d0bc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000215_02319_d_0000261.txt",
+    "size": 2535,
+    "crc32": "44e45f16"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000215_02667_d_0000262.txt",
+    "size": 2010,
+    "crc32": "e6b7772c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000215_02932_d_0000263.txt",
+    "size": 1152,
+    "crc32": "75da1bb5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000215_03226_d_0000264.txt",
+    "size": 554,
+    "crc32": "b671e2bf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000216_00520_d_0000001.txt",
+    "size": 2480,
+    "crc32": "0841adf4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000220_01242_d_0000004.txt",
+    "size": 904,
+    "crc32": "fe807f4c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000223_01802_d_0000005.txt",
+    "size": 1506,
+    "crc32": "081903f8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000237_00001_d_0000001.txt",
+    "size": 431,
+    "crc32": "61878e67"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_00001_d_0000001.txt",
+    "size": 1192,
+    "crc32": "d9899385"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_00500_d_0000002.txt",
+    "size": 1272,
+    "crc32": "76ffcf8d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_00627_d_0000003.txt",
+    "size": 1195,
+    "crc32": "7e161950"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_00843_d_0000004.txt",
+    "size": 47,
+    "crc32": "a64444fc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_00963_d_0000005.txt",
+    "size": 300,
+    "crc32": "0d765b37"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_01139_d_0000006.txt",
+    "size": 1724,
+    "crc32": "92c74a49"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_01475_d_0000007.txt",
+    "size": 1501,
+    "crc32": "f3c3c8dc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_01912_d_0000008.txt",
+    "size": 1190,
+    "crc32": "867997b3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_02400_d_0000009.txt",
+    "size": 758,
+    "crc32": "ac8ee3aa"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_02762_d_0000010.txt",
+    "size": 746,
+    "crc32": "be6cfe91"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_03199_d_0000011.txt",
+    "size": 202,
+    "crc32": "e0974c85"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_03668_d_0000012.txt",
+    "size": 995,
+    "crc32": "668204cf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_04116_d_0000013.txt",
+    "size": 180,
+    "crc32": "901ea89f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_04600_d_0000014.txt",
+    "size": 687,
+    "crc32": "4f769226"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_05059_d_0000015.txt",
+    "size": 838,
+    "crc32": "d1600ab3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_05570_d_0000016.txt",
+    "size": 772,
+    "crc32": "d1e8e934"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_06010_d_0000017.txt",
+    "size": 954,
+    "crc32": "835af88e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000242_06452_d_0000018.txt",
+    "size": 265,
+    "crc32": "196c4c22"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_00001_d_0000001.txt",
+    "size": 1150,
+    "crc32": "61e948a8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_00500_d_0000002.txt",
+    "size": 1029,
+    "crc32": "0641d9d8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_01000_d_0000003.txt",
+    "size": 2599,
+    "crc32": "8ff7563a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_01500_d_0000004.txt",
+    "size": 2257,
+    "crc32": "20c8a16d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_02000_d_0000005.txt",
+    "size": 2910,
+    "crc32": "1297e2a2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_02500_d_0000006.txt",
+    "size": 2561,
+    "crc32": "0b7a33b7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_03000_d_0000007.txt",
+    "size": 1008,
+    "crc32": "2825ac3a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_03500_d_0000008.txt",
+    "size": 3290,
+    "crc32": "f3f7a231"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_04000_d_0000009.txt",
+    "size": 1422,
+    "crc32": "d707d4e6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_04400_d_0000010.txt",
+    "size": 2295,
+    "crc32": "bd6142bd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_04900_d_0000011.txt",
+    "size": 2480,
+    "crc32": "1530308d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_05400_d_0000012.txt",
+    "size": 2126,
+    "crc32": "ab318b21"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_05900_d_0000013.txt",
+    "size": 1539,
+    "crc32": "00236e52"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000244_06388_d_0000014.txt",
+    "size": 1243,
+    "crc32": "e5812fe1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000249_00001_d_0000001.txt",
+    "size": 1783,
+    "crc32": "84f3f1e9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000249_00235_d_0000002.txt",
+    "size": 1927,
+    "crc32": "af0c141d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000249_00603_d_0000003.txt",
+    "size": 1082,
+    "crc32": "d8995e32"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000249_01100_d_0000004.txt",
+    "size": 732,
+    "crc32": "71569832"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000249_01514_d_0000005.txt",
+    "size": 1211,
+    "crc32": "6c82835a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000249_01635_d_0000006.txt",
+    "size": 1851,
+    "crc32": "9cf033e2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000249_02073_d_0000007.txt",
+    "size": 1570,
+    "crc32": "89aaf262"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000249_02468_d_0000008.txt",
+    "size": 438,
+    "crc32": "54cf46f9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000249_02900_d_0000009.txt",
+    "size": 2315,
+    "crc32": "13d3dd8f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000249_03400_d_0000010.txt",
+    "size": 2194,
+    "crc32": "14530e43"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000249_03900_d_0000011.txt",
+    "size": 2107,
+    "crc32": "2f2b8a94"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000253_00001_d_0000001.txt",
+    "size": 2396,
+    "crc32": "93628023"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000256_00715_d_0000019.txt",
+    "size": 2272,
+    "crc32": "d73cc84e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000256_02173_d_0000030.txt",
+    "size": 1133,
+    "crc32": "ed427f4a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000263_02401_d_0000179.txt",
+    "size": 398,
+    "crc32": "d66ae63f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000269_00001_d_0000348.txt",
+    "size": 2945,
+    "crc32": "346bd419"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000269_00201_d_0000349.txt",
+    "size": 1233,
+    "crc32": "60c69e4c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000269_00601_d_0000351.txt",
+    "size": 2202,
+    "crc32": "4f2a8137"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_00001_d_0000374.txt",
+    "size": 1349,
+    "crc32": "5b2c3370"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_00201_d_0000375.txt",
+    "size": 1714,
+    "crc32": "9b271cc0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_00401_d_0000376.txt",
+    "size": 573,
+    "crc32": "f9f29ffe"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_00601_d_0000377.txt",
+    "size": 1853,
+    "crc32": "55f945bd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_00801_d_0000378.txt",
+    "size": 1448,
+    "crc32": "f26110b2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_01201_d_0000379.txt",
+    "size": 1370,
+    "crc32": "adea8088"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_01401_d_0000380.txt",
+    "size": 1246,
+    "crc32": "fd37c18e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_01601_d_0000381.txt",
+    "size": 1083,
+    "crc32": "94712ec4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_02401_d_0000385.txt",
+    "size": 2051,
+    "crc32": "0f526eed"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_02601_d_0000386.txt",
+    "size": 1849,
+    "crc32": "613394c1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_03001_d_0000387.txt",
+    "size": 1258,
+    "crc32": "27279c4a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_03801_d_0000391.txt",
+    "size": 1272,
+    "crc32": "2347eafe"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_04401_d_0000394.txt",
+    "size": 1971,
+    "crc32": "2b5e4bae"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_04801_d_0000396.txt",
+    "size": 1134,
+    "crc32": "8aa8e557"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_05001_d_0000397.txt",
+    "size": 2044,
+    "crc32": "a1142bb6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_05201_d_0000398.txt",
+    "size": 1631,
+    "crc32": "641013d5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_05401_d_0000399.txt",
+    "size": 1592,
+    "crc32": "0dab3ef4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_05601_d_0000400.txt",
+    "size": 1945,
+    "crc32": "b165a138"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_05801_d_0000401.txt",
+    "size": 2410,
+    "crc32": "6bad7e53"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_06001_d_0000402.txt",
+    "size": 3621,
+    "crc32": "4f6731a2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_06201_d_0000403.txt",
+    "size": 3211,
+    "crc32": "915846cd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_06401_d_0000404.txt",
+    "size": 2929,
+    "crc32": "bdc105b7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_06601_d_0000405.txt",
+    "size": 2493,
+    "crc32": "26504001"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_06801_d_0000406.txt",
+    "size": 2232,
+    "crc32": "8c5aedc2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_07001_d_0000407.txt",
+    "size": 1322,
+    "crc32": "9aed45b0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_07201_d_0000408.txt",
+    "size": 568,
+    "crc32": "e1678c3c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000271_07401_d_0000409.txt",
+    "size": 945,
+    "crc32": "c2edfa41"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000273_05601_d_0000466.txt",
+    "size": 792,
+    "crc32": "bb34e083"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_00001_d_0000507.txt",
+    "size": 1237,
+    "crc32": "6e204403"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_00401_d_0000509.txt",
+    "size": 1368,
+    "crc32": "7d841dbe"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_00601_d_0000510.txt",
+    "size": 880,
+    "crc32": "b77aed85"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_01001_d_0000512.txt",
+    "size": 971,
+    "crc32": "c366db52"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_01201_d_0000513.txt",
+    "size": 664,
+    "crc32": "181ca8bb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_01401_d_0000514.txt",
+    "size": 549,
+    "crc32": "f0cba895"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_01801_d_0000516.txt",
+    "size": 492,
+    "crc32": "d8e97478"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_02001_d_0000517.txt",
+    "size": 386,
+    "crc32": "1fd08972"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_02201_d_0000518.txt",
+    "size": 980,
+    "crc32": "d05a680b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_02401_d_0000519.txt",
+    "size": 1162,
+    "crc32": "43e9f90c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_02601_d_0000520.txt",
+    "size": 747,
+    "crc32": "490d6c71"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_02801_d_0000521.txt",
+    "size": 935,
+    "crc32": "4a2d1269"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_03001_d_0000522.txt",
+    "size": 882,
+    "crc32": "e2096239"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_03201_d_0000523.txt",
+    "size": 1389,
+    "crc32": "f93509c3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_03401_d_0000524.txt",
+    "size": 1483,
+    "crc32": "2263bd70"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_03601_d_0000525.txt",
+    "size": 1092,
+    "crc32": "46428d9f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_03801_d_0000526.txt",
+    "size": 1505,
+    "crc32": "12ecd514"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_04001_d_0000527.txt",
+    "size": 1243,
+    "crc32": "99e3f081"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_04201_d_0000528.txt",
+    "size": 1395,
+    "crc32": "c1b6f00f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_04401_d_0000529.txt",
+    "size": 931,
+    "crc32": "80731bdf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_04601_d_0000530.txt",
+    "size": 218,
+    "crc32": "704a7356"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_04801_d_0000531.txt",
+    "size": 229,
+    "crc32": "21c15160"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_05001_d_0000532.txt",
+    "size": 160,
+    "crc32": "8db7909d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_05201_d_0000533.txt",
+    "size": 137,
+    "crc32": "476b2743"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_05601_d_0000535.txt",
+    "size": 226,
+    "crc32": "aa035706"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_05801_d_0000536.txt",
+    "size": 157,
+    "crc32": "8d8661f8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000276_06001_d_0000537.txt",
+    "size": 310,
+    "crc32": "92b13353"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_00001_d_0000539.txt",
+    "size": 2355,
+    "crc32": "5cc4b4f5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_00201_d_0000540.txt",
+    "size": 1995,
+    "crc32": "4c5b98e4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_00401_d_0000541.txt",
+    "size": 2831,
+    "crc32": "0d2366db"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_01401_d_0000546.txt",
+    "size": 1987,
+    "crc32": "7b9f096e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_01601_d_0000547.txt",
+    "size": 1922,
+    "crc32": "e5a3ab7b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_01801_d_0000548.txt",
+    "size": 2369,
+    "crc32": "f1a9ec73"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_02001_d_0000549.txt",
+    "size": 1888,
+    "crc32": "2342d1ac"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_02201_d_0000550.txt",
+    "size": 1560,
+    "crc32": "7196f260"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_02401_d_0000551.txt",
+    "size": 2069,
+    "crc32": "403c32e7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_02601_d_0000552.txt",
+    "size": 2785,
+    "crc32": "6f220faa"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_03201_d_0000554.txt",
+    "size": 1911,
+    "crc32": "9ff5bddb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_03401_d_0000555.txt",
+    "size": 2486,
+    "crc32": "b4c4f332"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_03601_d_0000556.txt",
+    "size": 1533,
+    "crc32": "ef787e92"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_04001_d_0000558.txt",
+    "size": 1777,
+    "crc32": "b6dfdcb1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_04201_d_0000559.txt",
+    "size": 1581,
+    "crc32": "ef791c83"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_04401_d_0000560.txt",
+    "size": 1615,
+    "crc32": "379ab07e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_04601_d_0000561.txt",
+    "size": 2131,
+    "crc32": "04a01486"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000277_05001_d_0000562.txt",
+    "size": 2188,
+    "crc32": "d62d8fc3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_00001_d_0000612.txt",
+    "size": 2005,
+    "crc32": "bef45cd6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_00201_d_0000613.txt",
+    "size": 1088,
+    "crc32": "83356686"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_00401_d_0000614.txt",
+    "size": 1371,
+    "crc32": "1805bd6e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_00601_d_0000615.txt",
+    "size": 1825,
+    "crc32": "2eb7afa3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_00801_d_0000616.txt",
+    "size": 1701,
+    "crc32": "8fd7efdd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_01001_d_0000617.txt",
+    "size": 2895,
+    "crc32": "d37647e7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_01201_d_0000618.txt",
+    "size": 3055,
+    "crc32": "84268cdc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_01401_d_0000619.txt",
+    "size": 2551,
+    "crc32": "9db028a9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_01601_d_0000620.txt",
+    "size": 2398,
+    "crc32": "90bf8d7b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_01801_d_0000621.txt",
+    "size": 2185,
+    "crc32": "dbdc9b16"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_02001_d_0000622.txt",
+    "size": 1564,
+    "crc32": "8c6729a0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_02201_d_0000623.txt",
+    "size": 2009,
+    "crc32": "e0ecaa06"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_02401_d_0000624.txt",
+    "size": 2109,
+    "crc32": "ccddf605"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_02601_d_0000625.txt",
+    "size": 1852,
+    "crc32": "db318453"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_02801_d_0000626.txt",
+    "size": 1297,
+    "crc32": "9cd50b5f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_03001_d_0000627.txt",
+    "size": 2088,
+    "crc32": "dc795b9f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_03201_d_0000628.txt",
+    "size": 1904,
+    "crc32": "791ae980"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000280_03401_d_0000629.txt",
+    "size": 1915,
+    "crc32": "5de67840"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000283_00401_d_0000676.txt",
+    "size": 171,
+    "crc32": "4b372039"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000283_00601_d_0000677.txt",
+    "size": 198,
+    "crc32": "3bd9b2e8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000283_00801_d_0000678.txt",
+    "size": 177,
+    "crc32": "44024756"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000283_01001_d_0000679.txt",
+    "size": 121,
+    "crc32": "65d0a3c1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_00001_d_0000759.txt",
+    "size": 1265,
+    "crc32": "ab67f543"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_00201_d_0000760.txt",
+    "size": 1240,
+    "crc32": "1655e562"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_00401_d_0000761.txt",
+    "size": 1247,
+    "crc32": "e4111d3f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_00601_d_0000762.txt",
+    "size": 2082,
+    "crc32": "bee224b3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_00801_d_0000763.txt",
+    "size": 1324,
+    "crc32": "4f3768c5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_01001_d_0000764.txt",
+    "size": 1597,
+    "crc32": "038f3131"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_01201_d_0000765.txt",
+    "size": 1596,
+    "crc32": "88a6171c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_01401_d_0000766.txt",
+    "size": 1582,
+    "crc32": "c843eb47"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_01601_d_0000767.txt",
+    "size": 1760,
+    "crc32": "9fb2fe63"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_01801_d_0000768.txt",
+    "size": 1331,
+    "crc32": "b7b3633d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_02001_d_0000769.txt",
+    "size": 1058,
+    "crc32": "d50c8ff3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_02201_d_0000770.txt",
+    "size": 722,
+    "crc32": "546b1496"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_02401_d_0000771.txt",
+    "size": 400,
+    "crc32": "8de7de62"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_02601_d_0000772.txt",
+    "size": 1016,
+    "crc32": "69aae550"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_02801_d_0000773.txt",
+    "size": 1364,
+    "crc32": "3d7a5457"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_03001_d_0000774.txt",
+    "size": 421,
+    "crc32": "66c183f2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_03401_d_0000776.txt",
+    "size": 1314,
+    "crc32": "58a2882f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_04601_d_0000780.txt",
+    "size": 2093,
+    "crc32": "792c15f6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_04801_d_0000781.txt",
+    "size": 1212,
+    "crc32": "2cb44cbc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000287_05001_d_0000782.txt",
+    "size": 1415,
+    "crc32": "b82e0e23"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_00001_d_0000811.txt",
+    "size": 979,
+    "crc32": "88a4267f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_00201_d_0000812.txt",
+    "size": 1051,
+    "crc32": "901242de"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_00401_d_0000813.txt",
+    "size": 1231,
+    "crc32": "47171539"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_00601_d_0000814.txt",
+    "size": 991,
+    "crc32": "760eb4df"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_00801_d_0000815.txt",
+    "size": 893,
+    "crc32": "a4cbee53"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_01001_d_0000816.txt",
+    "size": 761,
+    "crc32": "b66c80ea"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_01201_d_0000817.txt",
+    "size": 1012,
+    "crc32": "d9169c1d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_01401_d_0000818.txt",
+    "size": 918,
+    "crc32": "37d9c16b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_01601_d_0000819.txt",
+    "size": 1010,
+    "crc32": "2b33813b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_02001_d_0000821.txt",
+    "size": 995,
+    "crc32": "6f655aa0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_02201_d_0000822.txt",
+    "size": 691,
+    "crc32": "c1c96ac1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_02401_d_0000823.txt",
+    "size": 1193,
+    "crc32": "91d6dfb9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_02601_d_0000824.txt",
+    "size": 1365,
+    "crc32": "f593e25b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_03001_d_0000826.txt",
+    "size": 1436,
+    "crc32": "053afc46"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_03201_d_0000827.txt",
+    "size": 1891,
+    "crc32": "d6a6740d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_03401_d_0000828.txt",
+    "size": 1379,
+    "crc32": "ee7bb3d8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_03601_d_0000829.txt",
+    "size": 1714,
+    "crc32": "52b922bb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_03801_d_0000830.txt",
+    "size": 2289,
+    "crc32": "61f1c0cf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_04001_d_0000831.txt",
+    "size": 1873,
+    "crc32": "9b5a669a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_04201_d_0000832.txt",
+    "size": 2062,
+    "crc32": "b143ba86"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_04401_d_0000833.txt",
+    "size": 2382,
+    "crc32": "fc5b7efe"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_04601_d_0000834.txt",
+    "size": 2280,
+    "crc32": "231f7524"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_04801_d_0000835.txt",
+    "size": 1617,
+    "crc32": "35e53d9f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_05001_d_0000836.txt",
+    "size": 1636,
+    "crc32": "87d4c875"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_05201_d_0000837.txt",
+    "size": 1872,
+    "crc32": "ec004870"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_05401_d_0000838.txt",
+    "size": 1930,
+    "crc32": "4c78c6ea"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_05601_d_0000839.txt",
+    "size": 2454,
+    "crc32": "53e096f3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_05801_d_0000840.txt",
+    "size": 1778,
+    "crc32": "1f8e6607"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_06001_d_0000841.txt",
+    "size": 1829,
+    "crc32": "6335a4a4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_06201_d_0000842.txt",
+    "size": 1807,
+    "crc32": "1cc70fe9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_06401_d_0000843.txt",
+    "size": 1848,
+    "crc32": "265ffc82"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_06601_d_0000844.txt",
+    "size": 2006,
+    "crc32": "c3f768a9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_06801_d_0000845.txt",
+    "size": 2279,
+    "crc32": "9311056c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_07001_d_0000846.txt",
+    "size": 1696,
+    "crc32": "eb76fc0f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000289_07201_d_0000847.txt",
+    "size": 928,
+    "crc32": "e15d0e19"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000290_04001_d_0000867.txt",
+    "size": 1799,
+    "crc32": "c5fb7024"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_00001_d_0000868.txt",
+    "size": 4132,
+    "crc32": "e763031e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_00201_d_0000869.txt",
+    "size": 2794,
+    "crc32": "35ef4792"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_00401_d_0000870.txt",
+    "size": 3797,
+    "crc32": "f11c8553"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_00601_d_0000871.txt",
+    "size": 2857,
+    "crc32": "596e24b1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_01001_d_0000873.txt",
+    "size": 3650,
+    "crc32": "a559ed10"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_01201_d_0000874.txt",
+    "size": 4914,
+    "crc32": "6ea56aaf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_01401_d_0000875.txt",
+    "size": 3570,
+    "crc32": "65f2745c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_01601_d_0000876.txt",
+    "size": 2026,
+    "crc32": "225f8c5c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_01801_d_0000877.txt",
+    "size": 2665,
+    "crc32": "0b2c8c87"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_02001_d_0000878.txt",
+    "size": 4074,
+    "crc32": "6879b827"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_02201_d_0000879.txt",
+    "size": 3496,
+    "crc32": "d370f633"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_02601_d_0000881.txt",
+    "size": 4115,
+    "crc32": "49836e7c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_03201_d_0000884.txt",
+    "size": 5528,
+    "crc32": "f5d7eca7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_03401_d_0000885.txt",
+    "size": 4359,
+    "crc32": "f7703271"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_03601_d_0000886.txt",
+    "size": 2688,
+    "crc32": "a42a1e01"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_03801_d_0000887.txt",
+    "size": 4388,
+    "crc32": "dbbf6b88"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_04001_d_0000888.txt",
+    "size": 2591,
+    "crc32": "83689817"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_04201_d_0000889.txt",
+    "size": 2560,
+    "crc32": "a50eff72"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_04401_d_0000890.txt",
+    "size": 2937,
+    "crc32": "0b505264"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_05001_d_0000892.txt",
+    "size": 3159,
+    "crc32": "c57cbf62"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000291_05201_d_0000893.txt",
+    "size": 4854,
+    "crc32": "67b733fd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000293_03601_d_0000940.txt",
+    "size": 2752,
+    "crc32": "41782b09"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000295_00000_d_0000021.txt",
+    "size": 3145,
+    "crc32": "4b17b49e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000295_00200_d_0000022.txt",
+    "size": 1908,
+    "crc32": "80ec48a5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000295_00600_d_0000024.txt",
+    "size": 4585,
+    "crc32": "304f2a43"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000295_00800_d_0000025.txt",
+    "size": 3484,
+    "crc32": "1b66f5a6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000295_01000_d_0000026.txt",
+    "size": 5745,
+    "crc32": "62f31f79"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000295_01200_d_0000027.txt",
+    "size": 5007,
+    "crc32": "818ccf88"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000295_01400_d_0000028.txt",
+    "size": 4903,
+    "crc32": "a5af8dcb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000295_01600_d_0000029.txt",
+    "size": 3315,
+    "crc32": "df440334"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000295_01800_d_0000030.txt",
+    "size": 7239,
+    "crc32": "1ec5d262"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000295_02000_d_0000031.txt",
+    "size": 7733,
+    "crc32": "c624a5ee"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000295_02200_d_0000032.txt",
+    "size": 4720,
+    "crc32": "58ed49f7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000295_02400_d_0000033.txt",
+    "size": 7585,
+    "crc32": "bc3d0bae"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000295_02900_d_0000034.txt",
+    "size": 4906,
+    "crc32": "e89d630f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000296_00601_d_0000038.txt",
+    "size": 2114,
+    "crc32": "aa49f366"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000296_01001_d_0000040.txt",
+    "size": 4257,
+    "crc32": "fb6db03f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000300_03201_d_0000154.txt",
+    "size": 1564,
+    "crc32": "d08172e3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000301_00001_d_0000156.txt",
+    "size": 2400,
+    "crc32": "6b17b92a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000301_00201_d_0000157.txt",
+    "size": 2103,
+    "crc32": "89fc2fdd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000301_01001_d_0000161.txt",
+    "size": 1513,
+    "crc32": "f0eb9801"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000301_01201_d_0000162.txt",
+    "size": 1526,
+    "crc32": "09490142"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000303_03401_d_0000200.txt",
+    "size": 1881,
+    "crc32": "54e54780"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000308_04401_d_0000327.txt",
+    "size": 2377,
+    "crc32": "8ce3971e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000312_00001_d_0000414.txt",
+    "size": 2555,
+    "crc32": "b8eff56b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000312_00201_d_0000415.txt",
+    "size": 2501,
+    "crc32": "9240eb3c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000312_00601_d_0000417.txt",
+    "size": 1330,
+    "crc32": "9e6665f2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000312_01001_d_0000419.txt",
+    "size": 1851,
+    "crc32": "48accb94"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000312_01201_d_0000420.txt",
+    "size": 1876,
+    "crc32": "a9f15088"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000312_02201_d_0000425.txt",
+    "size": 1801,
+    "crc32": "85c85788"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000312_02401_d_0000426.txt",
+    "size": 1859,
+    "crc32": "2e7fb8e7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000312_04201_d_0000435.txt",
+    "size": 1867,
+    "crc32": "be980645"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000313_06401_d_0000468.txt",
+    "size": 2174,
+    "crc32": "685e82db"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000313_06601_d_0000469.txt",
+    "size": 3895,
+    "crc32": "c38a8729"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000313_07001_d_0000471.txt",
+    "size": 115,
+    "crc32": "b3fc36f8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000315_01601_d_0000509.txt",
+    "size": 2357,
+    "crc32": "a976632c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000316_00001_d_0000519.txt",
+    "size": 1672,
+    "crc32": "a4de43b2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000316_00201_d_0000520.txt",
+    "size": 1349,
+    "crc32": "fd11d0e8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000316_00401_d_0000521.txt",
+    "size": 530,
+    "crc32": "fec39adf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000316_00601_d_0000522.txt",
+    "size": 883,
+    "crc32": "ef54f00b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000316_00801_d_0000523.txt",
+    "size": 845,
+    "crc32": "bdd26531"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000316_01001_d_0000524.txt",
+    "size": 541,
+    "crc32": "7fbf25d1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000316_01201_d_0000525.txt",
+    "size": 1085,
+    "crc32": "cc94a405"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000316_01401_d_0000526.txt",
+    "size": 787,
+    "crc32": "3ff2bd67"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000316_01601_d_0000527.txt",
+    "size": 664,
+    "crc32": "be3ffd6c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000316_01801_d_0000528.txt",
+    "size": 261,
+    "crc32": "53a25d1e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000316_02001_d_0000529.txt",
+    "size": 207,
+    "crc32": "e9681992"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000316_02201_d_0000530.txt",
+    "size": 158,
+    "crc32": "93783823"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000323_02601_d_0000645.txt",
+    "size": 2133,
+    "crc32": "13cc45c3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_00001_d_0000711.txt",
+    "size": 1569,
+    "crc32": "a875ef89"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_00201_d_0000712.txt",
+    "size": 1363,
+    "crc32": "cb8758fd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_00401_d_0000713.txt",
+    "size": 1569,
+    "crc32": "6b6ca15d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_00601_d_0000714.txt",
+    "size": 1926,
+    "crc32": "466fd760"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_00801_d_0000715.txt",
+    "size": 1907,
+    "crc32": "a26e5eac"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_01001_d_0000716.txt",
+    "size": 1886,
+    "crc32": "c4e3a804"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_01201_d_0000717.txt",
+    "size": 1594,
+    "crc32": "48255c47"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_01401_d_0000718.txt",
+    "size": 2090,
+    "crc32": "6a00d85a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_01801_d_0000720.txt",
+    "size": 1392,
+    "crc32": "0b0aa89f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_02601_d_0000724.txt",
+    "size": 1283,
+    "crc32": "db373ccd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_02801_d_0000725.txt",
+    "size": 1650,
+    "crc32": "7073587c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_03001_d_0000726.txt",
+    "size": 1756,
+    "crc32": "a286fe6c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_03201_d_0000727.txt",
+    "size": 2543,
+    "crc32": "c9c99754"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_03401_d_0000728.txt",
+    "size": 1801,
+    "crc32": "5b3a659d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_03601_d_0000729.txt",
+    "size": 1464,
+    "crc32": "4f4d559f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_03801_d_0000730.txt",
+    "size": 2459,
+    "crc32": "5a87e242"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_04001_d_0000731.txt",
+    "size": 3080,
+    "crc32": "338940d0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000327_04201_d_0000732.txt",
+    "size": 2525,
+    "crc32": "1fb8fa93"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_00001_d_0000800.txt",
+    "size": 1909,
+    "crc32": "37172f3c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_00201_d_0000801.txt",
+    "size": 2948,
+    "crc32": "e328102e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_00401_d_0000802.txt",
+    "size": 2654,
+    "crc32": "eaff364e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_00601_d_0000803.txt",
+    "size": 2142,
+    "crc32": "81ed9e08"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_00801_d_0000804.txt",
+    "size": 2136,
+    "crc32": "0608050d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_01001_d_0000805.txt",
+    "size": 2121,
+    "crc32": "dd703873"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_01201_d_0000806.txt",
+    "size": 2661,
+    "crc32": "4433be46"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_01401_d_0000807.txt",
+    "size": 3740,
+    "crc32": "779bc083"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_01601_d_0000808.txt",
+    "size": 2282,
+    "crc32": "5c3b7774"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_01801_d_0000809.txt",
+    "size": 1472,
+    "crc32": "f767d7db"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_02001_d_0000810.txt",
+    "size": 1339,
+    "crc32": "be12ddf1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_02201_d_0000811.txt",
+    "size": 990,
+    "crc32": "b9ec1d87"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_02801_d_0000814.txt",
+    "size": 1031,
+    "crc32": "2e0125fe"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_03001_d_0000815.txt",
+    "size": 1024,
+    "crc32": "cf06c9ad"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_03201_d_0000816.txt",
+    "size": 1601,
+    "crc32": "a7f93b3a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_04001_d_0000820.txt",
+    "size": 905,
+    "crc32": "b07bc861"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_04201_d_0000821.txt",
+    "size": 3851,
+    "crc32": "c697084b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_04401_d_0000822.txt",
+    "size": 866,
+    "crc32": "bc21b277"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000330_04601_d_0000823.txt",
+    "size": 1400,
+    "crc32": "afa8dceb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000333_00001_d_0000001.txt",
+    "size": 1634,
+    "crc32": "6b1c79d6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000333_01765_d_0000010.txt",
+    "size": 2761,
+    "crc32": "43635353"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000333_01961_d_0000011.txt",
+    "size": 1478,
+    "crc32": "8922a6dd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000333_02157_d_0000012.txt",
+    "size": 1560,
+    "crc32": "f3a68e13"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000333_02353_d_0000013.txt",
+    "size": 1619,
+    "crc32": "281adc76"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000333_02549_d_0000014.txt",
+    "size": 2070,
+    "crc32": "216cb506"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000333_02745_d_0000015.txt",
+    "size": 1167,
+    "crc32": "bcb0bc78"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000333_02941_d_0000016.txt",
+    "size": 991,
+    "crc32": "6b307375"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000333_03137_d_0000017.txt",
+    "size": 896,
+    "crc32": "1d5f7ffe"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000333_03333_d_0000018.txt",
+    "size": 1407,
+    "crc32": "4893bb2c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000333_03529_d_0000019.txt",
+    "size": 2137,
+    "crc32": "acc3ef98"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000333_03725_d_0000020.txt",
+    "size": 1888,
+    "crc32": "1b17c7d6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_00001_d_0000043.txt",
+    "size": 955,
+    "crc32": "1c1cc2e4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_00197_d_0000044.txt",
+    "size": 850,
+    "crc32": "79246b80"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_00393_d_0000045.txt",
+    "size": 784,
+    "crc32": "878f29ae"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_00589_d_0000046.txt",
+    "size": 476,
+    "crc32": "1fb1cac7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_00785_d_0000047.txt",
+    "size": 755,
+    "crc32": "6b3be372"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_00981_d_0000048.txt",
+    "size": 1752,
+    "crc32": "673a4167"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_01765_d_0000052.txt",
+    "size": 1356,
+    "crc32": "af5651f0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_01961_d_0000053.txt",
+    "size": 1561,
+    "crc32": "ae4ad9c3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_02353_d_0000055.txt",
+    "size": 1892,
+    "crc32": "60ba7c79"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_02549_d_0000056.txt",
+    "size": 2039,
+    "crc32": "45014af7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_02745_d_0000057.txt",
+    "size": 2245,
+    "crc32": "1e80c370"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_03137_d_0000059.txt",
+    "size": 2315,
+    "crc32": "d52262b6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_03333_d_0000060.txt",
+    "size": 919,
+    "crc32": "c4e39a62"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_03725_d_0000062.txt",
+    "size": 627,
+    "crc32": "7f519179"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_03921_d_0000063.txt",
+    "size": 1027,
+    "crc32": "1a5f34cf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_04117_d_0000064.txt",
+    "size": 653,
+    "crc32": "35c05745"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_04313_d_0000065.txt",
+    "size": 875,
+    "crc32": "509b4958"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_05097_d_0000069.txt",
+    "size": 459,
+    "crc32": "aad1882b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_05685_d_0000072.txt",
+    "size": 347,
+    "crc32": "27b8f8c5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_06469_d_0000076.txt",
+    "size": 182,
+    "crc32": "14ac0aea"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_06665_d_0000077.txt",
+    "size": 491,
+    "crc32": "6eab93dc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000335_06861_d_0000078.txt",
+    "size": 558,
+    "crc32": "591850f7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000342_00393_d_0000244.txt",
+    "size": 3207,
+    "crc32": "2824126a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000345_07057_d_0000345.txt",
+    "size": 2483,
+    "crc32": "0be3df66"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000346_00001_d_0000346.txt",
+    "size": 2013,
+    "crc32": "ab6d3bfd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000346_01961_d_0000356.txt",
+    "size": 1625,
+    "crc32": "6a7fbbba"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000346_02549_d_0000359.txt",
+    "size": 1434,
+    "crc32": "4f4d431b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000346_03921_d_0000366.txt",
+    "size": 1168,
+    "crc32": "54f6da52"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000346_07057_d_0000382.txt",
+    "size": 1962,
+    "crc32": "1e6e205e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000348_00589_d_0000409.txt",
+    "size": 796,
+    "crc32": "93c1e8fc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000348_03333_d_0000423.txt",
+    "size": 351,
+    "crc32": "7e49f474"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_00589_d_0000632.txt",
+    "size": 2856,
+    "crc32": "193e59f1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_01177_d_0000635.txt",
+    "size": 2274,
+    "crc32": "6e6f7efa"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_01569_d_0000637.txt",
+    "size": 2539,
+    "crc32": "d2f31a19"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_01765_d_0000638.txt",
+    "size": 2336,
+    "crc32": "1218c82f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_01961_d_0000639.txt",
+    "size": 2563,
+    "crc32": "8873a4ed"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_02157_d_0000640.txt",
+    "size": 1339,
+    "crc32": "be52a366"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_02353_d_0000641.txt",
+    "size": 2566,
+    "crc32": "6196a4fa"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_02745_d_0000643.txt",
+    "size": 2368,
+    "crc32": "c67490fd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_02941_d_0000644.txt",
+    "size": 2659,
+    "crc32": "3b0b2d45"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_03333_d_0000646.txt",
+    "size": 1961,
+    "crc32": "c007de93"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_03529_d_0000647.txt",
+    "size": 2005,
+    "crc32": "227ca4be"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_03725_d_0000648.txt",
+    "size": 2356,
+    "crc32": "cd4198f7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_03921_d_0000649.txt",
+    "size": 1760,
+    "crc32": "ed4ff657"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_04117_d_0000650.txt",
+    "size": 2169,
+    "crc32": "a1c58bcf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_04313_d_0000651.txt",
+    "size": 2385,
+    "crc32": "ba9e66eb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_04705_d_0000653.txt",
+    "size": 1778,
+    "crc32": "ba5f3baa"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_04901_d_0000654.txt",
+    "size": 2455,
+    "crc32": "0712dd03"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000356_05097_d_0000655.txt",
+    "size": 2843,
+    "crc32": "4af9ed11"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000358_03333_d_0000697.txt",
+    "size": 2246,
+    "crc32": "014dc6f5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000359_00393_d_0000701.txt",
+    "size": 998,
+    "crc32": "4dcffc70"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000359_00589_d_0000702.txt",
+    "size": 934,
+    "crc32": "6b153263"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000359_00785_d_0000703.txt",
+    "size": 750,
+    "crc32": "9536332f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000359_00981_d_0000704.txt",
+    "size": 1081,
+    "crc32": "447ae648"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000359_01177_d_0000705.txt",
+    "size": 1415,
+    "crc32": "fa3b7fd4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000359_01373_d_0000706.txt",
+    "size": 284,
+    "crc32": "e05d60d2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000359_01961_d_0000707.txt",
+    "size": 415,
+    "crc32": "2f891e0b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000359_02353_d_0000708.txt",
+    "size": 750,
+    "crc32": "a8c1a111"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000359_02549_d_0000709.txt",
+    "size": 492,
+    "crc32": "7a55deae"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000359_03333_d_0000711.txt",
+    "size": 325,
+    "crc32": "b5508f1f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000359_03529_d_0000712.txt",
+    "size": 378,
+    "crc32": "371b493c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_00001_d_0000713.txt",
+    "size": 1799,
+    "crc32": "a9d20343"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_00197_d_0000714.txt",
+    "size": 1788,
+    "crc32": "49431fae"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_00393_d_0000715.txt",
+    "size": 1814,
+    "crc32": "51c49f35"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_00589_d_0000716.txt",
+    "size": 1379,
+    "crc32": "d48dab64"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_00785_d_0000717.txt",
+    "size": 1358,
+    "crc32": "8b60b687"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_00981_d_0000718.txt",
+    "size": 1564,
+    "crc32": "9d987c9d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_02353_d_0000725.txt",
+    "size": 1768,
+    "crc32": "7215839c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_02745_d_0000727.txt",
+    "size": 1878,
+    "crc32": "5ea44bba"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_02941_d_0000728.txt",
+    "size": 1066,
+    "crc32": "c67c6e4b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_03137_d_0000729.txt",
+    "size": 1279,
+    "crc32": "bd8d2501"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_03333_d_0000730.txt",
+    "size": 1268,
+    "crc32": "6d0862db"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_03529_d_0000731.txt",
+    "size": 713,
+    "crc32": "39ada2c8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_03921_d_0000733.txt",
+    "size": 1154,
+    "crc32": "de81c6f3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_04117_d_0000734.txt",
+    "size": 418,
+    "crc32": "0332643a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_04705_d_0000737.txt",
+    "size": 213,
+    "crc32": "03c4950b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_05293_d_0000740.txt",
+    "size": 1572,
+    "crc32": "42ace8d0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_05685_d_0000742.txt",
+    "size": 1343,
+    "crc32": "fecc54e4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_06273_d_0000745.txt",
+    "size": 510,
+    "crc32": "36d1c589"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_06665_d_0000747.txt",
+    "size": 1084,
+    "crc32": "ea2c28c2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_06861_d_0000748.txt",
+    "size": 581,
+    "crc32": "148d7fa9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_07057_d_0000749.txt",
+    "size": 380,
+    "crc32": "34e76963"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_07253_d_0000750.txt",
+    "size": 662,
+    "crc32": "245a06b4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000360_07645_d_0000752.txt",
+    "size": 375,
+    "crc32": "1c1e2800"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000364_00589_d_0000798.txt",
+    "size": 1507,
+    "crc32": "2a3c3357"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000364_01177_d_0000799.txt",
+    "size": 1915,
+    "crc32": "a7ea4116"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000364_01373_d_0000780.txt",
+    "size": 1687,
+    "crc32": "8063fd78"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000364_01569_d_0000781.txt",
+    "size": 2427,
+    "crc32": "5c6fdd0c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/annotations/0000364_01765_d_0000782.txt",
+    "size": 1977,
+    "crc32": "3b49e0f4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/",
+    "size": 0,
+    "crc32": "00000000"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000001_02999_d_0000005.jpg",
+    "size": 479237,
+    "crc32": "eabc96db"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000001_03499_d_0000006.jpg",
+    "size": 437855,
+    "crc32": "76fe4e53"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000001_03999_d_0000007.jpg",
+    "size": 424551,
+    "crc32": "08b7429d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000001_04527_d_0000008.jpg",
+    "size": 387949,
+    "crc32": "32c49a53"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000001_05249_d_0000009.jpg",
+    "size": 381086,
+    "crc32": "5ffdfc16"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000001_05499_d_0000010.jpg",
+    "size": 388013,
+    "crc32": "0cdde598"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000001_05999_d_0000011.jpg",
+    "size": 375802,
+    "crc32": "a6e39a9e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000001_07999_d_0000012.jpg",
+    "size": 434177,
+    "crc32": "7150e1e2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000001_08414_d_0000013.jpg",
+    "size": 372706,
+    "crc32": "e48612ab"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000021_00000_d_0000001.jpg",
+    "size": 80019,
+    "crc32": "c9154c1f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000021_00500_d_0000002.jpg",
+    "size": 84927,
+    "crc32": "b5ed026b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000021_00800_d_0000003.jpg",
+    "size": 92381,
+    "crc32": "559378a0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000022_00000_d_0000004.jpg",
+    "size": 82143,
+    "crc32": "7692fa7d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000022_00500_d_0000005.jpg",
+    "size": 72128,
+    "crc32": "351b6379"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000022_01036_d_0000006.jpg",
+    "size": 65497,
+    "crc32": "b14923f8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000022_01251_d_0000007.jpg",
+    "size": 73777,
+    "crc32": "66c7e6e5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000023_00000_d_0000008.jpg",
+    "size": 82143,
+    "crc32": "7692fa7d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000023_00300_d_0000009.jpg",
+    "size": 77938,
+    "crc32": "6179edef"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000023_00868_d_0000010.jpg",
+    "size": 70103,
+    "crc32": "12b393f6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000023_01233_d_0000011.jpg",
+    "size": 67015,
+    "crc32": "d0083702"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000024_00000_d_0000012.jpg",
+    "size": 89301,
+    "crc32": "77099744"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000024_00500_d_0000013.jpg",
+    "size": 74788,
+    "crc32": "fa8b7ca6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000024_01000_d_0000014.jpg",
+    "size": 87745,
+    "crc32": "8d74a931"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000024_01543_d_0000015.jpg",
+    "size": 113419,
+    "crc32": "9e3ad167"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000026_00000_d_0000024.jpg",
+    "size": 182794,
+    "crc32": "545850df"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000026_00500_d_0000025.jpg",
+    "size": 150402,
+    "crc32": "f44fe543"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000026_01000_d_0000026.jpg",
+    "size": 131175,
+    "crc32": "c943013c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000026_01500_d_0000027.jpg",
+    "size": 168961,
+    "crc32": "b20002d5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000026_02000_d_0000028.jpg",
+    "size": 161278,
+    "crc32": "e3f25729"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000026_02500_d_0000029.jpg",
+    "size": 167200,
+    "crc32": "163a226f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000026_03000_d_0000030.jpg",
+    "size": 157051,
+    "crc32": "891f622e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000026_03500_d_0000031.jpg",
+    "size": 159583,
+    "crc32": "8ac0fd83"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000026_04000_d_0000032.jpg",
+    "size": 144557,
+    "crc32": "b5451560"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000026_04500_d_0000033.jpg",
+    "size": 194246,
+    "crc32": "ea48ad1e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000026_04978_d_0000034.jpg",
+    "size": 166235,
+    "crc32": "f6e9c175"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000055_00000_d_0000109.jpg",
+    "size": 66623,
+    "crc32": "5a945aa4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000055_00714_d_0000110.jpg",
+    "size": 33800,
+    "crc32": "b42a3a0c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000069_00001_d_0000001.jpg",
+    "size": 136764,
+    "crc32": "33931d2a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000069_00483_d_0000002.jpg",
+    "size": 98111,
+    "crc32": "1e1ec71a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000069_00713_d_0000003.jpg",
+    "size": 97791,
+    "crc32": "bc24b2ac"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000069_01109_d_0000004.jpg",
+    "size": 97147,
+    "crc32": "1351a7fd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000069_01878_d_0000005.jpg",
+    "size": 100849,
+    "crc32": "d6d667b2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000069_02163_d_0000006.jpg",
+    "size": 195509,
+    "crc32": "f54322b2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000069_02480_d_0000007.jpg",
+    "size": 256097,
+    "crc32": "445f31b9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000072_02834_d_0000003.jpg",
+    "size": 87697,
+    "crc32": "f35d4f62"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000076_02142_d_0000009.jpg",
+    "size": 120947,
+    "crc32": "bc91095c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000081_00000_d_0000001.jpg",
+    "size": 83370,
+    "crc32": "9e9abcc2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000086_00000_d_0000001.jpg",
+    "size": 94198,
+    "crc32": "c1336871"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000086_00592_d_0000002.jpg",
+    "size": 90071,
+    "crc32": "41285520"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000086_01084_d_0000003.jpg",
+    "size": 79788,
+    "crc32": "d1c28345"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000086_01443_d_0000004.jpg",
+    "size": 97677,
+    "crc32": "aaddb2e0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000086_01954_d_0000005.jpg",
+    "size": 92267,
+    "crc32": "fcf38865"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000103_00180_d_0000026.jpg",
+    "size": 87518,
+    "crc32": "abe8cd75"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000103_00502_d_0000027.jpg",
+    "size": 100418,
+    "crc32": "dc46bdf2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000103_01734_d_0000028.jpg",
+    "size": 114208,
+    "crc32": "b443ddc7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000103_02544_d_0000029.jpg",
+    "size": 117485,
+    "crc32": "988bd24b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000103_02964_d_0000030.jpg",
+    "size": 142535,
+    "crc32": "418ee0ed"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000103_03349_d_0000031.jpg",
+    "size": 102851,
+    "crc32": "72ca55f5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000103_03738_d_0000032.jpg",
+    "size": 59359,
+    "crc32": "4a9fe69f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000103_04122_d_0000033.jpg",
+    "size": 123396,
+    "crc32": "8ff63f63"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000103_04513_d_0000034.jpg",
+    "size": 101470,
+    "crc32": "8ccc4847"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000103_04948_d_0000035.jpg",
+    "size": 124065,
+    "crc32": "a111c7c1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000115_00315_d_0000080.jpg",
+    "size": 64371,
+    "crc32": "4fe2bb1a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000115_00796_d_0000081.jpg",
+    "size": 67012,
+    "crc32": "55b47170"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000115_01031_d_0000082.jpg",
+    "size": 64698,
+    "crc32": "93b60e00"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000116_00351_d_0000083.jpg",
+    "size": 70585,
+    "crc32": "3b20d7f6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000116_00819_d_0000084.jpg",
+    "size": 70706,
+    "crc32": "98379b7a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000116_01059_d_0000085.jpg",
+    "size": 75649,
+    "crc32": "de5f836a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000116_01338_d_0000086.jpg",
+    "size": 66213,
+    "crc32": "359e5fac"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000117_00112_d_0000087.jpg",
+    "size": 92727,
+    "crc32": "194d4d5e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000117_01326_d_0000088.jpg",
+    "size": 98897,
+    "crc32": "dba1be95"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000117_01731_d_0000089.jpg",
+    "size": 91740,
+    "crc32": "0b5fafaa"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000117_02708_d_0000090.jpg",
+    "size": 110937,
+    "crc32": "391e8557"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000117_03096_d_0000091.jpg",
+    "size": 97284,
+    "crc32": "1dc72d18"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000129_02411_d_0000138.jpg",
+    "size": 328403,
+    "crc32": "b0a1b4f1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000153_00001_d_0000001.jpg",
+    "size": 73514,
+    "crc32": "d2fad330"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000153_00401_d_0000001.jpg",
+    "size": 78607,
+    "crc32": "e7730656"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000153_00801_d_0000001.jpg",
+    "size": 80421,
+    "crc32": "996af079"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000153_01201_d_0000001.jpg",
+    "size": 84536,
+    "crc32": "50439795"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000153_01601_d_0000001.jpg",
+    "size": 90676,
+    "crc32": "b2052a75"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000153_01801_d_0000001.jpg",
+    "size": 93291,
+    "crc32": "53332131"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000154_00001_d_0000001.jpg",
+    "size": 90746,
+    "crc32": "401f24d8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000154_00401_d_0000001.jpg",
+    "size": 88428,
+    "crc32": "5366db20"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000154_00801_d_0000001.jpg",
+    "size": 80960,
+    "crc32": "c5f37f4f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000154_01201_d_0000001.jpg",
+    "size": 85782,
+    "crc32": "ad22d57d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000154_01601_d_0000001.jpg",
+    "size": 88439,
+    "crc32": "460f3fb7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000154_02001_d_0000001.jpg",
+    "size": 85893,
+    "crc32": "7b85e77d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000155_00001_d_0000001.jpg",
+    "size": 98434,
+    "crc32": "e7399456"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000155_00401_d_0000001.jpg",
+    "size": 95685,
+    "crc32": "fd2bf543"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000155_00801_d_0000001.jpg",
+    "size": 101558,
+    "crc32": "7406c099"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000155_01201_d_0000001.jpg",
+    "size": 88706,
+    "crc32": "c92d602b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000155_01601_d_0000001.jpg",
+    "size": 87763,
+    "crc32": "58805b42"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000155_01871_d_0000001.jpg",
+    "size": 85770,
+    "crc32": "ce04f78f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000162_00001_d_0000001.jpg",
+    "size": 72282,
+    "crc32": "ab7a080f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000162_00401_d_0000001.jpg",
+    "size": 77314,
+    "crc32": "656dc8e5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000162_00801_d_0000001.jpg",
+    "size": 74486,
+    "crc32": "e46ff97f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000162_01058_d_0000001.jpg",
+    "size": 85378,
+    "crc32": "2b9a260e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000163_00001_d_0000001.jpg",
+    "size": 95399,
+    "crc32": "9d61527b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000163_00359_d_0000001.jpg",
+    "size": 91319,
+    "crc32": "3ede627c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000165_04325_d_0000105.jpg",
+    "size": 253287,
+    "crc32": "dcbf738a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000166_00558_d_0000118.jpg",
+    "size": 338287,
+    "crc32": "fa2fbf3e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000193_00000_d_0000103.jpg",
+    "size": 97214,
+    "crc32": "cdbef7bc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000193_01497_d_0000111.jpg",
+    "size": 99328,
+    "crc32": "7d2a31fd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000193_01705_d_0000112.jpg",
+    "size": 88134,
+    "crc32": "5456ae34"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000193_01876_d_0000113.jpg",
+    "size": 88642,
+    "crc32": "cc549e99"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000193_02029_d_0000114.jpg",
+    "size": 92376,
+    "crc32": "fe34b982"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000193_02212_d_0000115.jpg",
+    "size": 102882,
+    "crc32": "14fe9914"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000193_02416_d_0000116.jpg",
+    "size": 107973,
+    "crc32": "0e7106d0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000193_02606_d_0000117.jpg",
+    "size": 116277,
+    "crc32": "3ab55575"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000193_02725_d_0000118.jpg",
+    "size": 107024,
+    "crc32": "24f1619d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000194_00000_d_0000119.jpg",
+    "size": 119627,
+    "crc32": "7599de71"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000194_00200_d_0000120.jpg",
+    "size": 99025,
+    "crc32": "22b33089"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000194_00399_d_0000121.jpg",
+    "size": 89029,
+    "crc32": "cc595b0a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000194_00625_d_0000122.jpg",
+    "size": 94435,
+    "crc32": "e107c275"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000194_00800_d_0000123.jpg",
+    "size": 103782,
+    "crc32": "6c76ac94"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000194_00998_d_0000124.jpg",
+    "size": 102604,
+    "crc32": "7e497c02"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000194_01192_d_0000125.jpg",
+    "size": 109123,
+    "crc32": "adf6708e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000196_04512_d_0000144.jpg",
+    "size": 434990,
+    "crc32": "1ac0b331"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000199_01269_d_0000166.jpg",
+    "size": 61640,
+    "crc32": "33eea71a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000213_02500_d_0000240.jpg",
+    "size": 156274,
+    "crc32": "0f649241"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000213_02965_d_0000241.jpg",
+    "size": 222676,
+    "crc32": "51b07752"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000213_03478_d_0000242.jpg",
+    "size": 203492,
+    "crc32": "54c50f1b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000213_03920_d_0000243.jpg",
+    "size": 204082,
+    "crc32": "c14d9eb8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000213_04405_d_0000244.jpg",
+    "size": 205844,
+    "crc32": "86dae8eb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000213_04998_d_0000245.jpg",
+    "size": 231754,
+    "crc32": "24d6f0ec"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000213_05340_d_0000246.jpg",
+    "size": 221887,
+    "crc32": "dfeead25"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000213_05745_d_0000247.jpg",
+    "size": 206276,
+    "crc32": "366a8f0e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000215_00000_d_0000256.jpg",
+    "size": 137280,
+    "crc32": "82a65620"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000215_00447_d_0000257.jpg",
+    "size": 100954,
+    "crc32": "49714d4a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000215_00909_d_0000258.jpg",
+    "size": 121464,
+    "crc32": "14797196"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000215_01395_d_0000259.jpg",
+    "size": 127015,
+    "crc32": "4b004ff5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000215_01869_d_0000260.jpg",
+    "size": 103614,
+    "crc32": "b24c8b94"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000215_02319_d_0000261.jpg",
+    "size": 109364,
+    "crc32": "2373a220"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000215_02667_d_0000262.jpg",
+    "size": 117607,
+    "crc32": "29bde919"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000215_02932_d_0000263.jpg",
+    "size": 104727,
+    "crc32": "7575ed42"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000215_03226_d_0000264.jpg",
+    "size": 89256,
+    "crc32": "9c3adb25"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000216_00520_d_0000001.jpg",
+    "size": 151364,
+    "crc32": "e10599a5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000220_01242_d_0000004.jpg",
+    "size": 377900,
+    "crc32": "060c61c0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000223_01802_d_0000005.jpg",
+    "size": 358838,
+    "crc32": "3db3523a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000237_00001_d_0000001.jpg",
+    "size": 131491,
+    "crc32": "27b6df61"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_00001_d_0000001.jpg",
+    "size": 96874,
+    "crc32": "38f78482"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_00500_d_0000002.jpg",
+    "size": 79505,
+    "crc32": "39c84020"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_00627_d_0000003.jpg",
+    "size": 87062,
+    "crc32": "b0c2a3ad"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_00843_d_0000004.jpg",
+    "size": 59489,
+    "crc32": "4fd9ef06"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_00963_d_0000005.jpg",
+    "size": 111816,
+    "crc32": "14a2d4d6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_01139_d_0000006.jpg",
+    "size": 94308,
+    "crc32": "669d323b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_01475_d_0000007.jpg",
+    "size": 90369,
+    "crc32": "003e9f80"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_01912_d_0000008.jpg",
+    "size": 92646,
+    "crc32": "4acd6bc2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_02400_d_0000009.jpg",
+    "size": 98682,
+    "crc32": "bb0ba77d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_02762_d_0000010.jpg",
+    "size": 96394,
+    "crc32": "02d2a355"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_03199_d_0000011.jpg",
+    "size": 117521,
+    "crc32": "783125fa"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_03668_d_0000012.jpg",
+    "size": 126612,
+    "crc32": "40e4eee5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_04116_d_0000013.jpg",
+    "size": 131835,
+    "crc32": "ff945be2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_04600_d_0000014.jpg",
+    "size": 135135,
+    "crc32": "fd09e7be"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_05059_d_0000015.jpg",
+    "size": 132925,
+    "crc32": "6b4ee2a2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_05570_d_0000016.jpg",
+    "size": 120187,
+    "crc32": "e6a23945"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_06010_d_0000017.jpg",
+    "size": 109616,
+    "crc32": "dcda2490"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000242_06452_d_0000018.jpg",
+    "size": 131160,
+    "crc32": "bb120c13"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_00001_d_0000001.jpg",
+    "size": 105797,
+    "crc32": "b3e00d2a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_00500_d_0000002.jpg",
+    "size": 94478,
+    "crc32": "cdea1ee3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_01000_d_0000003.jpg",
+    "size": 119412,
+    "crc32": "b432d3ee"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_01500_d_0000004.jpg",
+    "size": 101061,
+    "crc32": "23398d0f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_02000_d_0000005.jpg",
+    "size": 116068,
+    "crc32": "2f360fa8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_02500_d_0000006.jpg",
+    "size": 95206,
+    "crc32": "c7d633bb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_03000_d_0000007.jpg",
+    "size": 87198,
+    "crc32": "aae105a4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_03500_d_0000008.jpg",
+    "size": 104753,
+    "crc32": "da7d394c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_04000_d_0000009.jpg",
+    "size": 120205,
+    "crc32": "35a0e193"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_04400_d_0000010.jpg",
+    "size": 121125,
+    "crc32": "c200af00"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_04900_d_0000011.jpg",
+    "size": 117915,
+    "crc32": "c5f13eff"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_05400_d_0000012.jpg",
+    "size": 95563,
+    "crc32": "94df93d6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_05900_d_0000013.jpg",
+    "size": 93231,
+    "crc32": "29f134bd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000244_06388_d_0000014.jpg",
+    "size": 100061,
+    "crc32": "8d56960b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000249_00001_d_0000001.jpg",
+    "size": 98454,
+    "crc32": "70fe151a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000249_00235_d_0000002.jpg",
+    "size": 100510,
+    "crc32": "9d51ed35"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000249_00603_d_0000003.jpg",
+    "size": 101068,
+    "crc32": "db533bfd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000249_01100_d_0000004.jpg",
+    "size": 140826,
+    "crc32": "8bbf9a79"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000249_01514_d_0000005.jpg",
+    "size": 138632,
+    "crc32": "1cf4d3a9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000249_01635_d_0000006.jpg",
+    "size": 103972,
+    "crc32": "3274059a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000249_02073_d_0000007.jpg",
+    "size": 114759,
+    "crc32": "0b7bc936"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000249_02468_d_0000008.jpg",
+    "size": 111548,
+    "crc32": "19a66df0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000249_02900_d_0000009.jpg",
+    "size": 107284,
+    "crc32": "3a786a1b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000249_03400_d_0000010.jpg",
+    "size": 109390,
+    "crc32": "039f7058"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000249_03900_d_0000011.jpg",
+    "size": 101113,
+    "crc32": "02aaf4a6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000253_00001_d_0000001.jpg",
+    "size": 104202,
+    "crc32": "7b333e23"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000256_00715_d_0000019.jpg",
+    "size": 190201,
+    "crc32": "48773e15"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000256_02173_d_0000030.jpg",
+    "size": 224384,
+    "crc32": "97278ff9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000263_02401_d_0000179.jpg",
+    "size": 99207,
+    "crc32": "465b2644"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000269_00001_d_0000348.jpg",
+    "size": 174614,
+    "crc32": "2234a538"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000269_00201_d_0000349.jpg",
+    "size": 167368,
+    "crc32": "25de7231"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000269_00601_d_0000351.jpg",
+    "size": 170520,
+    "crc32": "53c45f13"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_00001_d_0000374.jpg",
+    "size": 173841,
+    "crc32": "60e7325f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_00201_d_0000375.jpg",
+    "size": 161710,
+    "crc32": "96f40e84"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_00401_d_0000376.jpg",
+    "size": 203031,
+    "crc32": "9543b7b9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_00601_d_0000377.jpg",
+    "size": 171428,
+    "crc32": "6e8cf2d6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_00801_d_0000378.jpg",
+    "size": 147642,
+    "crc32": "ad75dfe6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_01201_d_0000379.jpg",
+    "size": 161783,
+    "crc32": "b647c68d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_01401_d_0000380.jpg",
+    "size": 169896,
+    "crc32": "080f42d6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_01601_d_0000381.jpg",
+    "size": 206574,
+    "crc32": "f701b9fa"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_02401_d_0000385.jpg",
+    "size": 168404,
+    "crc32": "75684860"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_02601_d_0000386.jpg",
+    "size": 146341,
+    "crc32": "721c708c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_03001_d_0000387.jpg",
+    "size": 162982,
+    "crc32": "841755ed"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_03801_d_0000391.jpg",
+    "size": 162404,
+    "crc32": "1472fe9e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_04401_d_0000394.jpg",
+    "size": 163104,
+    "crc32": "584f4d97"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_04801_d_0000396.jpg",
+    "size": 172502,
+    "crc32": "39474b30"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_05001_d_0000397.jpg",
+    "size": 168973,
+    "crc32": "be47a968"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_05201_d_0000398.jpg",
+    "size": 157754,
+    "crc32": "9d1f4fdb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_05401_d_0000399.jpg",
+    "size": 155068,
+    "crc32": "6f53d568"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_05601_d_0000400.jpg",
+    "size": 160551,
+    "crc32": "a43362c3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_05801_d_0000401.jpg",
+    "size": 152721,
+    "crc32": "db54d532"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_06001_d_0000402.jpg",
+    "size": 163883,
+    "crc32": "1a25591d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_06201_d_0000403.jpg",
+    "size": 164782,
+    "crc32": "caa99c65"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_06401_d_0000404.jpg",
+    "size": 159485,
+    "crc32": "b9bf581d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_06601_d_0000405.jpg",
+    "size": 165215,
+    "crc32": "854c9a90"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_06801_d_0000406.jpg",
+    "size": 156505,
+    "crc32": "e3f73cb9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_07001_d_0000407.jpg",
+    "size": 155972,
+    "crc32": "ddaabdc3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_07201_d_0000408.jpg",
+    "size": 144019,
+    "crc32": "91a28642"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000271_07401_d_0000409.jpg",
+    "size": 174459,
+    "crc32": "da04d657"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000273_05601_d_0000466.jpg",
+    "size": 202377,
+    "crc32": "c894a8e5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_00001_d_0000507.jpg",
+    "size": 154347,
+    "crc32": "aed186b2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_00401_d_0000509.jpg",
+    "size": 162541,
+    "crc32": "4b326a89"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_00601_d_0000510.jpg",
+    "size": 197098,
+    "crc32": "14fe7059"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_01001_d_0000512.jpg",
+    "size": 210027,
+    "crc32": "4c206da7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_01201_d_0000513.jpg",
+    "size": 197372,
+    "crc32": "654f45a3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_01401_d_0000514.jpg",
+    "size": 205788,
+    "crc32": "a09919d4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_01801_d_0000516.jpg",
+    "size": 207491,
+    "crc32": "f529bcdb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_02001_d_0000517.jpg",
+    "size": 170118,
+    "crc32": "29df4982"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_02201_d_0000518.jpg",
+    "size": 227451,
+    "crc32": "ad19a70f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_02401_d_0000519.jpg",
+    "size": 236957,
+    "crc32": "6d61e0a2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_02601_d_0000520.jpg",
+    "size": 209376,
+    "crc32": "d6d8f300"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_02801_d_0000521.jpg",
+    "size": 224588,
+    "crc32": "2d2569de"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_03001_d_0000522.jpg",
+    "size": 199371,
+    "crc32": "57a061f2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_03201_d_0000523.jpg",
+    "size": 216794,
+    "crc32": "a8766014"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_03401_d_0000524.jpg",
+    "size": 213188,
+    "crc32": "7b5a2893"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_03601_d_0000525.jpg",
+    "size": 196877,
+    "crc32": "5b310bd9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_03801_d_0000526.jpg",
+    "size": 165808,
+    "crc32": "8fda5187"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_04001_d_0000527.jpg",
+    "size": 215269,
+    "crc32": "0c462b92"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_04201_d_0000528.jpg",
+    "size": 235335,
+    "crc32": "ad0b7ab8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_04401_d_0000529.jpg",
+    "size": 227794,
+    "crc32": "075dd600"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_04601_d_0000530.jpg",
+    "size": 230603,
+    "crc32": "df0d0a1d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_04801_d_0000531.jpg",
+    "size": 243564,
+    "crc32": "24cab741"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_05001_d_0000532.jpg",
+    "size": 273988,
+    "crc32": "ac70f963"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_05201_d_0000533.jpg",
+    "size": 259373,
+    "crc32": "be8d4941"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_05601_d_0000535.jpg",
+    "size": 246447,
+    "crc32": "e78013b9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_05801_d_0000536.jpg",
+    "size": 244721,
+    "crc32": "0622284a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000276_06001_d_0000537.jpg",
+    "size": 240589,
+    "crc32": "94b9cda7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_00001_d_0000539.jpg",
+    "size": 123080,
+    "crc32": "175c1e76"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_00201_d_0000540.jpg",
+    "size": 141598,
+    "crc32": "1695cd64"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_00401_d_0000541.jpg",
+    "size": 97585,
+    "crc32": "bdab7e22"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_01401_d_0000546.jpg",
+    "size": 107234,
+    "crc32": "b6fb6bee"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_01601_d_0000547.jpg",
+    "size": 121701,
+    "crc32": "2510f832"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_01801_d_0000548.jpg",
+    "size": 143360,
+    "crc32": "609ee155"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_02001_d_0000549.jpg",
+    "size": 147884,
+    "crc32": "6a60f110"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_02201_d_0000550.jpg",
+    "size": 131347,
+    "crc32": "efd43459"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_02401_d_0000551.jpg",
+    "size": 133547,
+    "crc32": "17b1ad24"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_02601_d_0000552.jpg",
+    "size": 144587,
+    "crc32": "f51ddab3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_03201_d_0000554.jpg",
+    "size": 121239,
+    "crc32": "75afff41"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_03401_d_0000555.jpg",
+    "size": 132904,
+    "crc32": "f980424d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_03601_d_0000556.jpg",
+    "size": 134706,
+    "crc32": "f77c5050"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_04001_d_0000558.jpg",
+    "size": 144769,
+    "crc32": "5f270766"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_04201_d_0000559.jpg",
+    "size": 146224,
+    "crc32": "d4641b12"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_04401_d_0000560.jpg",
+    "size": 134396,
+    "crc32": "2dd57f51"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_04601_d_0000561.jpg",
+    "size": 132150,
+    "crc32": "1651823e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000277_05001_d_0000562.jpg",
+    "size": 138123,
+    "crc32": "b6efb30f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_00001_d_0000612.jpg",
+    "size": 170846,
+    "crc32": "334b2f9d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_00201_d_0000613.jpg",
+    "size": 149241,
+    "crc32": "bbac4e23"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_00401_d_0000614.jpg",
+    "size": 161589,
+    "crc32": "1fe83932"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_00601_d_0000615.jpg",
+    "size": 188577,
+    "crc32": "1ba9ff37"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_00801_d_0000616.jpg",
+    "size": 198455,
+    "crc32": "2cf91cec"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_01001_d_0000617.jpg",
+    "size": 192593,
+    "crc32": "584b151d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_01201_d_0000618.jpg",
+    "size": 181447,
+    "crc32": "490f7a7f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_01401_d_0000619.jpg",
+    "size": 182622,
+    "crc32": "1a499199"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_01601_d_0000620.jpg",
+    "size": 180855,
+    "crc32": "08417d3d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_01801_d_0000621.jpg",
+    "size": 161263,
+    "crc32": "c1dd1c84"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_02001_d_0000622.jpg",
+    "size": 169833,
+    "crc32": "0e75f2b0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_02201_d_0000623.jpg",
+    "size": 167173,
+    "crc32": "f8314fb4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_02401_d_0000624.jpg",
+    "size": 169663,
+    "crc32": "117bbfce"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_02601_d_0000625.jpg",
+    "size": 192889,
+    "crc32": "5e4a79e2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_02801_d_0000626.jpg",
+    "size": 183357,
+    "crc32": "a35fa77e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_03001_d_0000627.jpg",
+    "size": 174525,
+    "crc32": "f19c4fce"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_03201_d_0000628.jpg",
+    "size": 172906,
+    "crc32": "e73022f7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000280_03401_d_0000629.jpg",
+    "size": 173905,
+    "crc32": "4fabea4a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000283_00401_d_0000676.jpg",
+    "size": 266376,
+    "crc32": "7338f093"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000283_00601_d_0000677.jpg",
+    "size": 325549,
+    "crc32": "7eb10242"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000283_00801_d_0000678.jpg",
+    "size": 339344,
+    "crc32": "4d611ebf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000283_01001_d_0000679.jpg",
+    "size": 308004,
+    "crc32": "428ab28d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_00001_d_0000759.jpg",
+    "size": 192499,
+    "crc32": "cd4ecbf4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_00201_d_0000760.jpg",
+    "size": 166064,
+    "crc32": "ceb7809b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_00401_d_0000761.jpg",
+    "size": 167155,
+    "crc32": "a3bac138"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_00601_d_0000762.jpg",
+    "size": 166673,
+    "crc32": "ee2516c3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_00801_d_0000763.jpg",
+    "size": 169202,
+    "crc32": "8700ef92"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_01001_d_0000764.jpg",
+    "size": 162710,
+    "crc32": "36634217"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_01201_d_0000765.jpg",
+    "size": 160874,
+    "crc32": "672224a5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_01401_d_0000766.jpg",
+    "size": 157462,
+    "crc32": "8a813d0e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_01601_d_0000767.jpg",
+    "size": 169913,
+    "crc32": "a01d663a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_01801_d_0000768.jpg",
+    "size": 169147,
+    "crc32": "c502f167"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_02001_d_0000769.jpg",
+    "size": 174341,
+    "crc32": "02418aa7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_02201_d_0000770.jpg",
+    "size": 167687,
+    "crc32": "0863dea3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_02401_d_0000771.jpg",
+    "size": 175504,
+    "crc32": "acb9b3fd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_02601_d_0000772.jpg",
+    "size": 251408,
+    "crc32": "3fba5f93"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_02801_d_0000773.jpg",
+    "size": 192960,
+    "crc32": "c615f434"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_03001_d_0000774.jpg",
+    "size": 163639,
+    "crc32": "ca6e97c1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_03401_d_0000776.jpg",
+    "size": 184028,
+    "crc32": "617dab0c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_04601_d_0000780.jpg",
+    "size": 173835,
+    "crc32": "e40b4b47"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_04801_d_0000781.jpg",
+    "size": 174723,
+    "crc32": "87f6399b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000287_05001_d_0000782.jpg",
+    "size": 177928,
+    "crc32": "72a61a76"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_00001_d_0000811.jpg",
+    "size": 203263,
+    "crc32": "e326f025"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_00201_d_0000812.jpg",
+    "size": 171249,
+    "crc32": "222877c0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_00401_d_0000813.jpg",
+    "size": 141205,
+    "crc32": "f033002c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_00601_d_0000814.jpg",
+    "size": 142965,
+    "crc32": "e25733e1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_00801_d_0000815.jpg",
+    "size": 150282,
+    "crc32": "7f12d834"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_01001_d_0000816.jpg",
+    "size": 155180,
+    "crc32": "1c48e145"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_01201_d_0000817.jpg",
+    "size": 143376,
+    "crc32": "ea442f39"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_01401_d_0000818.jpg",
+    "size": 178014,
+    "crc32": "497c6890"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_01601_d_0000819.jpg",
+    "size": 172299,
+    "crc32": "2e96a949"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_02001_d_0000821.jpg",
+    "size": 194192,
+    "crc32": "093d6abc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_02201_d_0000822.jpg",
+    "size": 149348,
+    "crc32": "3fbe5137"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_02401_d_0000823.jpg",
+    "size": 168251,
+    "crc32": "9c1ab29a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_02601_d_0000824.jpg",
+    "size": 172471,
+    "crc32": "26c13700"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_03001_d_0000826.jpg",
+    "size": 163491,
+    "crc32": "2abd0a47"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_03201_d_0000827.jpg",
+    "size": 158690,
+    "crc32": "dd38dbf7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_03401_d_0000828.jpg",
+    "size": 149961,
+    "crc32": "71f2cf98"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_03601_d_0000829.jpg",
+    "size": 157407,
+    "crc32": "38ae44da"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_03801_d_0000830.jpg",
+    "size": 168895,
+    "crc32": "802e7b5e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_04001_d_0000831.jpg",
+    "size": 140463,
+    "crc32": "938fbbb2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_04201_d_0000832.jpg",
+    "size": 121538,
+    "crc32": "db2d4dbc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_04401_d_0000833.jpg",
+    "size": 133740,
+    "crc32": "8457574d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_04601_d_0000834.jpg",
+    "size": 146442,
+    "crc32": "30c891e1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_04801_d_0000835.jpg",
+    "size": 152132,
+    "crc32": "5390f4b2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_05001_d_0000836.jpg",
+    "size": 164587,
+    "crc32": "6206105b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_05201_d_0000837.jpg",
+    "size": 153297,
+    "crc32": "a337595a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_05401_d_0000838.jpg",
+    "size": 156916,
+    "crc32": "129685dc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_05601_d_0000839.jpg",
+    "size": 150791,
+    "crc32": "af285bd6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_05801_d_0000840.jpg",
+    "size": 158645,
+    "crc32": "29f785a2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_06001_d_0000841.jpg",
+    "size": 156443,
+    "crc32": "9c0a5cb9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_06201_d_0000842.jpg",
+    "size": 153733,
+    "crc32": "e99358d5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_06401_d_0000843.jpg",
+    "size": 160395,
+    "crc32": "35257b38"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_06601_d_0000844.jpg",
+    "size": 169093,
+    "crc32": "a84a8e2c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_06801_d_0000845.jpg",
+    "size": 194329,
+    "crc32": "bd4c8f1e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_07001_d_0000846.jpg",
+    "size": 183701,
+    "crc32": "18dd6434"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000289_07201_d_0000847.jpg",
+    "size": 212206,
+    "crc32": "fa431c41"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000290_04001_d_0000867.jpg",
+    "size": 224552,
+    "crc32": "ed00816e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_00001_d_0000868.jpg",
+    "size": 164040,
+    "crc32": "e686c6b5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_00201_d_0000869.jpg",
+    "size": 157345,
+    "crc32": "fb7e83f1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_00401_d_0000870.jpg",
+    "size": 188896,
+    "crc32": "5e4ab6cb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_00601_d_0000871.jpg",
+    "size": 185977,
+    "crc32": "2cf2f773"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_01001_d_0000873.jpg",
+    "size": 172609,
+    "crc32": "0210acc8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_01201_d_0000874.jpg",
+    "size": 186526,
+    "crc32": "38b5f367"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_01401_d_0000875.jpg",
+    "size": 167460,
+    "crc32": "00be6a10"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_01601_d_0000876.jpg",
+    "size": 140273,
+    "crc32": "21ad0fb7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_01801_d_0000877.jpg",
+    "size": 206691,
+    "crc32": "9b361fe9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_02001_d_0000878.jpg",
+    "size": 200709,
+    "crc32": "acdf777a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_02201_d_0000879.jpg",
+    "size": 192326,
+    "crc32": "9478f238"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_02601_d_0000881.jpg",
+    "size": 185745,
+    "crc32": "8b20bb5f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_03201_d_0000884.jpg",
+    "size": 202562,
+    "crc32": "5d6ba2c9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_03401_d_0000885.jpg",
+    "size": 187952,
+    "crc32": "66a44615"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_03601_d_0000886.jpg",
+    "size": 173979,
+    "crc32": "0ed5bdc5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_03801_d_0000887.jpg",
+    "size": 154231,
+    "crc32": "79078db3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_04001_d_0000888.jpg",
+    "size": 171326,
+    "crc32": "fd9dcd93"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_04201_d_0000889.jpg",
+    "size": 180891,
+    "crc32": "e4a3c6ce"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_04401_d_0000890.jpg",
+    "size": 175417,
+    "crc32": "777fa77e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_05001_d_0000892.jpg",
+    "size": 168257,
+    "crc32": "6c0b7ec6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000291_05201_d_0000893.jpg",
+    "size": 206359,
+    "crc32": "f3d8adfd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000293_03601_d_0000940.jpg",
+    "size": 193171,
+    "crc32": "2e115739"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000295_00000_d_0000021.jpg",
+    "size": 184221,
+    "crc32": "4b47a6f3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000295_00200_d_0000022.jpg",
+    "size": 180136,
+    "crc32": "71bbe137"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000295_00600_d_0000024.jpg",
+    "size": 189099,
+    "crc32": "2c9f184c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000295_00800_d_0000025.jpg",
+    "size": 194388,
+    "crc32": "2ac343ce"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000295_01000_d_0000026.jpg",
+    "size": 187380,
+    "crc32": "b01a1c2f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000295_01200_d_0000027.jpg",
+    "size": 179999,
+    "crc32": "09e84590"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000295_01400_d_0000028.jpg",
+    "size": 180525,
+    "crc32": "f73e8da8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000295_01600_d_0000029.jpg",
+    "size": 190449,
+    "crc32": "4c48d8ba"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000295_01800_d_0000030.jpg",
+    "size": 203035,
+    "crc32": "f52ce5e9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000295_02000_d_0000031.jpg",
+    "size": 205258,
+    "crc32": "e808cf7b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000295_02200_d_0000032.jpg",
+    "size": 202907,
+    "crc32": "7b814ca5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000295_02400_d_0000033.jpg",
+    "size": 203807,
+    "crc32": "082c366a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000295_02900_d_0000034.jpg",
+    "size": 185693,
+    "crc32": "7d386d85"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000296_00601_d_0000038.jpg",
+    "size": 217296,
+    "crc32": "beaece8c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000296_01001_d_0000040.jpg",
+    "size": 207757,
+    "crc32": "2a340438"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000300_03201_d_0000154.jpg",
+    "size": 190717,
+    "crc32": "c15cecc9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000301_00001_d_0000156.jpg",
+    "size": 165723,
+    "crc32": "c0a232df"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000301_00201_d_0000157.jpg",
+    "size": 153535,
+    "crc32": "10bbfb3b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000301_01001_d_0000161.jpg",
+    "size": 136294,
+    "crc32": "bc87524b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000301_01201_d_0000162.jpg",
+    "size": 150124,
+    "crc32": "4272cf58"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000303_03401_d_0000200.jpg",
+    "size": 195391,
+    "crc32": "57391033"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000308_04401_d_0000327.jpg",
+    "size": 174299,
+    "crc32": "27098cd6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000312_00001_d_0000414.jpg",
+    "size": 196013,
+    "crc32": "0058a753"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000312_00201_d_0000415.jpg",
+    "size": 156456,
+    "crc32": "6a49d4d2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000312_00601_d_0000417.jpg",
+    "size": 176411,
+    "crc32": "02b54e43"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000312_01001_d_0000419.jpg",
+    "size": 151198,
+    "crc32": "5aebc4c4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000312_01201_d_0000420.jpg",
+    "size": 145950,
+    "crc32": "479625df"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000312_02201_d_0000425.jpg",
+    "size": 173150,
+    "crc32": "b539dd6a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000312_02401_d_0000426.jpg",
+    "size": 155398,
+    "crc32": "7b4edca9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000312_04201_d_0000435.jpg",
+    "size": 136720,
+    "crc32": "d8f01fa1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000313_06401_d_0000468.jpg",
+    "size": 185440,
+    "crc32": "e3fdc3d9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000313_06601_d_0000469.jpg",
+    "size": 190249,
+    "crc32": "305aef86"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000313_07001_d_0000471.jpg",
+    "size": 197550,
+    "crc32": "31b97c20"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000315_01601_d_0000509.jpg",
+    "size": 195638,
+    "crc32": "7c379997"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000316_00001_d_0000519.jpg",
+    "size": 194566,
+    "crc32": "2d67a597"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000316_00201_d_0000520.jpg",
+    "size": 187833,
+    "crc32": "ba5bb22f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000316_00401_d_0000521.jpg",
+    "size": 99951,
+    "crc32": "d5042dcd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000316_00601_d_0000522.jpg",
+    "size": 169046,
+    "crc32": "3ac486fd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000316_00801_d_0000523.jpg",
+    "size": 200882,
+    "crc32": "613723b3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000316_01001_d_0000524.jpg",
+    "size": 112336,
+    "crc32": "bdf223f5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000316_01201_d_0000525.jpg",
+    "size": 166802,
+    "crc32": "d6d7f76f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000316_01401_d_0000526.jpg",
+    "size": 158715,
+    "crc32": "98f0986e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000316_01601_d_0000527.jpg",
+    "size": 134817,
+    "crc32": "c8b23bd4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000316_01801_d_0000528.jpg",
+    "size": 121272,
+    "crc32": "76b220ca"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000316_02001_d_0000529.jpg",
+    "size": 154367,
+    "crc32": "54487194"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000316_02201_d_0000530.jpg",
+    "size": 83613,
+    "crc32": "0d9bc557"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000323_02601_d_0000645.jpg",
+    "size": 184680,
+    "crc32": "23637340"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_00001_d_0000711.jpg",
+    "size": 137689,
+    "crc32": "4ab69cc5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_00201_d_0000712.jpg",
+    "size": 120158,
+    "crc32": "3819ca08"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_00401_d_0000713.jpg",
+    "size": 91974,
+    "crc32": "11f2aa24"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_00601_d_0000714.jpg",
+    "size": 99162,
+    "crc32": "5b530744"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_00801_d_0000715.jpg",
+    "size": 106254,
+    "crc32": "adb3d072"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_01001_d_0000716.jpg",
+    "size": 118407,
+    "crc32": "2f4b510a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_01201_d_0000717.jpg",
+    "size": 115528,
+    "crc32": "eb6575b0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_01401_d_0000718.jpg",
+    "size": 126553,
+    "crc32": "68cea16d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_01801_d_0000720.jpg",
+    "size": 152954,
+    "crc32": "31b735f2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_02601_d_0000724.jpg",
+    "size": 128696,
+    "crc32": "aa018172"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_02801_d_0000725.jpg",
+    "size": 103564,
+    "crc32": "9bc85d6d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_03001_d_0000726.jpg",
+    "size": 121564,
+    "crc32": "516aa720"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_03201_d_0000727.jpg",
+    "size": 121297,
+    "crc32": "0907e229"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_03401_d_0000728.jpg",
+    "size": 135166,
+    "crc32": "be0e04e0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_03601_d_0000729.jpg",
+    "size": 128937,
+    "crc32": "cba2caf6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_03801_d_0000730.jpg",
+    "size": 144886,
+    "crc32": "e903e0ac"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_04001_d_0000731.jpg",
+    "size": 146806,
+    "crc32": "25ce25f5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000327_04201_d_0000732.jpg",
+    "size": 137091,
+    "crc32": "62eafb4b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_00001_d_0000800.jpg",
+    "size": 185338,
+    "crc32": "4bc2a7ce"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_00201_d_0000801.jpg",
+    "size": 161049,
+    "crc32": "1b7fc934"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_00401_d_0000802.jpg",
+    "size": 151023,
+    "crc32": "31c5dea7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_00601_d_0000803.jpg",
+    "size": 150912,
+    "crc32": "8f556639"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_00801_d_0000804.jpg",
+    "size": 147895,
+    "crc32": "48f670bc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_01001_d_0000805.jpg",
+    "size": 152292,
+    "crc32": "01fe0526"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_01201_d_0000806.jpg",
+    "size": 168930,
+    "crc32": "bb97301c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_01401_d_0000807.jpg",
+    "size": 162353,
+    "crc32": "5c3807b5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_01601_d_0000808.jpg",
+    "size": 139385,
+    "crc32": "4fb579ed"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_01801_d_0000809.jpg",
+    "size": 95451,
+    "crc32": "2c3f0892"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_02001_d_0000810.jpg",
+    "size": 122565,
+    "crc32": "3196805e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_02201_d_0000811.jpg",
+    "size": 94660,
+    "crc32": "08514887"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_02801_d_0000814.jpg",
+    "size": 92663,
+    "crc32": "386aeb4e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_03001_d_0000815.jpg",
+    "size": 82487,
+    "crc32": "4151ab7d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_03201_d_0000816.jpg",
+    "size": 113097,
+    "crc32": "cdd174d6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_04001_d_0000820.jpg",
+    "size": 83098,
+    "crc32": "25df386f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_04201_d_0000821.jpg",
+    "size": 130675,
+    "crc32": "a9ab2e41"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_04401_d_0000822.jpg",
+    "size": 93927,
+    "crc32": "af3bd00c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000330_04601_d_0000823.jpg",
+    "size": 110920,
+    "crc32": "f48cb898"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000333_00001_d_0000001.jpg",
+    "size": 151269,
+    "crc32": "8db3dcbf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000333_01765_d_0000010.jpg",
+    "size": 141223,
+    "crc32": "82a911ee"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000333_01961_d_0000011.jpg",
+    "size": 143388,
+    "crc32": "c6153daf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000333_02157_d_0000012.jpg",
+    "size": 147795,
+    "crc32": "cf8c0de6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000333_02353_d_0000013.jpg",
+    "size": 144447,
+    "crc32": "9de7cf42"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000333_02549_d_0000014.jpg",
+    "size": 148306,
+    "crc32": "d1f2bda9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000333_02745_d_0000015.jpg",
+    "size": 148123,
+    "crc32": "00dd9295"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000333_02941_d_0000016.jpg",
+    "size": 141446,
+    "crc32": "91f54cbb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000333_03137_d_0000017.jpg",
+    "size": 143697,
+    "crc32": "cef3ce3a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000333_03333_d_0000018.jpg",
+    "size": 146655,
+    "crc32": "a5850173"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000333_03529_d_0000019.jpg",
+    "size": 139266,
+    "crc32": "a814c338"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000333_03725_d_0000020.jpg",
+    "size": 142603,
+    "crc32": "aa3e58c5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_00001_d_0000043.jpg",
+    "size": 168824,
+    "crc32": "5c1d32fd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_00197_d_0000044.jpg",
+    "size": 150751,
+    "crc32": "54c47b65"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_00393_d_0000045.jpg",
+    "size": 137227,
+    "crc32": "c22055bd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_00589_d_0000046.jpg",
+    "size": 116965,
+    "crc32": "69235eee"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_00785_d_0000047.jpg",
+    "size": 136378,
+    "crc32": "ad2913a4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_00981_d_0000048.jpg",
+    "size": 150562,
+    "crc32": "984069ec"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_01765_d_0000052.jpg",
+    "size": 143103,
+    "crc32": "0cdd6658"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_01961_d_0000053.jpg",
+    "size": 143462,
+    "crc32": "b3b7c5d4"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_02353_d_0000055.jpg",
+    "size": 169167,
+    "crc32": "cbfa3ddd"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_02549_d_0000056.jpg",
+    "size": 165482,
+    "crc32": "cb857414"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_02745_d_0000057.jpg",
+    "size": 164302,
+    "crc32": "9676d61f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_03137_d_0000059.jpg",
+    "size": 157668,
+    "crc32": "2b88f5d3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_03333_d_0000060.jpg",
+    "size": 123054,
+    "crc32": "25103d2a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_03725_d_0000062.jpg",
+    "size": 113791,
+    "crc32": "a7922f22"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_03921_d_0000063.jpg",
+    "size": 128952,
+    "crc32": "7a578d8e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_04117_d_0000064.jpg",
+    "size": 135166,
+    "crc32": "3d3fb5b6"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_04313_d_0000065.jpg",
+    "size": 142742,
+    "crc32": "247935f3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_05097_d_0000069.jpg",
+    "size": 128619,
+    "crc32": "c2aa1b23"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_05685_d_0000072.jpg",
+    "size": 102804,
+    "crc32": "2e540ade"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_06469_d_0000076.jpg",
+    "size": 142913,
+    "crc32": "dfd2f591"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_06665_d_0000077.jpg",
+    "size": 102120,
+    "crc32": "db8ee75c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000335_06861_d_0000078.jpg",
+    "size": 115063,
+    "crc32": "72afb022"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000342_00393_d_0000244.jpg",
+    "size": 140764,
+    "crc32": "9ee72245"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000345_07057_d_0000345.jpg",
+    "size": 114923,
+    "crc32": "638cafd7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000346_00001_d_0000346.jpg",
+    "size": 155627,
+    "crc32": "f3b5a14e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000346_01961_d_0000356.jpg",
+    "size": 122563,
+    "crc32": "bc5726ef"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000346_02549_d_0000359.jpg",
+    "size": 137421,
+    "crc32": "0ce36a36"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000346_03921_d_0000366.jpg",
+    "size": 126766,
+    "crc32": "321ad325"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000346_07057_d_0000382.jpg",
+    "size": 122079,
+    "crc32": "08e6d06e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000348_00589_d_0000409.jpg",
+    "size": 153798,
+    "crc32": "9d350103"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000348_03333_d_0000423.jpg",
+    "size": 114010,
+    "crc32": "c60c65a7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_00589_d_0000632.jpg",
+    "size": 137017,
+    "crc32": "fb8500bb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_01177_d_0000635.jpg",
+    "size": 127901,
+    "crc32": "3b8d5eaf"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_01569_d_0000637.jpg",
+    "size": 126037,
+    "crc32": "db8f9eb9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_01765_d_0000638.jpg",
+    "size": 123332,
+    "crc32": "42eaeb35"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+    "size": 121803,
+    "crc32": "0e51d37f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_02157_d_0000640.jpg",
+    "size": 121901,
+    "crc32": "0cc7c1c7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_02353_d_0000641.jpg",
+    "size": 112426,
+    "crc32": "fc8e5f80"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_02745_d_0000643.jpg",
+    "size": 118181,
+    "crc32": "97f5ba8f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+    "size": 117239,
+    "crc32": "556fdb45"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_03333_d_0000646.jpg",
+    "size": 114314,
+    "crc32": "587a7ff9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_03529_d_0000647.jpg",
+    "size": 121382,
+    "crc32": "c5b64ae9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_03725_d_0000648.jpg",
+    "size": 111652,
+    "crc32": "36a1fd9d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_03921_d_0000649.jpg",
+    "size": 117265,
+    "crc32": "f455c0fb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_04117_d_0000650.jpg",
+    "size": 111312,
+    "crc32": "f639dcd1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_04313_d_0000651.jpg",
+    "size": 112959,
+    "crc32": "c2292fc5"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_04705_d_0000653.jpg",
+    "size": 120747,
+    "crc32": "2d6bd10a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_04901_d_0000654.jpg",
+    "size": 121877,
+    "crc32": "351e7ddc"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000356_05097_d_0000655.jpg",
+    "size": 124300,
+    "crc32": "4dc06ec2"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000358_03333_d_0000697.jpg",
+    "size": 162709,
+    "crc32": "0d34888b"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000359_00393_d_0000701.jpg",
+    "size": 109826,
+    "crc32": "7516ac73"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000359_00589_d_0000702.jpg",
+    "size": 87945,
+    "crc32": "9808909c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000359_00785_d_0000703.jpg",
+    "size": 110181,
+    "crc32": "de751f6c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000359_00981_d_0000704.jpg",
+    "size": 90125,
+    "crc32": "cf9b9007"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000359_01177_d_0000705.jpg",
+    "size": 112010,
+    "crc32": "78151f50"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000359_01373_d_0000706.jpg",
+    "size": 71765,
+    "crc32": "c2c1144e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000359_01961_d_0000707.jpg",
+    "size": 81479,
+    "crc32": "81d5acb0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000359_02353_d_0000708.jpg",
+    "size": 129721,
+    "crc32": "a3fd875c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000359_02549_d_0000709.jpg",
+    "size": 103581,
+    "crc32": "1da707a7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000359_03333_d_0000711.jpg",
+    "size": 108980,
+    "crc32": "6e80cb1f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000359_03529_d_0000712.jpg",
+    "size": 69606,
+    "crc32": "852dadb3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_00001_d_0000713.jpg",
+    "size": 142706,
+    "crc32": "466fbb8c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_00197_d_0000714.jpg",
+    "size": 143046,
+    "crc32": "713c4e0e"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_00393_d_0000715.jpg",
+    "size": 142346,
+    "crc32": "7ec0b566"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_00589_d_0000716.jpg",
+    "size": 140464,
+    "crc32": "822ebda1"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_00785_d_0000717.jpg",
+    "size": 128872,
+    "crc32": "c0818b0c"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_00981_d_0000718.jpg",
+    "size": 142791,
+    "crc32": "47f3ac64"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_02353_d_0000725.jpg",
+    "size": 154726,
+    "crc32": "97bbdaab"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_02745_d_0000727.jpg",
+    "size": 135480,
+    "crc32": "fd87c729"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_02941_d_0000728.jpg",
+    "size": 104943,
+    "crc32": "730e2fa7"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_03137_d_0000729.jpg",
+    "size": 135668,
+    "crc32": "1fe30aa0"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_03333_d_0000730.jpg",
+    "size": 150966,
+    "crc32": "01631244"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_03529_d_0000731.jpg",
+    "size": 125161,
+    "crc32": "1fe47cf9"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_03921_d_0000733.jpg",
+    "size": 146108,
+    "crc32": "24c2fb72"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_04117_d_0000734.jpg",
+    "size": 73995,
+    "crc32": "e71adcd8"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_04705_d_0000737.jpg",
+    "size": 74809,
+    "crc32": "7ef59853"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_05293_d_0000740.jpg",
+    "size": 138289,
+    "crc32": "87fe3154"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_05685_d_0000742.jpg",
+    "size": 137661,
+    "crc32": "c5aab2cb"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_06273_d_0000745.jpg",
+    "size": 78639,
+    "crc32": "84996a5f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_06665_d_0000747.jpg",
+    "size": 140562,
+    "crc32": "569a388d"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_06861_d_0000748.jpg",
+    "size": 118893,
+    "crc32": "b77f8970"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_07057_d_0000749.jpg",
+    "size": 71444,
+    "crc32": "96905e0a"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_07253_d_0000750.jpg",
+    "size": 121833,
+    "crc32": "54160838"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000360_07645_d_0000752.jpg",
+    "size": 113151,
+    "crc32": "d2712406"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000364_00589_d_0000798.jpg",
+    "size": 94896,
+    "crc32": "97ee7a93"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000364_01177_d_0000799.jpg",
+    "size": 95687,
+    "crc32": "1d1f6ae3"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000364_01373_d_0000780.jpg",
+    "size": 99974,
+    "crc32": "5c2ad76f"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000364_01569_d_0000781.jpg",
+    "size": 110516,
+    "crc32": "f7ce8440"
+  },
+  {
+    "name": "VisDrone2019-DET-val/images/0000364_01765_d_0000782.jpg",
+    "size": 106033,
+    "crc32": "3437503a"
+  }
+]

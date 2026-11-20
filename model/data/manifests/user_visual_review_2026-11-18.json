@@ -1,0 +1,30 @@
+{
+  "date_local": "2026-11-18",
+  "reviewer": "project student",
+  "task": "three illustrated source-label and lineage questions in docs/step2_hands_on_review.md",
+  "answers": [
+    {
+      "item": 1,
+      "judgment": "yes",
+      "question": "bus box aligns and ignored red regions are not converted to target boxes",
+      "reason_provided": false,
+      "evidence_scope": "visual check of one DET pilot overlay"
+    },
+    {
+      "item": 2,
+      "judgment": "yes",
+      "question": "DET and MOT basketball images depict the same or related source",
+      "reason_provided": false,
+      "evidence_scope": "two pilot overlays; supports quarantine of source prefix 0000086"
+    },
+    {
+      "item": 3,
+      "judgment": "cannot_determine",
+      "question": "whether source ID 15 at frames 878 and 951 is the same real target",
+      "reason": "images too small to identify the target or read the ID",
+      "evidence_scope": "two sparse pilot frames; ID is annotation metadata, not a visible mark on the vehicle"
+    }
+  ],
+  "policy": "Do not revise source labels or clear the ID conflict based on this review. Keep the sequence quarantined from primary tracking evaluation.",
+  "application_acceptance": "NOT_EXECUTED"
+}

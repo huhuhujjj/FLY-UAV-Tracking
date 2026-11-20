@@ -1,0 +1,3 @@
+PASS: language toggle updates static/results text and persists
+
+exit_code=0

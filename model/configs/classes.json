@@ -1,0 +1,35 @@
+{
+  "version": "classes-0.2.0",
+  "scope_status": "SOURCE_MAPPING_AUDITED_PILOT_NOT_FINAL_ACCEPTANCE",
+  "source_validation": "OFFICIAL_SCHEMA_AND_PILOT_VERIFIED",
+  "classes": [
+    {
+      "local_id": 0,
+      "name": "car",
+      "zh": "小汽车",
+      "visdrone_candidate_id": 4,
+      "coco_candidate_id": 2,
+      "visdrone_source_id": 4
+    },
+    {
+      "local_id": 1,
+      "name": "bus",
+      "zh": "公交车或客车",
+      "visdrone_candidate_id": 9,
+      "coco_candidate_id": 5,
+      "visdrone_source_id": 9
+    },
+    {
+      "local_id": 2,
+      "name": "truck",
+      "zh": "卡车",
+      "visdrone_candidate_id": 6,
+      "coco_candidate_id": 7,
+      "visdrone_source_id": 6
+    }
+  ],
+  "unmapped_policy": "Do not silently merge van, people or other labels. Retain excluded and ignored annotations for audit and evaluation.",
+  "mapping_gate": "Technical preparation complete; exact licence applicability, policy freeze and final acceptance remain recorded follow-ups.",
+  "full_data_audit_status": "FULL_MEDIA_AND_SOURCE_ANNOTATIONS_AUDITED_WITH_QUARANTINES",
+  "evidence": "docs/step2_data_audit.md; logs/step2_data_audit.json; model/data/manifests/pilot_acquisition.json; docs/step2_remaining_work_2026-11-19.md; docs/step3_minimal_pipeline.md"
+}

@@ -1,0 +1,3 @@
+PASS: image and video uploads return non-empty annotated media
+
+exit_code=0

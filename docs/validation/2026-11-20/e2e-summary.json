@@ -1,0 +1,30 @@
+{
+  "run_at_utc": "2026-11-20T06:27:40.740325+00:00",
+  "tests": [
+    {
+      "script": "e2e_test.js",
+      "exit_code": 0
+    },
+    {
+      "script": "e2e_dragdrop_test.js",
+      "exit_code": 0
+    },
+    {
+      "script": "e2e_reliability_test.js",
+      "exit_code": 0
+    },
+    {
+      "script": "e2e_cancel_test.js",
+      "exit_code": 0
+    },
+    {
+      "script": "e2e_i18n_test.js",
+      "exit_code": 0
+    },
+    {
+      "script": "e2e_nav_test.js",
+      "exit_code": 0
+    }
+  ],
+  "scope": "Development checks on pilot media; not accuracy or system acceptance."
+}

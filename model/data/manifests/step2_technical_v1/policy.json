@@ -1,0 +1,17 @@
+{
+  "version": "step2-technical-v1",
+  "status": "TECHNICAL_SNAPSHOT_PENDING_LICENCE",
+  "authority": "Assistant selected guide recommended options under user delegation; not a student signature.",
+  "quarantine": "Entire source-prefix component for existing source conflicts, malformed boxes and lineage risks; do not repair source truth.",
+  "det_training": "Only candidate DET-train images without ignore, others or score-zero records.",
+  "det_evaluation": "Project local union coverage >= 0.5 policy; not official VisDrone score equivalence.",
+  "mot_evaluation": "Deferred to G2; not evaluation-ready.",
+  "licence": "User reports inquiry sent; reply not available locally.",
+  "limitations": [
+    "Different prefixes and no perceptual hash match do not prove source independence.",
+    "Final-test integrity inspection does not authorize parameter selection.",
+    "Technical hash snapshot is not final-test freeze or permission to train."
+  ],
+  "final_test_frozen": false,
+  "g1_passed": false
+}

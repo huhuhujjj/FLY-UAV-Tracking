@@ -1,0 +1,45 @@
+[
+  {
+    "issue_id": "DATA-001",
+    "kind": "possible_cross_task_shared_source",
+    "sources": [
+      "DET:0000086",
+      "MOT:uav0000086_00000_v"
+    ],
+    "evidence": "Two cross-task dHash distance-0 pairs; visually same basketball scene; byte/pixel hashes differ.",
+    "disposition": "QUARANTINE_TOGETHER",
+    "status": "OPEN",
+    "resolution": "Audit full source lineage; do not split related sources across train/validation/final test."
+  },
+  {
+    "issue_id": "DATA-002",
+    "kind": "source_id_category_conflict",
+    "sequence": "uav0000268_05773_v",
+    "target_id": 15,
+    "evidence": {
+      "truck_segment_frames": [
+        731,
+        878
+      ],
+      "car_segment_frames": [
+        951,
+        978
+      ],
+      "first_changed_source_line": 4052,
+      "missing_ID_observations_between": [
+        879,
+        950
+      ]
+    },
+    "disposition": "QUARANTINE_SEQUENCE_FROM_TRACKING_ACCEPTANCE",
+    "status": "OPEN",
+    "resolution": "Keep raw annotations; independent annotation adjudication or explicitly exclude the sequence from frozen primary evaluation. Do not silently split IDs or choose class by prediction."
+  },
+  {
+    "issue_id": "DATA-003",
+    "kind": "licence_archive_version_applicability",
+    "status": "OPEN",
+    "evidence": "Official data-protection page names VisDrone2021; acquired archives are VisDrone2019.",
+    "resolution": "Confirm authoritative licence applicability to both downloaded 2019 archives before release or full G1 approval."
+  }
+]

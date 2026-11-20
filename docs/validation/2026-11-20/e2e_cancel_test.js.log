@@ -1,0 +1,3 @@
+PASS: cancelled task becomes INTERRUPTED and publishes no artifacts
+
+exit_code=0

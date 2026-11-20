@@ -1,0 +1,29 @@
+{
+  "version": "data-pilot-1",
+  "datasets": [
+    "VisDrone2019-DET-val",
+    "VisDrone2019-MOT-val"
+  ],
+  "map_source_to_local": {
+    "4": 0,
+    "9": 1,
+    "6": 2
+  },
+  "local_names": [
+    "car",
+    "bus",
+    "truck"
+  ],
+  "source_bbox": "xywh in source-image pixels; no hidden clipping or coordinate offset",
+  "source_id_zero": "valid; preserve IDs within sequence, never globally identify vehicles",
+  "ignore_policy": "Preserve score=0/category=0/category=11 in raw and JSONL; excluded from target-only audit YOLO labels; ignore-aware training/evaluation adapter still required.",
+  "yolo_status": "AUDIT_DERIVATIVE_NOT_TRAINING_READY",
+  "split_status": "NOT_FROZEN",
+  "g1_passed": false,
+  "sampling": "DET first 12 filename-prefix groups plus first 3 bus-bearing images; MOT adjacent pairs at start/middle/end plus four conflict-evidence frames.",
+  "all_inspected_sources": "development pilot only; exclude related source groups from future blind evaluation",
+  "size_bins": "descriptive source-pixel box area <32^2, [32^2,96^2), >=96^2; not a measured model metric",
+  "review_count": 10,
+  "sources": "model/data/manifests/pilot_acquisition.json",
+  "issues": "model/data/manifests/pilot_issues.json"
+}

@@ -1,0 +1,91 @@
+{
+  "version": "targets-0.1.0",
+  "status": "PENDING_PILOT",
+  "targets": {
+    "per_class_precision": {
+      "threshold": null,
+      "unit": "metric-specific; specify scale before freeze",
+      "status": "PENDING_PILOT",
+      "rationale": null
+    },
+    "per_class_recall": {
+      "threshold": null,
+      "unit": "metric-specific; specify scale before freeze",
+      "status": "PENDING_PILOT",
+      "rationale": null
+    },
+    "mAP50": {
+      "threshold": null,
+      "unit": "metric-specific; specify scale before freeze",
+      "status": "PENDING_PILOT",
+      "rationale": null
+    },
+    "mAP50_95": {
+      "threshold": null,
+      "unit": "metric-specific; specify scale before freeze",
+      "status": "PENDING_PILOT",
+      "rationale": null
+    },
+    "HOTA": {
+      "threshold": null,
+      "unit": "metric-specific; specify scale before freeze",
+      "status": "PENDING_PILOT",
+      "rationale": null
+    },
+    "IDF1": {
+      "threshold": null,
+      "unit": "metric-specific; specify scale before freeze",
+      "status": "PENDING_PILOT",
+      "rationale": null
+    },
+    "MOTA": {
+      "threshold": null,
+      "unit": "metric-specific; specify scale before freeze",
+      "status": "PENDING_PILOT",
+      "rationale": null
+    },
+    "IDSW": {
+      "threshold": null,
+      "unit": "metric-specific; specify scale before freeze",
+      "status": "PENDING_PILOT",
+      "rationale": null
+    },
+    "fragmentation": {
+      "threshold": null,
+      "unit": "metric-specific; specify scale before freeze",
+      "status": "PENDING_PILOT",
+      "rationale": null
+    },
+    "count_MAE": {
+      "threshold": null,
+      "unit": "metric-specific; specify scale before freeze",
+      "status": "PENDING_PILOT",
+      "rationale": null
+    },
+    "region_count_error": {
+      "threshold": null,
+      "unit": "metric-specific; specify scale before freeze",
+      "status": "PENDING_PILOT",
+      "rationale": null
+    },
+    "matched_track_time_error": {
+      "threshold": null,
+      "unit": "metric-specific; specify scale before freeze",
+      "status": "PENDING_PILOT",
+      "rationale": null
+    },
+    "unsupported_summary_rate": {
+      "threshold": null,
+      "unit": "metric-specific; specify scale before freeze",
+      "status": "PENDING_PILOT",
+      "rationale": null
+    }
+  },
+  "freeze": {
+    "frozen_at": null,
+    "validation_manifest_sha256": null,
+    "test_manifest_sha256": null,
+    "decision_record": null
+  },
+  "policy": "Record absolute per-class and tracking/summary targets with a pilot rationale before final testing. Neither high confidence nor improvement over baseline alone is a pass."
+}

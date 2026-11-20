@@ -1,0 +1,8 @@
+{
+  "model\\data\\manifests\\step2_technical_v1\\policy.json": "60d6f1dde9892ebe8b34f4ef38bfe12ce381c29cab64a2eb663dae0aff5e39a6",
+  "model\\data\\manifests\\step2_technical_v1\\media_inventory.jsonl": "ff6bb7cf5dad1471063d016dea7df386a11bf1fe45a62ce3896f88c6da3dba7e",
+  "model\\data\\manifests\\step2_technical_v1\\verification.json": "699ce6db01f75650ad1c8156d47c2930350d15f77aaa30e81c6ac5931f2edd60",
+  ".qa\\step2_anomalies\\issues.json": "8002c36724f09eb5a57c56d6d7ed657ada2369437d361cbb8b017ded18f2cd12",
+  ".qa\\step2_anomalies\\index.html": "5c35f7a2e5af70d80569b9f22ead987cc276403ba0b2ac46dee79d4381b10498",
+  "model\\data\\manifests\\step2_technical_v1\\mot_conflict_dispositions.json": "752c836acfc146c0fe21be0821d2ba2da40fa82bf548875d649df42868455604"
+}

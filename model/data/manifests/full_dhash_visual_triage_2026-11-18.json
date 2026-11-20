@@ -1,0 +1,55 @@
+{
+  "version": "full-dhash-visual-triage-1",
+  "date": "2026-11-18",
+  "source": "full_dhash_screen.json",
+  "review_image": "../../../.qa/full_dhash_review_sheet.jpg",
+  "student_reply_raw": "第5行有两个图片和第6行的两个图片不关联",
+  "student_clarification_raw": "左右上下都不关联",
+  "student_reply_interpretation": "ROW_5_LEFT_RIGHT_UNRELATED; ROW_6_LEFT_RIGHT_UNRELATED; CROSS_ROW_UNRELATED",
+  "extended_review_image": "../../../.qa/row5_extended_review.jpg",
+  "scope": "One lowest-distance representative pair per different-prefix pair; this does not establish all-frame lineage.",
+  "pair_decisions": [
+    {
+      "row": 1,
+      "prefixes": ["9999945", "0000120"],
+      "codex_judgment": "VISUALLY_DIFFERENT_SAMPLES_AFTER_FULL_RESOLUTION",
+      "reason": "The DET image looks down a narrow apartment-lined road; the MOT-test-dev frame shows a broad crossing, vertical lit facade and different roadside geometry. This is the only dHash candidate pair for these two prefixes."
+    },
+    {
+      "row": 2,
+      "prefixes": ["9999945", "0000117"],
+      "codex_judgment": "VISUALLY_DIFFERENT_SAMPLES_AFTER_FULL_RESOLUTION",
+      "reason": "The DET image looks steeply down on a road and side junction with different lane markings and building geometry; the MOT-val clip has red decorative roadside lights and a prominent fairground/building. All 16 candidate frames come from this one MOT clip and one DET image."
+    },
+    {
+      "row": 3,
+      "prefixes": ["9999960", "0000356"],
+      "codex_judgment": "VISUALLY_DIFFERENT_SAMPLE",
+      "reason": "The sample shows a dark straight road with parked vehicles versus a daylight multilane intersection."
+    },
+    {
+      "row": 4,
+      "prefixes": ["0000013", "0000356"],
+      "codex_judgment": "VISUALLY_DIFFERENT_SAMPLE",
+      "reason": "The sample shows a riverside promenade versus a city intersection."
+    },
+    {
+      "row": 5,
+      "prefixes": ["0000357", "0000356"],
+      "codex_judgment": "VISUALLY_DIFFERENT_SAMPLES_AFTER_FULL_RESOLUTION",
+      "reason": "Four MOT frames show the Yida shopping plaza and distinctive decorative streetlights; both DET images show a different broad intersection, red awning and median. All 18 dHash candidates come from these same two source groups.",
+      "student_judgment": "UNRELATED_IN_PAIRED_IMAGES"
+    },
+    {
+      "row": 6,
+      "prefixes": ["0000117", "0000120"],
+      "codex_judgment": "VISUALLY_DIFFERENT_SAMPLES_AFTER_FULL_RESOLUTION",
+      "reason": "The MOT-val sample has red decorative roadside lights and a prominent building/fairground; the MOT-test-dev sample has a different crossing, buildings and streetlight pattern. The pair screen contains only two candidates from these clips.",
+      "student_judgment": "UNRELATED_IN_PAIRED_IMAGES"
+    }
+  ],
+  "quarantine_pending_prefixes": [],
+  "interpretation": "All six different-prefix dHash candidate groups were visually checked at original resolution; the sampled candidate images show different fixed landmarks. The student's row-5 and row-6 judgment is recorded separately. Prefixes 0000357 and 0000120 remain quarantined for annotation conflicts; other cross-stage and pilot-source rules still apply. A negative candidate screen does not prove all source material independent.",
+  "final_test_frozen": false,
+  "g1_passed": false
+}

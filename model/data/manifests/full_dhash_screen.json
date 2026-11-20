@@ -1,0 +1,529 @@
+{
+  "version": "full-dhash-screen-1",
+  "status": "CANDIDATES_REQUIRE_VISUAL_REVIEW",
+  "threshold_hamming_distance": 4,
+  "media_count": 42311,
+  "counts": {
+    "all_candidate_pairs": 800,
+    "same_prefix_pairs": 727,
+    "different_prefix_pairs": 73
+  },
+  "different_prefix_group_pairs": 6,
+  "different_prefix_examples": [
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000135.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000136.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000137.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000138.jpg",
+      "dhash_distance": 2
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000139.jpg",
+      "dhash_distance": 2
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000140.jpg",
+      "dhash_distance": 2
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000141.jpg",
+      "dhash_distance": 2
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000142.jpg",
+      "dhash_distance": 2
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000143.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000144.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000145.jpg",
+      "dhash_distance": 1
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000146.jpg",
+      "dhash_distance": 2
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000147.jpg",
+      "dhash_distance": 2
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000148.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000149.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000102.jpg",
+      "b": "MOT-val:uav0000117_02622_v",
+      "b_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000150.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "DET-train:9999960",
+      "a_member": "VisDrone2019-DET-train/images/9999960_00000_d_0000136.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000001.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000009.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000010.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000011.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000012.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000013.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000014.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000015.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000016.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000017.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000018.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000019.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000020.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000021.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000022.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000023.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000024.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000025.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000026.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000027.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000028.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000029.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000030.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000031.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000032.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000033.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 2
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000034.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 2
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000035.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 2
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000036.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000037.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000038.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000039.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000040.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000041.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000013_01392_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000013_01392_v/0000042.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_01961_d_0000639.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000010.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000059.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000060.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000061.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000062.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000156.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000157.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000158.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000159.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000276.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02745_d_0000643.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000277.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02745_d_0000643.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000278.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02745_d_0000643.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000279.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02745_d_0000643.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000280.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02745_d_0000643.jpg",
+      "dhash_distance": 3
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000280.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000485.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000486.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-train:uav0000357_00920_v",
+      "a_member": "VisDrone2019-MOT-train/sequences/uav0000357_00920_v/0000487.jpg",
+      "b": "DET-val:0000356",
+      "b_member": "VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "DET-train:9999945",
+      "a_member": "VisDrone2019-DET-train/images/9999945_00000_d_0000113.jpg",
+      "b": "MOT-test-dev:uav0000120_04775_v",
+      "b_member": "VisDrone2019-MOT-test-dev/sequences/uav0000120_04775_v/0000966.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-val:uav0000117_02622_v",
+      "a_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000334.jpg",
+      "b": "MOT-test-dev:uav0000120_04775_v",
+      "b_member": "VisDrone2019-MOT-test-dev/sequences/uav0000120_04775_v/0000857.jpg",
+      "dhash_distance": 4
+    },
+    {
+      "a": "MOT-val:uav0000117_02622_v",
+      "a_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000336.jpg",
+      "b": "MOT-test-dev:uav0000120_04775_v",
+      "b_member": "VisDrone2019-MOT-test-dev/sequences/uav0000120_04775_v/0000857.jpg",
+      "dhash_distance": 4
+    }
+  ],
+  "examples_truncated": false,
+  "limits": "dHash is a low-resolution perceptual signature; a candidate is not proof of duplicate source. Distance >4 cannot establish independence.",
+  "final_test_frozen": false,
+  "g1_passed": false
+}

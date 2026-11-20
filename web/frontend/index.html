@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="UAV video tracking local offline test page. Submit a recorded video and view real per-frame detection and temporary tracking results." />
+    <meta name="theme-color" content="#eef2ef" />
+    <title>视频跟踪 · 空影 UAV 影像工作台</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" data-i18n-attr="nav.aria:aria-label">
+        <a class="brand" href="./workspace.html" aria-label="返回工作台"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="13.5" stroke="currentColor" stroke-width="1.4" /><circle cx="18" cy="18" r="7.5" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2.2 2.8" /><path d="M18 4.5V18L29.6 24.7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" /><circle cx="18" cy="18" r="2.2" fill="currentColor" /></svg></span><span class="brand-copy"><strong>空影</strong><small>UAV 影像工作台</small></span></a>
+        <div class="side-section"><p class="side-label" data-i18n="nav.section">工作区</p><nav class="nav-list" data-i18n-attr="nav.main:aria-label"><a class="nav-item" href="./workspace.html"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 9.1 10 3l7 6.1v7.2a.7.7 0 0 1-.7.7h-4.1v-5H7.8v5H3.7a.7.7 0 0 1-.7-.7V9.1Z" /></svg><span data-i18n="nav.workspace">工作台</span></a>
+          <a class="nav-item" href="./image-detection.html"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="2.7" y="3" width="14.6" height="14" rx="1.8" /><circle cx="7" cy="8" r="1.7" /><path d="m4 15 4.1-3.8 2.4 2 2.1-2.1 3.4 3.9" /></svg><span data-i18n="nav.image">图片检测</span></a>
+          <a class="nav-item is-current" href="./index.html" aria-current="page"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="2.5" y="3.2" width="15" height="13.6" rx="2" /><path d="m8 7 5 3-5 3V7Z" /></svg><span data-i18n="nav.video">视频跟踪</span><span class="nav-dot" aria-hidden="true"></span></a>
+          <a class="nav-item" href="./task-history.html"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="3" y="3.3" width="14" height="13.4" rx="1.7" /><path d="M6 7h8M6 10h8M6 13h5" /></svg><span data-i18n="nav.history">任务历史</span></a>
+          <a class="nav-item" href="./evaluation.html"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3.2 16.6V10M8 16.6V5.2m4.8 11.4V8m4 8.6V3.4" /></svg><span data-i18n="nav.evaluation">评估记录</span></a></nav></div>
+        <div class="side-project"><div class="project-badge" aria-hidden="true">U</div><div><strong data-i18n="project.name">无人机车辆分析</strong><span data-i18n="project.local">本地单用户项目</span></div><span class="project-state" data-i18n-attr="project.state.title:title"></span></div>
+        <div class="sidebar-bottom"><span class="local-indicator" aria-hidden="true"></span><div><strong data-i18n="workspace.local">本机工作区</strong><small data-i18n="workspace.offline">离线测试已接入</small></div></div>
+      </aside>
+      <main id="main" class="main-area">
+        <header class="topbar"><div class="breadcrumb"><span data-i18n="breadcrumb.root">无人机车辆分析</span><i aria-hidden="true">/</i><strong data-i18n="mode.video">视频跟踪</strong></div><div class="topbar-right"><span class="version-pill" title="UI & docs baseline version">v0.2.0-alpha.3</span><button type="button" class="lang-toggle" id="lang-toggle">English</button><span class="service-pill" id="service-pill"><span class="dot" aria-hidden="true"></span><span class="service-label" data-i18n="service.ready">本地服务 · 就绪</span></span><span class="avatar" data-i18n-attr="avatar.aria:aria-label">张</span></div></header>
+        <div class="content-wrap">
+          <section class="page-heading"><div><p class="eyebrow">UAV VIDEO TRACKING</p><h1 data-i18n="mode.video">视频跟踪</h1><p class="page-lede" data-i18n="picker.video.desc">恒定帧率 MP4 · 逐帧检测 · 视频内临时 ID · 图像平面轨迹</p></div><span class="status-chip" data-i18n="heading.chip">本地单用户 · 离线测试</span></section>
+
+          <section class="notice" data-i18n-attr="notice.aria:aria-label"><span class="notice-icon" aria-hidden="true">i</span><p><strong data-i18n="notice.strong">本机离线测试界面。</strong><span data-i18n="notice.body">仅限 127.0.0.1 访问；图片只做检测，录制视频做检测与视频内临时跟踪。结果显示的是本次真实运行产物，不含示意值。</span></p><span class="notice-code">LOCAL TEST</span></section>
+
+          <section class="media-picker" id="media-picker" data-i18n-attr="picker.aria:aria-label">
+            <button type="button" class="picker-card" data-type="image"><span class="picker-index">01 / IMAGE</span><span class="entry-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3.5" width="18" height="17" rx="2" /><circle cx="8.5" cy="9" r="2" /><path d="m4 18 5-4.5 3 2.5 3.2-3 4.8 5" /></svg></span><strong data-i18n="picker.image.title">图片检测</strong><small data-i18n="picker.image.desc">单张 JPEG/PNG · 仅检测框 · 类别与置信度 · 不分配跟踪 ID</small></button>
+            <button type="button" class="picker-card" data-type="video"><span class="picker-index">02 / VIDEO</span><span class="entry-icon entry-icon--amber" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2.8" y="4" width="18.4" height="16" rx="2.4" /><path d="m10 8 6 4-6 4V8Z" /></svg></span><strong data-i18n="picker.video.title">视频跟踪</strong><small data-i18n="picker.video.desc">恒定帧率 MP4 · 逐帧检测 · 视频内临时 ID · 图像平面轨迹</small></button>
+          </section>
+
+          <section class="job-strip" id="job-strip" data-i18n-attr="upload.aria:aria-label">
+            <div class="upload-copy">
+              <span class="upload-symbol" aria-hidden="true">＋</span>
+              <div>
+                <strong data-i18n="upload.title">拖拽或选择待处理媒体</strong>
+                <p data-i18n="upload.desc">将 JPEG/PNG 图片或 MP4 录制视频拖入此处，或点击右侧「选择文件」；单文件上限 256 MB，一次只处理一个非终态任务。</p>
+                <div class="chosen-file hidden" id="chosen-file"><span class="file-name"></span><span class="file-size"></span></div>
+              </div>
+            </div>
+            <label class="button button--outline file-input-label"><span data-i18n="upload.choose">选择文件</span><input type="file" id="file-input" accept=".mp4" /></label>
+            <button type="button" class="button button--primary" id="submit-btn" disabled><span data-i18n="upload.submit">运行处理</span> <small data-i18n="upload.state.notready">未就绪</small></button>
+            <button type="button" class="button button--danger hidden" id="cancel-btn" data-i18n="upload.cancel">取消</button>
+            <button type="button" class="button button--ghost hidden" id="reset-btn" data-i18n="upload.reset">清空</button>
+          </section>
+
+          <div class="status-banner hidden" id="status-banner" role="status" aria-live="polite"></div>
+
+          <section class="interactive-empty" id="interactive-empty" data-i18n-attr="empty.aria:aria-label">
+            <div class="empty-orbit" aria-hidden="true"><span>U</span><i></i><i></i><i></i></div>
+            <p class="eyebrow" data-i18n="empty.eyebrow">处理结果</p>
+            <h2 data-i18n="empty.title">这里暂时还没有任务</h2>
+            <p data-i18n="empty.body">选择媒体类型并提交文件后，本页会显示等待、处理中、成功或失败状态，并在完成后展示本次运行的真实标注媒体、检测记录与下载入口。</p>
+          </section>
+
+          <section class="result-grid hidden" id="results" data-i18n-attr="result.aria:aria-label">
+            <div class="result-panel">
+              <div class="result-media" id="result-media"></div>
+              <div class="result-caption" id="result-caption"></div>
+            </div>
+            <aside class="inspector" id="result-inspector" data-i18n-attr="result.inspector.aria:aria-label"></aside>
+          </section>
+
+          <section class="note-band" data-i18n-attr="note.aria:aria-label"><span class="note-mark" aria-hidden="true">!</span><p><strong data-i18n="note.strong">结果说明：</strong><span data-i18n="note.body">跟踪 ID 仅在当前视频内临时有效，不表示真实身份；轨迹是图像平面观测。参数采用现有试运行配置（conf 0.25 等），属于未冻结先导值，不代表正式标准或系统性能承诺。</span></p></section>
+
+          <footer class="page-footer"><span data-i18n="footer.left">CAT405 · 无人机视频目标检测与多目标跟踪</span><span data-i18n="footer.right">本地单用户方案 · 离线测试阶段</span></footer>
+        </div>
+      </main>
+    </div>
+    <script>
+      window.APP_MODE = "video";
+    </script>
+    <script src="./i18n.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

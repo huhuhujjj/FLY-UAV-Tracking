@@ -1,0 +1,22 @@
+{
+  "version": "step3-offline-pilot-1",
+  "weights": "model/weights/yolo26l.pt",
+  "weights_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l.pt",
+  "weights_sha256": "9fe3c544f2b19bebad7ea41e76d7ad3d88b7c2f10d11d24430c5311f6b32db26",
+  "imgsz": 640,
+  "confidence": 0.25,
+  "iou": 0.7,
+  "max_det": 1000,
+  "tracker": "ByteTrack",
+  "scope": "development smoke only; COCO pretrained, no VisDrone fine-tuning",
+  "parameters_status": "PILOT_NOT_PRODUCTION_OR_ACCEPTANCE_FREEZE",
+  "timebase": "zero-based decoded frame index; actual PTS minus first PTS; CFR only",
+  "source_video_fps": "UNVERIFIED; generated development clip uses chosen 25 FPS",
+  "limitations": [
+    "ByteTrack sees detections above pilot conf .25, so .1-.25 second-stage candidates are not submitted in this smoke run.",
+    "H264 yuv420 requires even dimensions; unsupported inputs fail rather than being changed silently.",
+    "Audio omitted from annotated output.",
+    "PyTorch peak allocated/reserved memory excludes driver context and other applications.",
+    "TrackEval 1.3.0 fragmentation empty-frame behavior is unverified; Frag withheld."
+  ]
+}

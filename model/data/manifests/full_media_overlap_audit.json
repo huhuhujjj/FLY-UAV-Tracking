@@ -1,0 +1,1759 @@
+{
+  "version": "full-media-overlap-1",
+  "status": "FULL_MEDIA_DECODE_AND_EXACT_SCREEN_COMPLETE",
+  "total_decoded_media": 42311,
+  "splits": {
+    "DET-train": {
+      "images": 6471,
+      "counts": {
+        "decoded_images": 6471,
+        "source_rows_on_decoded_media": 353550,
+        "bad_boxes": 3,
+        "selected_in_bounds_boxes": 163667
+      },
+      "issues": 3
+    },
+    "DET-val": {
+      "images": 548,
+      "counts": {
+        "decoded_images": 548,
+        "source_rows_on_decoded_media": 40169,
+        "bad_boxes": 0,
+        "selected_in_bounds_boxes": 15065
+      },
+      "issues": 0
+    },
+    "DET-test-dev": {
+      "images": 1610,
+      "counts": {
+        "decoded_images": 1610,
+        "source_rows_on_decoded_media": 77547,
+        "bad_boxes": 0,
+        "selected_in_bounds_boxes": 33673
+      },
+      "issues": 0
+    },
+    "MOT-train": {
+      "images": 24201,
+      "counts": {
+        "decoded_images": 24201,
+        "source_rows_on_decoded_media": 1169359,
+        "bad_boxes": 31,
+        "selected_in_bounds_boxes": 545436
+      },
+      "issues": 31
+    },
+    "MOT-val": {
+      "images": 2846,
+      "counts": {
+        "decoded_images": 2846,
+        "source_rows_on_decoded_media": 118127,
+        "bad_boxes": 0,
+        "selected_in_bounds_boxes": 33444
+      },
+      "issues": 0
+    },
+    "MOT-test-dev": {
+      "images": 6635,
+      "counts": {
+        "decoded_images": 6635,
+        "source_rows_on_decoded_media": 333700,
+        "bad_boxes": 3,
+        "selected_in_bounds_boxes": 114968
+      },
+      "issues": 3
+    }
+  },
+  "media_issues": [
+    {
+      "archive_member": "VisDrone2019-DET-train/images/0000293_03401_d_0000939.jpg",
+      "annotation": "0000293_03401_d_0000939.txt",
+      "line": 130,
+      "bbox_xywh": [
+        1008,
+        374,
+        3,
+        0
+      ],
+      "image_size": [
+        1360,
+        765
+      ],
+      "category": 0,
+      "score": 0,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "DET-train"
+    },
+    {
+      "archive_member": "VisDrone2019-DET-train/images/9999985_00000_d_0000020.jpg",
+      "annotation": "9999985_00000_d_0000020.txt",
+      "line": 12,
+      "bbox_xywh": [
+        611,
+        158,
+        4,
+        0
+      ],
+      "image_size": [
+        1400,
+        1050
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "DET-train"
+    },
+    {
+      "archive_member": "VisDrone2019-DET-train/images/9999999_00590_d_0000267.jpg",
+      "annotation": "9999999_00590_d_0000267.txt",
+      "line": 89,
+      "bbox_xywh": [
+        545,
+        414,
+        10,
+        0
+      ],
+      "image_size": [
+        2000,
+        1500
+      ],
+      "category": 0,
+      "score": 0,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "DET-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000150_02310_v/0000090.jpg",
+      "annotation": "uav0000150_02310_v.txt",
+      "line": 6951,
+      "bbox_xywh": [
+        1569,
+        1500,
+        52,
+        13
+      ],
+      "image_size": [
+        2688,
+        1512
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000150_02310_v/0000091.jpg",
+      "annotation": "uav0000150_02310_v.txt",
+      "line": 6952,
+      "bbox_xywh": [
+        1570,
+        1505,
+        52,
+        9
+      ],
+      "image_size": [
+        2688,
+        1512
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000295_02300_v/0000124.jpg",
+      "annotation": "uav0000295_02300_v.txt",
+      "line": 124,
+      "bbox_xywh": [
+        812,
+        1495,
+        151,
+        36
+      ],
+      "image_size": [
+        2720,
+        1530
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000295_02300_v/0000125.jpg",
+      "annotation": "uav0000295_02300_v.txt",
+      "line": 125,
+      "bbox_xywh": [
+        809,
+        1499,
+        151,
+        32
+      ],
+      "image_size": [
+        2720,
+        1530
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000295_02300_v/0000126.jpg",
+      "annotation": "uav0000295_02300_v.txt",
+      "line": 126,
+      "bbox_xywh": [
+        807,
+        1504,
+        151,
+        27
+      ],
+      "image_size": [
+        2720,
+        1530
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000295_02300_v/0000127.jpg",
+      "annotation": "uav0000295_02300_v.txt",
+      "line": 127,
+      "bbox_xywh": [
+        805,
+        1509,
+        151,
+        22
+      ],
+      "image_size": [
+        2720,
+        1530
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000295_02300_v/0000128.jpg",
+      "annotation": "uav0000295_02300_v.txt",
+      "line": 128,
+      "bbox_xywh": [
+        802,
+        1514,
+        151,
+        18
+      ],
+      "image_size": [
+        2720,
+        1530
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000295_02300_v/0000129.jpg",
+      "annotation": "uav0000295_02300_v.txt",
+      "line": 129,
+      "bbox_xywh": [
+        800,
+        1519,
+        151,
+        13
+      ],
+      "image_size": [
+        2720,
+        1530
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000295_02300_v/0000130.jpg",
+      "annotation": "uav0000295_02300_v.txt",
+      "line": 130,
+      "bbox_xywh": [
+        798,
+        1524,
+        151,
+        8
+      ],
+      "image_size": [
+        2720,
+        1530
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000295_02300_v/0000289.jpg",
+      "annotation": "uav0000295_02300_v.txt",
+      "line": 20557,
+      "bbox_xywh": [
+        252,
+        1505,
+        236,
+        26
+      ],
+      "image_size": [
+        2720,
+        1530
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000308_01380_v/0000066.jpg",
+      "annotation": "uav0000308_01380_v.txt",
+      "line": 2103,
+      "bbox_xywh": [
+        1898,
+        390,
+        7,
+        58
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 2,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000309_00000_v/0000151.jpg",
+      "annotation": "uav0000309_00000_v.txt",
+      "line": 13983,
+      "bbox_xywh": [
+        557,
+        1040,
+        54,
+        32
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000309_00000_v/0000162.jpg",
+      "annotation": "uav0000309_00000_v.txt",
+      "line": 12139,
+      "bbox_xywh": [
+        1757,
+        1065,
+        113,
+        7
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000315_00000_v/0000521.jpg",
+      "annotation": "uav0000315_00000_v.txt",
+      "line": 23255,
+      "bbox_xywh": [
+        161,
+        1059,
+        58,
+        13
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000323_01173_v/0000119.jpg",
+      "annotation": "uav0000323_01173_v.txt",
+      "line": 168,
+      "bbox_xywh": [
+        973,
+        1045,
+        172,
+        27
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000045.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 17436,
+      "bbox_xywh": [
+        1875,
+        805,
+        30,
+        83
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000046.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 17437,
+      "bbox_xywh": [
+        1878,
+        805,
+        27,
+        83
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000047.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 17438,
+      "bbox_xywh": [
+        1881,
+        805,
+        24,
+        83
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000048.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 17439,
+      "bbox_xywh": [
+        1884,
+        804,
+        21,
+        84
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000049.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 17440,
+      "bbox_xywh": [
+        1887,
+        804,
+        18,
+        83
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000050.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 17441,
+      "bbox_xywh": [
+        1890,
+        804,
+        15,
+        83
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000051.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 17442,
+      "bbox_xywh": [
+        1893,
+        804,
+        12,
+        83
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000052.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 17443,
+      "bbox_xywh": [
+        1896,
+        804,
+        9,
+        83
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000053.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 17444,
+      "bbox_xywh": [
+        1899,
+        804,
+        6,
+        83
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 10,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000266.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 19114,
+      "bbox_xywh": [
+        0,
+        1013,
+        210,
+        59
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000267.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 19115,
+      "bbox_xywh": [
+        0,
+        1021,
+        206,
+        51
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000268.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 19116,
+      "bbox_xywh": [
+        0,
+        1029,
+        202,
+        43
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000269.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 19117,
+      "bbox_xywh": [
+        0,
+        1037,
+        197,
+        35
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000270.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 19118,
+      "bbox_xywh": [
+        0,
+        1045,
+        193,
+        27
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000271.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 19119,
+      "bbox_xywh": [
+        0,
+        1053,
+        189,
+        19
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/sequences/uav0000366_00001_v/0000272.jpg",
+      "annotation": "uav0000366_00001_v.txt",
+      "line": 19120,
+      "bbox_xywh": [
+        0,
+        1061,
+        185,
+        11
+      ],
+      "image_size": [
+        1904,
+        1071
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-train"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-test-dev/sequences/uav0000249_00001_v/0000030.jpg",
+      "annotation": "uav0000249_00001_v.txt",
+      "line": 8702,
+      "bbox_xywh": [
+        0,
+        1069,
+        185,
+        12
+      ],
+      "image_size": [
+        1920,
+        1080
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-test-dev"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-test-dev/sequences/uav0000249_00001_v/0000252.jpg",
+      "annotation": "uav0000249_00001_v.txt",
+      "line": 3902,
+      "bbox_xywh": [
+        675,
+        1055,
+        113,
+        26
+      ],
+      "image_size": [
+        1920,
+        1080
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-test-dev"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-test-dev/sequences/uav0000249_00001_v/0000295.jpg",
+      "annotation": "uav0000249_00001_v.txt",
+      "line": 295,
+      "bbox_xywh": [
+        1040,
+        1067,
+        89,
+        14
+      ],
+      "image_size": [
+        1920,
+        1080
+      ],
+      "category": 4,
+      "score": 1,
+      "error": "source_box_out_of_bounds_or_nonpositive",
+      "split": "MOT-test-dev"
+    }
+  ],
+  "exact_cross_stage_fingerprint_groups": [],
+  "same_dhash_cross_stage_fingerprint_groups": [
+    {
+      "fingerprint": "7266666eecdb3f33",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000137",
+          "member": "VisDrone2019-DET-train/images/0000137_00509_d_0000159.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000137_00458_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000137_00458_v/0000026.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000137_00458_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000137_00458_v/0000027.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000137_00458_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000137_00458_v/0000028.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000137_00458_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000137_00458_v/0000029.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000137_00458_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000137_00458_v/0000030.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "b33379119bcbc711",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000182",
+          "member": "VisDrone2019-DET-train/images/0000182_00000_d_0000036.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000182_00000_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000182_00000_v/0000001.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000182_00000_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000182_00000_v/0000002.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000182_00000_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000182_00000_v/0000005.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000182_00000_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000182_00000_v/0000006.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "98189891e0808691",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000182",
+          "member": "VisDrone2019-DET-train/images/0000182_00411_d_0000037.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000182_00000_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000182_00000_v/0000206.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "dad8d8e87163e2fc",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000201",
+          "member": "VisDrone2019-DET-train/images/0000201_00000_d_0000171.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000201_00000_v/0000001.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000201_00000_v/0000002.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000201_00000_v/0000003.jpg"
+        }
+      ],
+      "stages": [
+        "final_test",
+        "train"
+      ]
+    },
+    {
+      "fingerprint": "3c393a7468c1b9f0",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000201",
+          "member": "VisDrone2019-DET-train/images/0000201_00182_d_0000172.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000201_00000_v/0000092.jpg"
+        }
+      ],
+      "stages": [
+        "final_test",
+        "train"
+      ]
+    },
+    {
+      "fingerprint": "c0831f7cc840f5ac",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000201",
+          "member": "VisDrone2019-DET-train/images/0000201_00446_d_0000173.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000201_00000_v/0000224.jpg"
+        }
+      ],
+      "stages": [
+        "final_test",
+        "train"
+      ]
+    },
+    {
+      "fingerprint": "1cd963323074dee4",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000201",
+          "member": "VisDrone2019-DET-train/images/0000201_00626_d_0000174.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000201_00000_v/0000314.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000201_00000_v/0000315.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000201_00000_v/0000316.jpg"
+        }
+      ],
+      "stages": [
+        "final_test",
+        "train"
+      ]
+    },
+    {
+      "fingerprint": "ce0cd9e3e4c489f0",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000201",
+          "member": "VisDrone2019-DET-train/images/0000201_00818_d_0000175.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000201_00000_v/0000408.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000201_00000_v/0000409.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000201_00000_v/0000410.jpg"
+        }
+      ],
+      "stages": [
+        "final_test",
+        "train"
+      ]
+    },
+    {
+      "fingerprint": "eaee44cac264e7de",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000201",
+          "member": "VisDrone2019-DET-train/images/0000201_01023_d_0000176.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000201_00000_v/0000512.jpg"
+        }
+      ],
+      "stages": [
+        "final_test",
+        "train"
+      ]
+    },
+    {
+      "fingerprint": "470e9c72e481fcf0",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000201",
+          "member": "VisDrone2019-DET-train/images/0000201_01292_d_0000177.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000201_00000_v/0000647.jpg"
+        }
+      ],
+      "stages": [
+        "final_test",
+        "train"
+      ]
+    },
+    {
+      "fingerprint": "100032d85a9ab031",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000297",
+          "member": "VisDrone2019-DET-train/images/0000297_00001_d_0000057.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000297_00000_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000297_00000_v/0000001.jpg"
+        }
+      ],
+      "stages": [
+        "final_test",
+        "train"
+      ]
+    },
+    {
+      "fingerprint": "5535d0d0c8c8595a",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000305",
+          "member": "VisDrone2019-DET-train/images/0000305_00001_d_0000213.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000305_00000_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000305_00000_v/0000001.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000305_00000_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000305_00000_v/0000003.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000305_00000_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000305_00000_v/0000004.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000305_00000_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000305_00000_v/0000005.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000305_00000_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000305_00000_v/0000006.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "6080c0808006b080",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000339",
+          "member": "VisDrone2019-DET-train/images/0000339_00001_d_0000161.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000339_00001_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000339_00001_v/0000001.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000339_00001_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000339_00001_v/0000002.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "70b08080808212b0",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000339",
+          "member": "VisDrone2019-DET-train/images/0000339_00197_d_0000162.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000339_00001_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000339_00001_v/0000088.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000339_00001_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000339_00001_v/0000092.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000339_00001_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000339_00001_v/0000093.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000339_00001_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000339_00001_v/0000094.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000339_00001_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000339_00001_v/0000095.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000339_00001_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000339_00001_v/0000098.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000339_00001_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000339_00001_v/0000099.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000339_00001_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000339_00001_v/0000100.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000339_00001_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000339_00001_v/0000101.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "c080c08090008090",
+      "rows": [
+        {
+          "split": "DET-train",
+          "group": "0000339",
+          "member": "VisDrone2019-DET-train/images/0000339_00393_d_0000163.jpg"
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000339_00001_v",
+          "member": "VisDrone2019-MOT-val/sequences/uav0000339_00001_v/0000197.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "5810131310937bfc",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000244",
+          "member": "VisDrone2019-DET-val/images/0000244_01500_d_0000004.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000026.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000027.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000028.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000029.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000030.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000031.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000033.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "d9d97a70d1f2f9fd",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000244",
+          "member": "VisDrone2019-DET-val/images/0000244_02000_d_0000005.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000280.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000281.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000282.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000283.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000284.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000285.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "5b72b191b3cbfdfc",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000244",
+          "member": "VisDrone2019-DET-val/images/0000244_02500_d_0000006.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000529.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000530.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000531.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000532.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000244_01440_v/0000533.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "b83818990d7579fe",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000249",
+          "member": "VisDrone2019-DET-val/images/0000249_00001_d_0000001.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000249_00001_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000249_00001_v/0000001.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000249_00001_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000249_00001_v/0000005.jpg"
+        }
+      ],
+      "stages": [
+        "final_test",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "e9717132b6146cf4",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000249",
+          "member": "VisDrone2019-DET-val/images/0000249_00235_d_0000002.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000249_00001_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000249_00001_v/0000117.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000249_00001_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000249_00001_v/0000118.jpg"
+        }
+      ],
+      "stages": [
+        "final_test",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "6767672e2e6701c3",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000249",
+          "member": "VisDrone2019-DET-val/images/0000249_00603_d_0000003.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000249_00001_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000249_00001_v/0000302.jpg"
+        }
+      ],
+      "stages": [
+        "final_test",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "c4c8e56626b3927c",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000249",
+          "member": "VisDrone2019-DET-val/images/0000249_02900_d_0000009.jpg"
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000249_02688_v",
+          "member": "VisDrone2019-MOT-test-dev/sequences/uav0000249_02688_v/0000107.jpg"
+        }
+      ],
+      "stages": [
+        "final_test",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "33a0a2a6c443c7c6",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000289",
+          "member": "VisDrone2019-DET-val/images/0000289_00001_d_0000811.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_00001_v/0000001.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_00001_v/0000002.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_00001_v/0000003.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "63228282838386c6",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000289",
+          "member": "VisDrone2019-DET-val/images/0000289_00201_d_0000812.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_00001_v/0000101.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_00001_v/0000102.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "21a18103834383c3",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000289",
+          "member": "VisDrone2019-DET-val/images/0000289_00401_d_0000813.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_00001_v/0000201.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "81830193a343a383",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000289",
+          "member": "VisDrone2019-DET-val/images/0000289_00601_d_0000814.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_00001_v/0000301.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "23236323e1634343",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000289",
+          "member": "VisDrone2019-DET-val/images/0000289_00801_d_0000815.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_00001_v/0000401.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_00001_v/0000402.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "62a2c4e0c3c3c303",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000289",
+          "member": "VisDrone2019-DET-val/images/0000289_01001_d_0000816.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_00001_v/0000498.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_00001_v/0000499.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_00001_v/0000500.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "1436b43818381a16",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000289",
+          "member": "VisDrone2019-DET-val/images/0000289_07001_d_0000846.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_06922_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_06922_v/0000038.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_06922_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_06922_v/0000039.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_06922_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_06922_v/0000040.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_06922_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_06922_v/0000041.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_06922_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000289_06922_v/0000042.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "98f058d5d8c8d19d",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000295",
+          "member": "VisDrone2019-DET-val/images/0000295_02400_d_0000033.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000295_02300_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000295_02300_v/0000050.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "0c2c9c98985862a8",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000295",
+          "member": "VisDrone2019-DET-val/images/0000295_02900_d_0000034.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000295_02300_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000295_02300_v/0000301.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "3073f3f0f074d4cc",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000316",
+          "member": "VisDrone2019-DET-val/images/0000316_01401_d_0000526.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000316_01288_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000316_01288_v/0000058.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000316_01288_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000316_01288_v/0000059.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "d050c8905970f0f0",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000360",
+          "member": "VisDrone2019-DET-val/images/0000360_00001_d_0000713.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000360_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000360_00001_v/0000001.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000360_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000360_00001_v/0000002.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000360_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000360_00001_v/0000003.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "d250b0b57168e0f2",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000360",
+          "member": "VisDrone2019-DET-val/images/0000360_00197_d_0000714.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000360_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000360_00001_v/0000100.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "6060c5d1f1f0f2d1",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000360",
+          "member": "VisDrone2019-DET-val/images/0000360_00589_d_0000716.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000360_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000360_00001_v/0000295.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "fingerprint": "9231f0f4f2b39195",
+      "rows": [
+        {
+          "split": "DET-val",
+          "group": "0000360",
+          "member": "VisDrone2019-DET-val/images/0000360_00785_d_0000717.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000360_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000360_00001_v/0000390.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000360_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000360_00001_v/0000391.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000360_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000360_00001_v/0000392.jpg"
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000360_00001_v",
+          "member": "VisDrone2019-MOT-train/sequences/uav0000360_00001_v/0000393.jpg"
+        }
+      ],
+      "stages": [
+        "train",
+        "validation"
+      ]
+    }
+  ],
+  "exact_cross_prefix_groups": [],
+  "same_dhash_cross_prefix_groups": [],
+  "meaning": "Exact pixel hashes detect identical decoded pixels. Same dHash is only a visual candidate and needs review. Similarity with nonzero distance and common lineage beyond filename prefixes remain pending.",
+  "final_test_frozen": false,
+  "g1_passed": false
+}

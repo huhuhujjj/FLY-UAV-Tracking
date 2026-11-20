@@ -1,0 +1,12 @@
+{
+  "archive": "MOT-val",
+  "status": "FULL_ARCHIVE_CRC_VERIFIED",
+  "source_url": "https://drive.usercontent.google.com/download?id=1rqnKe9IgU_crMaxRoel9_nuUsMEBBVQu&export=download&confirm=t",
+  "verified_at": "2026-11-17T17:18:40.154395+00:00",
+  "path": "model\\data\\raw\\archives\\MOT-val.zip",
+  "size_bytes": 1602397759,
+  "sha256": "e53571990dfc79229e0a8ae10264bc4fa604a027c44b06e3a097417e4fa55705",
+  "zip_members": 2863,
+  "member_crc": "PASS",
+  "scope": "Archive integrity only; annotation/media semantic audit is separate."
+}

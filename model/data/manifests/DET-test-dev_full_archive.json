@@ -1,0 +1,12 @@
+{
+  "archive": "DET-test-dev",
+  "status": "FULL_ARCHIVE_CRC_VERIFIED",
+  "source_url": "https://drive.usercontent.google.com/download?id=1PFdW_VFSCfZ_sTSZAGjQdifF_Xd5mf0V&export=download&confirm=t",
+  "verified_at": "2026-11-17T17:15:59.271871+00:00",
+  "path": "model\\data\\raw\\archives\\DET-test-dev.zip",
+  "size_bytes": 311045829,
+  "sha256": "78b0c5078a14ee43d0b803a354e76016d7260d1704cfd1c2dc821858d839e261",
+  "zip_members": 3222,
+  "member_crc": "PASS",
+  "scope": "Archive integrity only; annotation/media semantic audit is separate."
+}

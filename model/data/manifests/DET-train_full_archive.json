@@ -1,0 +1,12 @@
+{
+  "archive": "DET-train",
+  "status": "FULL_ARCHIVE_CRC_VERIFIED",
+  "source_url": "https://drive.usercontent.google.com/download?id=1a2oHjcEcwXP8oUF95qiwrqzACb2YlUhn&export=download&confirm=t",
+  "verified_at": "2026-11-17T17:17:31.897260+00:00",
+  "path": "model\\data\\raw\\archives\\DET-train.zip",
+  "size_bytes": 1549875511,
+  "sha256": "86a77eba93137bfc16e4993860de9245b0675c0dba0d3ab98fb458699e256f84",
+  "zip_members": 12945,
+  "member_crc": "PASS",
+  "scope": "Archive integrity only; annotation/media semantic audit is separate."
+}

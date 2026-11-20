@@ -1,0 +1,12 @@
+{
+  "archive": "MOT-test-dev",
+  "status": "FULL_ARCHIVE_CRC_VERIFIED",
+  "source_url": "https://drive.usercontent.google.com/download?id=14z8Acxopj1d86-qhsF1NwS4Bv3KYa4Wu&export=download&confirm=t",
+  "verified_at": "2026-11-17T17:20:49.766157+00:00",
+  "path": "model\\data\\raw\\archives\\MOT-test-dev.zip",
+  "size_bytes": 2293482321,
+  "sha256": "758abe40bf20246e7e778ac61eaa557cf004b034b6e68e85006e5add68e17eb5",
+  "zip_members": 6672,
+  "member_crc": "PASS",
+  "scope": "Archive integrity only; annotation/media semantic audit is separate."
+}

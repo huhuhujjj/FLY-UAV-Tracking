@@ -1,0 +1,13 @@
+FROM pytorch/pytorch:2.13.0-cuda13.0-cudnn9-runtime@sha256:db80a41f8428644cebcb3d75b0b62df334ab6c0e75785951eb25f48bfbd42407
+ENV DEBIAN_FRONTEND=noninteractive YOLO_CONFIG_DIR=/tmp/uav-ultralytics MPLCONFIGDIR=/tmp/uav-matplotlib
+RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg libgl1 libglib2.0-0 && rm -rf /var/lib/apt/lists/*
+RUN apt-get update -qq && apt-get install -y --no-install-recommends python3-venv && rm -rf /var/lib/apt/lists/*
+RUN python -m venv --system-site-packages /opt/uav
+ENV PATH="/opt/uav/bin:${PATH}"
+WORKDIR /workspace
+COPY model/requirements-inference.txt /tmp/requirements-inference.txt
+COPY model/requirements-inference-docker-lock.txt /tmp/constraints.txt
+RUN python -m pip install --no-cache-dir -r /tmp/requirements-inference.txt -c /tmp/constraints.txt
+COPY model/src /workspace/model/src
+COPY model/scripts/run_offline.py model/scripts/evaluate_offline.py /workspace/model/scripts/
+ENTRYPOINT ["python", "model/scripts/run_offline.py"]

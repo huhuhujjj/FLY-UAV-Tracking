@@ -1,0 +1,14 @@
+{
+  "date_local": "2026-11-18",
+  "reviewer": "Codex visual inspection",
+  "pair": {
+    "a": "DET-train:0000201",
+    "b": "MOT-test-dev:uav0000201_00000_v",
+    "dhash_distance": 0,
+    "source_prefix_equal": true,
+    "observed": "Same road layout, riverside, signs and vehicle scene from related camera views or nearby frames.",
+    "disposition": "CONFIRMED_RELATED_SOURCE_QUARANTINE_COMPONENT",
+    "limits": "Visual scene relation does not establish identical pixels or all-frame lineage. Other eight dHash candidates remain automated candidates unless reviewed."
+  },
+  "final_test_frozen": false
+}

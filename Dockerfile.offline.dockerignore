@@ -1,0 +1,9 @@
+**/.venv
+**/__pycache__
+**/data
+**/weights
+**/experiments
+backups
+.qa
+docs
+web

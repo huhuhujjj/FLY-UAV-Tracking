@@ -1,0 +1,15 @@
+UAV_Video_Tracking/
+├─ web/
+│  ├─ frontend/       # 页面、样式、前端脚本和素材
+│  └─ backend/        # API、任务处理和后端代码
+├─ configs/           # 项目及实验配置
+├─ data/              # 数据集与清单
+├─ docs/
+│  ├─ proposals/      # 提案
+│  ├─ reports/        # 正式报告
+│  └─ guides/         # 开发说明
+├─ scripts/           # 数据处理、检查等独立脚本
+├─ tests/             # 测试代码
+├─ logs/              # 运行与实验日志
+├─ .qa/               # 文档制作和检查的内部资料
+└─ backups/           # 修改前备份

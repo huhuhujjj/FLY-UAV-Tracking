@@ -1,0 +1,54 @@
+{
+  "status": "TECHNICAL_SNAPSHOT_VERIFIED_PENDING_LICENCE",
+  "media_records": 42311,
+  "source_components": {
+    "train_candidate": 169,
+    "validation_candidate": 45,
+    "final_test_candidate": 64,
+    "quarantine": 52
+  },
+  "technical_eligible_media": {
+    "DET-train": 3050,
+    "DET-val": 407,
+    "DET-test-dev": 1593,
+    "MOT-train": 10267,
+    "MOT-val": 349,
+    "MOT-test-dev": 3367
+  },
+  "archives_verified_sha256": {
+    "DET-train": {
+      "path": "model\\data\\raw\\archives\\DET-train.zip",
+      "sha256": "86a77eba93137bfc16e4993860de9245b0675c0dba0d3ab98fb458699e256f84"
+    },
+    "DET-val": {
+      "path": "model\\data\\raw\\archives\\DET-val.zip",
+      "sha256": "abeea063037e5d20398837deb11084e652402a34ddf4f207bdf541a6f2a35ef9"
+    },
+    "DET-test-dev": {
+      "path": "model\\data\\raw\\archives\\DET-test-dev.zip",
+      "sha256": "78b0c5078a14ee43d0b803a354e76016d7260d1704cfd1c2dc821858d839e261"
+    },
+    "MOT-train": {
+      "path": "model\\data\\raw\\archives\\MOT-train.zip",
+      "sha256": "566d08fb53fff4e539f386f5a408ccf17854fd53814dc756bdede2de1dbb4014"
+    },
+    "MOT-val": {
+      "path": "model\\data\\raw\\archives\\MOT-val.zip",
+      "sha256": "e53571990dfc79229e0a8ae10264bc4fa604a027c44b06e3a097417e4fa55705"
+    },
+    "MOT-test-dev": {
+      "path": "model\\data\\raw\\archives\\MOT-test-dev.zip",
+      "sha256": "758abe40bf20246e7e778ac61eaa557cf004b034b6e68e85006e5add68e17eb5"
+    }
+  },
+  "anomaly_records_exported": 37,
+  "member_integrity": "Archive SHA256 plus member CRC and size; CRC is not a standalone cryptographic member hash.",
+  "inputs_sha256": {
+    "independent_split_candidates.json": "3940b6ed1f8701aac10c8e28589a5449057f4ec60849fcfac56af8d391c29dc8",
+    "corpus_annotation_audit.json": "a34a05eb2481e42154a32d7e571917b5b7f669a307e5f6078511a36471daa538",
+    "full_media_overlap_audit.json": "81f1d82023e15d4c4f6b8a53b4f2c6211958763df472c67c0f5f7def2927dfa0",
+    "clean_det_candidates.json": "1be5b490d4d86d255dde3563851b273bbb182909d15909162686367dfa64a488"
+  },
+  "final_test_frozen": false,
+  "g1_passed": false
+}

@@ -1,0 +1,8247 @@
+{
+  "version": "split-candidates-1",
+  "status": "CANDIDATES_NOT_FROZEN",
+  "basis_sha256": "a34a05eb2481e42154a32d7e571917b5b7f669a307e5f6078511a36471daa538",
+  "group_rule": "conservative union by numeric source prefix across DET/MOT and official splits",
+  "limitations": [
+    "Prefix equality is a leakage warning, not proof of shared pixels.",
+    "Different prefixes may still depict the same place or recording.",
+    "Exact cross-stage pixel matches and media-boundary issues are quarantined when the full audit exists; perceptual near-duplicate candidates still require visual review.",
+    "Known MOT source-ID class conflicts and malformed DET boxes are quarantined.",
+    "Official test-dev labels inspected for data integrity only; never tune with them."
+  ],
+  "train_candidate": [
+    {
+      "source_prefix": "0000002",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000002",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 51,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000003",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000003",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 16,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000007",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000007",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 38,
+            "bus": 0,
+            "truck": 99
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000008",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000008",
+          "annotation_files": 7,
+          "selected_boxes": {
+            "car": 55,
+            "bus": 0,
+            "truck": 100
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000010",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000010",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 65,
+            "bus": 0,
+            "truck": 51
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000013",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000013",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000013_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 269
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000013_01073_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 58
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000013_01392_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 118
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000016",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000016",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000020",
+      "members": [
+        {
+          "split": "MOT-train",
+          "group": "uav0000020_00406_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 501
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000030",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000030",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 1,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000031",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000031",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000036",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000036",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000037",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000037",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000039",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000039",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000040",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000040",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000042",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000042",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 8,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000043",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000043",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 3,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000045",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000045",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 11,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000046",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000046",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000047",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000047",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 2,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000048",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000048",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000050",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000050",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000056",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000056",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000059",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000059",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 8,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000068",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000068",
+          "annotation_files": 14,
+          "selected_boxes": {
+            "car": 105,
+            "bus": 0,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000070",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000070",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 30,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000071",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000071",
+          "annotation_files": 13,
+          "selected_boxes": {
+            "car": 63,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000071_03240_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 1829,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 181
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000079",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000079",
+          "annotation_files": 8,
+          "selected_boxes": {
+            "car": 22,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000079_00480_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 20
+          },
+          "archive_frames": 361
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000080",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000080",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000084",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000084",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 1,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000084_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 516
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000085",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000085",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 3,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000098",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000098",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000099",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000099",
+          "annotation_files": 10,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000099_02109_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 1255
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000100",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000100",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000101",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000101",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 28,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000102",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000102",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 4,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000106",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000106",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 24,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000107",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000107",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 90,
+            "bus": 0,
+            "truck": 8
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000109",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000109",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 43,
+            "bus": 0,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000110",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000110",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 57,
+            "bus": 0,
+            "truck": 9
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000111",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000111",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 33,
+            "bus": 0,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000112",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000112",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 6,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000113",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000113",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 21,
+            "bus": 1,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000114",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000114",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 7,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000122",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000122",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 82,
+            "bus": 0,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000123",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000123",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 125,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000124",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000124",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 92,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000124_00944_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 33361,
+            "bus": 78,
+            "truck": 0
+          },
+          "archive_frames": 398
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000125",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000125",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 361,
+            "bus": 5,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000126",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000126",
+          "annotation_files": 7,
+          "selected_boxes": {
+            "car": 1123,
+            "bus": 32,
+            "truck": 5
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000126_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 43160,
+            "bus": 636,
+            "truck": 112
+          },
+          "archive_frames": 412
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000130",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000130",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 59,
+            "bus": 1,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000132",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000132",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 83,
+            "bus": 0,
+            "truck": 11
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000133",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000133",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 257,
+            "bus": 3,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000134",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000134",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 159,
+            "bus": 1,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000135",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000135",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 180,
+            "bus": 8,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000136",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000136",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 356,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000138",
+      "members": [
+        {
+          "split": "MOT-train",
+          "group": "uav0000138_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 12586,
+            "bus": 647,
+            "truck": 0
+          },
+          "archive_frames": 213
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000139",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000139",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 82,
+            "bus": 4,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000140",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000140",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 601,
+            "bus": 34,
+            "truck": 2
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000140_01590_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 11401,
+            "bus": 68,
+            "truck": 51
+          },
+          "archive_frames": 256
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000141",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000141",
+          "annotation_files": 7,
+          "selected_boxes": {
+            "car": 580,
+            "bus": 43,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000142",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000142",
+          "annotation_files": 20,
+          "selected_boxes": {
+            "car": 1705,
+            "bus": 131,
+            "truck": 5
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000143",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000143",
+          "annotation_files": 8,
+          "selected_boxes": {
+            "car": 727,
+            "bus": 49,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000143_02250_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 8861,
+            "bus": 379,
+            "truck": 189
+          },
+          "archive_frames": 261
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000144",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000144",
+          "annotation_files": 12,
+          "selected_boxes": {
+            "car": 62,
+            "bus": 2,
+            "truck": 13
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000145",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000145",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 23,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000145_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 1569,
+            "bus": 161,
+            "truck": 0
+          },
+          "archive_frames": 307
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000146",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000146",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 116,
+            "bus": 0,
+            "truck": 5
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000156",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000156",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 26,
+            "bus": 4,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000157",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000157",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 43,
+            "bus": 1,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000167",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000167",
+          "annotation_files": 9,
+          "selected_boxes": {
+            "car": 192,
+            "bus": 4,
+            "truck": 6
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000169",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000169",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 30,
+            "bus": 0,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000170",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000170",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 35,
+            "bus": 1,
+            "truck": 3
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000171",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000171",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 19,
+            "bus": 0,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000172",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000172",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 53,
+            "bus": 0,
+            "truck": 5
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000173",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000173",
+          "annotation_files": 8,
+          "selected_boxes": {
+            "car": 72,
+            "bus": 0,
+            "truck": 7
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000174",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000174",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 44,
+            "bus": 0,
+            "truck": 3
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000175",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000175",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 9,
+            "bus": 2,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000176",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000176",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 14,
+            "bus": 0,
+            "truck": 5
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000177",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000177",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 9,
+            "bus": 1,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000178",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000178",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 21,
+            "bus": 4,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000179",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000179",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 29,
+            "bus": 1,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000180",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000180",
+          "annotation_files": 9,
+          "selected_boxes": {
+            "car": 65,
+            "bus": 1,
+            "truck": 5
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000181",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000181",
+          "annotation_files": 8,
+          "selected_boxes": {
+            "car": 95,
+            "bus": 1,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000195",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000195",
+          "annotation_files": 9,
+          "selected_boxes": {
+            "car": 178,
+            "bus": 0,
+            "truck": 8
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000197",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000197",
+          "annotation_files": 9,
+          "selected_boxes": {
+            "car": 258,
+            "bus": 0,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000198",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000198",
+          "annotation_files": 7,
+          "selected_boxes": {
+            "car": 129,
+            "bus": 0,
+            "truck": 23
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000200",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000200",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 33,
+            "bus": 0,
+            "truck": 14
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000204",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000204",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 185,
+            "bus": 6,
+            "truck": 23
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000205",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000205",
+          "annotation_files": 7,
+          "selected_boxes": {
+            "car": 231,
+            "bus": 5,
+            "truck": 26
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000206",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000206",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 28,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000209",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000209",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 21,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000210",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000210",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 26,
+            "bus": 2,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000214",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000214",
+          "annotation_files": 8,
+          "selected_boxes": {
+            "car": 188,
+            "bus": 2,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000217",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000217",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 8,
+            "bus": 0,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000218",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000218",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 34,
+            "bus": 0,
+            "truck": 6
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000218_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 1105,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 225
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000219",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000219",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 9,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000221",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000221",
+          "annotation_files": 9,
+          "selected_boxes": {
+            "car": 192,
+            "bus": 10,
+            "truck": 78
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000222",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000222",
+          "annotation_files": 16,
+          "selected_boxes": {
+            "car": 518,
+            "bus": 16,
+            "truck": 75
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000222_03150_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 8279,
+            "bus": 1044,
+            "truck": 1559
+          },
+          "archive_frames": 421
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000224",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000224",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 218,
+            "bus": 3,
+            "truck": 21
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000225",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000225",
+          "annotation_files": 16,
+          "selected_boxes": {
+            "car": 707,
+            "bus": 5,
+            "truck": 18
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000226",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000226",
+          "annotation_files": 18,
+          "selected_boxes": {
+            "car": 1332,
+            "bus": 15,
+            "truck": 51
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000227",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000227",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 145,
+            "bus": 0,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000228",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000228",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 317,
+            "bus": 5,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000229",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000229",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 229,
+            "bus": 3,
+            "truck": 6
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000235",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000235",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 31,
+            "bus": 1,
+            "truck": 9
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000236",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000236",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 17,
+            "bus": 1,
+            "truck": 7
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000238",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000238",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 83,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000240",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000240",
+          "annotation_files": 8,
+          "selected_boxes": {
+            "car": 97,
+            "bus": 2,
+            "truck": 9
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000243",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000243",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 218,
+            "bus": 0,
+            "truck": 4
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000243_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 13680,
+            "bus": 0,
+            "truck": 250
+          },
+          "archive_frames": 768
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000247",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000247",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 42,
+            "bus": 1,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000251",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000251",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 154,
+            "bus": 7,
+            "truck": 7
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000252",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000252",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 188,
+            "bus": 3,
+            "truck": 8
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000254",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000254",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 71,
+            "bus": 0,
+            "truck": 5
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000257",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000257",
+          "annotation_files": 25,
+          "selected_boxes": {
+            "car": 913,
+            "bus": 35,
+            "truck": 81
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000258",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000258",
+          "annotation_files": 12,
+          "selected_boxes": {
+            "car": 375,
+            "bus": 6,
+            "truck": 21
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000260",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000260",
+          "annotation_files": 13,
+          "selected_boxes": {
+            "car": 361,
+            "bus": 0,
+            "truck": 10
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000261",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000261",
+          "annotation_files": 21,
+          "selected_boxes": {
+            "car": 300,
+            "bus": 3,
+            "truck": 11
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000266",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000266",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 4,
+            "bus": 1,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000266_03598_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 1734,
+            "bus": 0,
+            "truck": 170
+          },
+          "archive_frames": 548
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000266_04830_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 257,
+            "bus": 0,
+            "truck": 101
+          },
+          "archive_frames": 116
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000267",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000267",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 5,
+            "bus": 1,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000270",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000270",
+          "annotation_files": 7,
+          "selected_boxes": {
+            "car": 263,
+            "bus": 1,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000270_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 22218,
+            "bus": 251,
+            "truck": 0
+          },
+          "archive_frames": 680
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000275",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000275",
+          "annotation_files": 9,
+          "selected_boxes": {
+            "car": 338,
+            "bus": 3,
+            "truck": 109
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000279",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000279",
+          "annotation_files": 16,
+          "selected_boxes": {
+            "car": 946,
+            "bus": 23,
+            "truck": 34
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000279_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 34016,
+            "bus": 0,
+            "truck": 1488
+          },
+          "archive_frames": 547
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000284",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000284",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 24,
+            "bus": 2,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000304",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000304",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 42,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000307",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000307",
+          "annotation_files": 11,
+          "selected_boxes": {
+            "car": 370,
+            "bus": 8,
+            "truck": 47
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000307_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 5252,
+            "bus": 122,
+            "truck": 797
+          },
+          "archive_frames": 414
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000318",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000318",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 35,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000322",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000322",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 169,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000325",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000325",
+          "annotation_files": 28,
+          "selected_boxes": {
+            "car": 1334,
+            "bus": 25,
+            "truck": 166
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000326",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000326",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 73,
+            "bus": 1,
+            "truck": 2
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000326_01035_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 17295,
+            "bus": 623,
+            "truck": 956
+          },
+          "archive_frames": 369
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000329",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000329",
+          "annotation_files": 14,
+          "selected_boxes": {
+            "car": 308,
+            "bus": 1,
+            "truck": 2
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000329_04715_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 4501,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 196
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000331",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000331",
+          "annotation_files": 27,
+          "selected_boxes": {
+            "car": 790,
+            "bus": 11,
+            "truck": 33
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000334",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000334",
+          "annotation_files": 22,
+          "selected_boxes": {
+            "car": 728,
+            "bus": 4,
+            "truck": 16
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000338",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000338",
+          "annotation_files": 11,
+          "selected_boxes": {
+            "car": 277,
+            "bus": 0,
+            "truck": 5
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000343",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000343",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 53,
+            "bus": 1,
+            "truck": 5
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000344",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000344",
+          "annotation_files": 10,
+          "selected_boxes": {
+            "car": 391,
+            "bus": 7,
+            "truck": 19
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000349",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000349",
+          "annotation_files": 12,
+          "selected_boxes": {
+            "car": 166,
+            "bus": 0,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000351",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000351",
+          "annotation_files": 18,
+          "selected_boxes": {
+            "car": 663,
+            "bus": 2,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000352",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000352",
+          "annotation_files": 32,
+          "selected_boxes": {
+            "car": 1251,
+            "bus": 0,
+            "truck": 28
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000352_05980_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 7117,
+            "bus": 0,
+            "truck": 34
+          },
+          "archive_frames": 196
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000361",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000361",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 115,
+            "bus": 3,
+            "truck": 19
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000361_02323_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 7388,
+            "bus": 219,
+            "truck": 438
+          },
+          "archive_frames": 219
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000363",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000363",
+          "annotation_files": 12,
+          "selected_boxes": {
+            "car": 35,
+            "bus": 0,
+            "truck": 30
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000363_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 3550,
+            "bus": 215,
+            "truck": 319
+          },
+          "archive_frames": 462
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999937",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999937",
+          "annotation_files": 228,
+          "selected_boxes": {
+            "car": 2026,
+            "bus": 42,
+            "truck": 698
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999940",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999940",
+          "annotation_files": 101,
+          "selected_boxes": {
+            "car": 2429,
+            "bus": 285,
+            "truck": 454
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999942",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999942",
+          "annotation_files": 270,
+          "selected_boxes": {
+            "car": 3863,
+            "bus": 28,
+            "truck": 373
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999943",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999943",
+          "annotation_files": 92,
+          "selected_boxes": {
+            "car": 2535,
+            "bus": 88,
+            "truck": 95
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999945",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999945",
+          "annotation_files": 179,
+          "selected_boxes": {
+            "car": 5401,
+            "bus": 54,
+            "truck": 74
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999948",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999948",
+          "annotation_files": 41,
+          "selected_boxes": {
+            "car": 872,
+            "bus": 4,
+            "truck": 16
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999950",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999950",
+          "annotation_files": 90,
+          "selected_boxes": {
+            "car": 1355,
+            "bus": 33,
+            "truck": 7
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999951",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999951",
+          "annotation_files": 334,
+          "selected_boxes": {
+            "car": 7248,
+            "bus": 842,
+            "truck": 1173
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999953",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999953",
+          "annotation_files": 233,
+          "selected_boxes": {
+            "car": 2209,
+            "bus": 219,
+            "truck": 246
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999955",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999955",
+          "annotation_files": 434,
+          "selected_boxes": {
+            "car": 6313,
+            "bus": 1874,
+            "truck": 648
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999956",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999956",
+          "annotation_files": 118,
+          "selected_boxes": {
+            "car": 2013,
+            "bus": 250,
+            "truck": 366
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999960",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999960",
+          "annotation_files": 185,
+          "selected_boxes": {
+            "car": 4884,
+            "bus": 0,
+            "truck": 93
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999962",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999962",
+          "annotation_files": 166,
+          "selected_boxes": {
+            "car": 2996,
+            "bus": 61,
+            "truck": 183
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999964",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999964",
+          "annotation_files": 84,
+          "selected_boxes": {
+            "car": 3841,
+            "bus": 24,
+            "truck": 99
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999965",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999965",
+          "annotation_files": 79,
+          "selected_boxes": {
+            "car": 2830,
+            "bus": 54,
+            "truck": 179
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999966",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999966",
+          "annotation_files": 140,
+          "selected_boxes": {
+            "car": 3582,
+            "bus": 124,
+            "truck": 100
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999967",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999967",
+          "annotation_files": 67,
+          "selected_boxes": {
+            "car": 1881,
+            "bus": 53,
+            "truck": 23
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999969",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999969",
+          "annotation_files": 70,
+          "selected_boxes": {
+            "car": 1747,
+            "bus": 46,
+            "truck": 51
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999970",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999970",
+          "annotation_files": 47,
+          "selected_boxes": {
+            "car": 1300,
+            "bus": 54,
+            "truck": 50
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999972",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999972",
+          "annotation_files": 162,
+          "selected_boxes": {
+            "car": 2474,
+            "bus": 14,
+            "truck": 180
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999974",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999974",
+          "annotation_files": 57,
+          "selected_boxes": {
+            "car": 805,
+            "bus": 3,
+            "truck": 133
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999975",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999975",
+          "annotation_files": 34,
+          "selected_boxes": {
+            "car": 2273,
+            "bus": 0,
+            "truck": 42
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999977",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999977",
+          "annotation_files": 101,
+          "selected_boxes": {
+            "car": 2068,
+            "bus": 74,
+            "truck": 33
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999981",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999981",
+          "annotation_files": 157,
+          "selected_boxes": {
+            "car": 2370,
+            "bus": 15,
+            "truck": 156
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999982",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999982",
+          "annotation_files": 257,
+          "selected_boxes": {
+            "car": 4388,
+            "bus": 161,
+            "truck": 1125
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999984",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999984",
+          "annotation_files": 175,
+          "selected_boxes": {
+            "car": 2697,
+            "bus": 145,
+            "truck": 1221
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999987",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999987",
+          "annotation_files": 70,
+          "selected_boxes": {
+            "car": 200,
+            "bus": 0,
+            "truck": 22
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999989",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999989",
+          "annotation_files": 13,
+          "selected_boxes": {
+            "car": 153,
+            "bus": 10,
+            "truck": 12
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999990",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999990",
+          "annotation_files": 81,
+          "selected_boxes": {
+            "car": 1196,
+            "bus": 53,
+            "truck": 187
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999991",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999991",
+          "annotation_files": 33,
+          "selected_boxes": {
+            "car": 840,
+            "bus": 45,
+            "truck": 199
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999994",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999994",
+          "annotation_files": 119,
+          "selected_boxes": {
+            "car": 6911,
+            "bus": 111,
+            "truck": 447
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999997",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999997",
+          "annotation_files": 70,
+          "selected_boxes": {
+            "car": 815,
+            "bus": 32,
+            "truck": 24
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999998",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999998",
+          "annotation_files": 366,
+          "selected_boxes": {
+            "car": 11231,
+            "bus": 193,
+            "truck": 581
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    }
+  ],
+  "validation_candidate": [
+    {
+      "source_prefix": "0000001",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000001",
+          "annotation_files": 9,
+          "selected_boxes": {
+            "car": 249,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000021",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000021",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000022",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000022",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000023",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000023",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 1,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000024",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000024",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000026",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000026",
+          "annotation_files": 11,
+          "selected_boxes": {
+            "car": 153,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000055",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000055",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000069",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000069",
+          "annotation_files": 7,
+          "selected_boxes": {
+            "car": 24,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000081",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000081",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000103",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000103",
+          "annotation_files": 10,
+          "selected_boxes": {
+            "car": 9,
+            "bus": 0,
+            "truck": 3
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000115",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000115",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 33,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000116",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000116",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 45,
+            "bus": 0,
+            "truck": 3
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000117",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000117",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 67,
+            "bus": 0,
+            "truck": 3
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000117_02622_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 4126,
+            "bus": 0,
+            "truck": 456
+          },
+          "archive_frames": 349
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000129",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000129",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 90,
+            "bus": 0,
+            "truck": 7
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000153",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000153",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 60,
+            "bus": 5,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000154",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000154",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 85,
+            "bus": 1,
+            "truck": 6
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000155",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000155",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 103,
+            "bus": 3,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000162",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000162",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 35,
+            "bus": 0,
+            "truck": 14
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000163",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000163",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 21,
+            "bus": 0,
+            "truck": 7
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000193",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000193",
+          "annotation_files": 9,
+          "selected_boxes": {
+            "car": 52,
+            "bus": 0,
+            "truck": 6
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000194",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000194",
+          "annotation_files": 7,
+          "selected_boxes": {
+            "car": 72,
+            "bus": 4,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000213",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000213",
+          "annotation_files": 8,
+          "selected_boxes": {
+            "car": 363,
+            "bus": 1,
+            "truck": 12
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000215",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000215",
+          "annotation_files": 9,
+          "selected_boxes": {
+            "car": 297,
+            "bus": 0,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000216",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000216",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 50,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000242",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000242",
+          "annotation_files": 18,
+          "selected_boxes": {
+            "car": 328,
+            "bus": 5,
+            "truck": 18
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000253",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000253",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 79,
+            "bus": 1,
+            "truck": 6
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000269",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000269",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 150,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000271",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000271",
+          "annotation_files": 27,
+          "selected_boxes": {
+            "car": 846,
+            "bus": 2,
+            "truck": 68
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000276",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000276",
+          "annotation_files": 27,
+          "selected_boxes": {
+            "car": 436,
+            "bus": 15,
+            "truck": 180
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000277",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000277",
+          "annotation_files": 18,
+          "selected_boxes": {
+            "car": 791,
+            "bus": 5,
+            "truck": 33
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000280",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000280",
+          "annotation_files": 18,
+          "selected_boxes": {
+            "car": 809,
+            "bus": 22,
+            "truck": 16
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000283",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000283",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 22,
+            "bus": 0,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000287",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000287",
+          "annotation_files": 20,
+          "selected_boxes": {
+            "car": 529,
+            "bus": 0,
+            "truck": 20
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000291",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000291",
+          "annotation_files": 21,
+          "selected_boxes": {
+            "car": 719,
+            "bus": 25,
+            "truck": 34
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000296",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000296",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 85,
+            "bus": 8,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000301",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000301",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 108,
+            "bus": 2,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000312",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000312",
+          "annotation_files": 8,
+          "selected_boxes": {
+            "car": 285,
+            "bus": 0,
+            "truck": 5
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000327",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000327",
+          "annotation_files": 18,
+          "selected_boxes": {
+            "car": 606,
+            "bus": 9,
+            "truck": 24
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000330",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000330",
+          "annotation_files": 19,
+          "selected_boxes": {
+            "car": 690,
+            "bus": 0,
+            "truck": 10
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000333",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000333",
+          "annotation_files": 12,
+          "selected_boxes": {
+            "car": 407,
+            "bus": 3,
+            "truck": 14
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000335",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000335",
+          "annotation_files": 22,
+          "selected_boxes": {
+            "car": 443,
+            "bus": 2,
+            "truck": 9
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000346",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000346",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 153,
+            "bus": 3,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000356",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000356",
+          "annotation_files": 18,
+          "selected_boxes": {
+            "car": 576,
+            "bus": 9,
+            "truck": 31
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000359",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000359",
+          "annotation_files": 11,
+          "selected_boxes": {
+            "car": 156,
+            "bus": 1,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000364",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000364",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 20,
+            "bus": 1,
+            "truck": 15
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    }
+  ],
+  "final_test_candidate": [
+    {
+      "source_prefix": "0000006",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000006",
+          "annotation_files": 16,
+          "selected_boxes": {
+            "car": 193,
+            "bus": 0,
+            "truck": 222
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000009",
+      "members": [
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000009_03358_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 8201,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 219
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000011",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000011",
+          "annotation_files": 10,
+          "selected_boxes": {
+            "car": 7,
+            "bus": 1,
+            "truck": 5
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000054",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000054",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 1,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000063",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000063",
+          "annotation_files": 13,
+          "selected_boxes": {
+            "car": 34,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000066",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000066",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000073",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000073",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 4,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000073_00600_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 328
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000073_04464_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 67,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 312
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000074",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000074",
+          "annotation_files": 21,
+          "selected_boxes": {
+            "car": 32,
+            "bus": 3,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000077",
+      "members": [
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000077_00720_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 8068,
+            "bus": 0,
+            "truck": 6017
+          },
+          "archive_frames": 780
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000078",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000078",
+          "annotation_files": 18,
+          "selected_boxes": {
+            "car": 27,
+            "bus": 1,
+            "truck": 157
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000083",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000083",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000087",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000087",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000088",
+      "members": [
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000088_00290_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 296
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000105",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000105",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 114,
+            "bus": 2,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000118",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000118",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 84,
+            "bus": 0,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000119",
+      "members": [
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000119_02301_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 3144,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 179
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000127",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000127",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 260,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000152",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000152",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 41,
+            "bus": 0,
+            "truck": 3
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000161",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000161",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 20,
+            "bus": 1,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000161_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 6348,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 308
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000164",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000164",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 57,
+            "bus": 0,
+            "truck": 15
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000183",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000183",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 33,
+            "bus": 0,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000184",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000184",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 24,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000186",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000186",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 30,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000187",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000187",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 44,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000188",
+      "members": [
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000188_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 5885,
+            "bus": 0,
+            "truck": 291
+          },
+          "archive_frames": 260
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000189",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000189",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 21,
+            "bus": 0,
+            "truck": 3
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000190",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000190",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 30,
+            "bus": 0,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000192",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000192",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 14,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000207",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000207",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 177,
+            "bus": 9,
+            "truck": 14
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000250",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000250",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 22,
+            "bus": 1,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000259",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000259",
+          "annotation_files": 7,
+          "selected_boxes": {
+            "car": 123,
+            "bus": 0,
+            "truck": 6
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000265",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000265",
+          "annotation_files": 8,
+          "selected_boxes": {
+            "car": 340,
+            "bus": 1,
+            "truck": 32
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000272",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000272",
+          "annotation_files": 10,
+          "selected_boxes": {
+            "car": 356,
+            "bus": 0,
+            "truck": 15
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000282",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000282",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 8,
+            "bus": 1,
+            "truck": 3
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000294",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000294",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 36,
+            "bus": 5,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000298",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000298",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 46,
+            "bus": 1,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000299",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000299",
+          "annotation_files": 10,
+          "selected_boxes": {
+            "car": 311,
+            "bus": 3,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000302",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000302",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 56,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000306",
+      "members": [
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000306_00230_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 6534,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 420
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000310",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000310",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 78,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000314",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000314",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 45,
+            "bus": 0,
+            "truck": 8
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000320",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000320",
+          "annotation_files": 12,
+          "selected_boxes": {
+            "car": 262,
+            "bus": 0,
+            "truck": 5
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000321",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000321",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 159,
+            "bus": 3,
+            "truck": 5
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000328",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000328",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 137,
+            "bus": 0,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000337",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000337",
+          "annotation_files": 9,
+          "selected_boxes": {
+            "car": 172,
+            "bus": 0,
+            "truck": 7
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000347",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000347",
+          "annotation_files": 7,
+          "selected_boxes": {
+            "car": 234,
+            "bus": 0,
+            "truck": 12
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000353",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000353",
+          "annotation_files": 11,
+          "selected_boxes": {
+            "car": 282,
+            "bus": 0,
+            "truck": 5
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000365",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000365",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 15,
+            "bus": 0,
+            "truck": 9
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000369",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000369",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 5,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "0000370",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000370",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 5,
+            "bus": 1,
+            "truck": 7
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000370_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 1004,
+            "bus": 0,
+            "truck": 1282
+          },
+          "archive_frames": 265
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999938",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999938",
+          "annotation_files": 516,
+          "selected_boxes": {
+            "car": 8790,
+            "bus": 1314,
+            "truck": 259
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999941",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999941",
+          "annotation_files": 35,
+          "selected_boxes": {
+            "car": 356,
+            "bus": 43,
+            "truck": 48
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999944",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999944",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 17,
+            "bus": 0,
+            "truck": 32
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999947",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999947",
+          "annotation_files": 27,
+          "selected_boxes": {
+            "car": 699,
+            "bus": 23,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999952",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999952",
+          "annotation_files": 345,
+          "selected_boxes": {
+            "car": 6049,
+            "bus": 1291,
+            "truck": 1191
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999963",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999963",
+          "annotation_files": 76,
+          "selected_boxes": {
+            "car": 1233,
+            "bus": 29,
+            "truck": 37
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999971",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999971",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999973",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999973",
+          "annotation_files": 151,
+          "selected_boxes": {
+            "car": 3167,
+            "bus": 30,
+            "truck": 291
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999976",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999976",
+          "annotation_files": 34,
+          "selected_boxes": {
+            "car": 313,
+            "bus": 3,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999979",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999979",
+          "annotation_files": 53,
+          "selected_boxes": {
+            "car": 1503,
+            "bus": 33,
+            "truck": 8
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999980",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999980",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 49,
+            "bus": 1,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999986",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999986",
+          "annotation_files": 58,
+          "selected_boxes": {
+            "car": 323,
+            "bus": 26,
+            "truck": 48
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999993",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999993",
+          "annotation_files": 24,
+          "selected_boxes": {
+            "car": 578,
+            "bus": 25,
+            "truck": 128
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    },
+    {
+      "source_prefix": "9999996",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "9999996",
+          "annotation_files": 29,
+          "selected_boxes": {
+            "car": 609,
+            "bus": 82,
+            "truck": 16
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY"
+    }
+  ],
+  "quarantine": [
+    {
+      "source_prefix": "0000072",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000072",
+          "annotation_files": 13,
+          "selected_boxes": {
+            "car": 52,
+            "bus": 0,
+            "truck": 3
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000072",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 1,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000072_04488_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 416,
+            "bus": 0,
+            "truck": 102
+          },
+          "archive_frames": 85
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000072_05448_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 1108,
+            "bus": 0,
+            "truck": 185
+          },
+          "archive_frames": 217
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000072_06432_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 764,
+            "bus": 0,
+            "truck": 39
+          },
+          "archive_frames": 97
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000076",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000076",
+          "annotation_files": 18,
+          "selected_boxes": {
+            "car": 44,
+            "bus": 0,
+            "truck": 234
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000076",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 6
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000076_00720_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 1872,
+            "bus": 0,
+            "truck": 1402
+          },
+          "archive_frames": 361
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000086",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000086",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000086_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 0,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 464
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "visually_related_cross_task_source"
+      ]
+    },
+    {
+      "source_prefix": "0000120",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000120",
+          "annotation_files": 10,
+          "selected_boxes": {
+            "car": 170,
+            "bus": 4,
+            "truck": 7
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000120_04775_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 16234,
+            "bus": 83,
+            "truck": 923
+          },
+          "archive_frames": 1000
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict"
+      ]
+    },
+    {
+      "source_prefix": "0000137",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000137",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 431,
+            "bus": 10,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000137_00458_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 6574,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 233
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000150",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000150",
+          "annotation_files": 9,
+          "selected_boxes": {
+            "car": 208,
+            "bus": 9,
+            "truck": 12
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000150_02310_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 7515,
+            "bus": 0,
+            "truck": 767
+          },
+          "archive_frames": 348
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict",
+        "media_boundary_issue"
+      ]
+    },
+    {
+      "source_prefix": "0000165",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000165",
+          "annotation_files": 23,
+          "selected_boxes": {
+            "car": 414,
+            "bus": 0,
+            "truck": 2
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000165",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 12,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000166",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000166",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 64,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000166",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 16,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000182",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000182",
+          "annotation_files": 7,
+          "selected_boxes": {
+            "car": 94,
+            "bus": 1,
+            "truck": 5
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000182_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 5848,
+            "bus": 0,
+            "truck": 359
+          },
+          "archive_frames": 363
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000196",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000196",
+          "annotation_files": 10,
+          "selected_boxes": {
+            "car": 157,
+            "bus": 0,
+            "truck": 4
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000196",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 7,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000199",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000199",
+          "annotation_files": 5,
+          "selected_boxes": {
+            "car": 97,
+            "bus": 8,
+            "truck": 16
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000199",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 8,
+            "bus": 1,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000201",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000201",
+          "annotation_files": 9,
+          "selected_boxes": {
+            "car": 106,
+            "bus": 0,
+            "truck": 40
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000201_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 6147,
+            "bus": 0,
+            "truck": 3042
+          },
+          "archive_frames": 677
+        }
+      ],
+      "stages_present": [
+        "final_test",
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict",
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000220",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000220",
+          "annotation_files": 14,
+          "selected_boxes": {
+            "car": 201,
+            "bus": 14,
+            "truck": 97
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000220",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 16,
+            "bus": 3,
+            "truck": 6
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000223",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000223",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 238,
+            "bus": 3,
+            "truck": 32
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000223",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 38,
+            "bus": 0,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000237",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000237",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 5,
+            "bus": 0,
+            "truck": 5
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000237",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 5,
+            "bus": 1,
+            "truck": 4
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000239",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000239",
+          "annotation_files": 31,
+          "selected_boxes": {
+            "car": 789,
+            "bus": 6,
+            "truck": 37
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000239_03720_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 8622,
+            "bus": 214,
+            "truck": 541
+          },
+          "archive_frames": 680
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000239_12336_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 7987,
+            "bus": 94,
+            "truck": 25
+          },
+          "archive_frames": 341
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict"
+      ]
+    },
+    {
+      "source_prefix": "0000244",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000244",
+          "annotation_files": 14,
+          "selected_boxes": {
+            "car": 565,
+            "bus": 18,
+            "truck": 67
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000244_01440_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 22292,
+            "bus": 1380,
+            "truck": 2343
+          },
+          "archive_frames": 721
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict",
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000248",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000248",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 27,
+            "bus": 1,
+            "truck": 1
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000248_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 14751,
+            "bus": 677,
+            "truck": 1969
+          },
+          "archive_frames": 677
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict"
+      ]
+    },
+    {
+      "source_prefix": "0000249",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000249",
+          "annotation_files": 11,
+          "selected_boxes": {
+            "car": 375,
+            "bus": 12,
+            "truck": 22
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000249_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 6022,
+            "bus": 0,
+            "truck": 336
+          },
+          "archive_frames": 360
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000249_02688_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 5019,
+            "bus": 247,
+            "truck": 152
+          },
+          "archive_frames": 244
+        }
+      ],
+      "stages_present": [
+        "final_test",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "media_boundary_issue",
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000256",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000256",
+          "annotation_files": 23,
+          "selected_boxes": {
+            "car": 457,
+            "bus": 30,
+            "truck": 140
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000256",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 62,
+            "bus": 4,
+            "truck": 19
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000263",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000263",
+          "annotation_files": 11,
+          "selected_boxes": {
+            "car": 111,
+            "bus": 7,
+            "truck": 27
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000263",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 9,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000263_03289_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 1519,
+            "bus": 757,
+            "truck": 1660
+          },
+          "archive_frames": 725
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000264",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000264",
+          "annotation_files": 23,
+          "selected_boxes": {
+            "car": 333,
+            "bus": 15,
+            "truck": 87
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000264_02760_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 7161,
+            "bus": 224,
+            "truck": 2658
+          },
+          "archive_frames": 616
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict"
+      ]
+    },
+    {
+      "source_prefix": "0000268",
+      "members": [
+        {
+          "split": "MOT-val",
+          "group": "uav0000268_05773_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 8688,
+            "bus": 0,
+            "truck": 330
+          },
+          "archive_frames": 978
+        }
+      ],
+      "stages_present": [
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict"
+      ]
+    },
+    {
+      "source_prefix": "0000273",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000273",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 95,
+            "bus": 1,
+            "truck": 41
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000273",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 21,
+            "bus": 0,
+            "truck": 7
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000273_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 13969,
+            "bus": 261,
+            "truck": 7514
+          },
+          "archive_frames": 872
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict",
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000278",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000278",
+          "annotation_files": 4,
+          "selected_boxes": {
+            "car": 233,
+            "bus": 0,
+            "truck": 12
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000278_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 28050,
+            "bus": 192,
+            "truck": 1575
+          },
+          "archive_frames": 962
+        }
+      ],
+      "stages_present": [
+        "final_test",
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict",
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000281",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000281",
+          "annotation_files": 13,
+          "selected_boxes": {
+            "car": 461,
+            "bus": 13,
+            "truck": 17
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000281_00460_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 13201,
+            "bus": 0,
+            "truck": 304
+          },
+          "archive_frames": 508
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict"
+      ]
+    },
+    {
+      "source_prefix": "0000288",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000288",
+          "annotation_files": 19,
+          "selected_boxes": {
+            "car": 207,
+            "bus": 0,
+            "truck": 3
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000288_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 16018,
+            "bus": 0,
+            "truck": 147
+          },
+          "archive_frames": 1424
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict"
+      ]
+    },
+    {
+      "source_prefix": "0000289",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000289",
+          "annotation_files": 35,
+          "selected_boxes": {
+            "car": 746,
+            "bus": 4,
+            "truck": 8
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 9122,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 500
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000289_06922_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 4730,
+            "bus": 0,
+            "truck": 113
+          },
+          "archive_frames": 210
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000290",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000290",
+          "annotation_files": 16,
+          "selected_boxes": {
+            "car": 941,
+            "bus": 23,
+            "truck": 69
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000290",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 39,
+            "bus": 0,
+            "truck": 3
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000293",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000293",
+          "annotation_files": 9,
+          "selected_boxes": {
+            "car": 602,
+            "bus": 35,
+            "truck": 2
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000293",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 53,
+            "bus": 1,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict",
+        "media_boundary_issue",
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000295",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000295",
+          "annotation_files": 13,
+          "selected_boxes": {
+            "car": 1046,
+            "bus": 74,
+            "truck": 2
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000295_02300_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 15897,
+            "bus": 582,
+            "truck": 45
+          },
+          "archive_frames": 346
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "media_boundary_issue",
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000297",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000297",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 166,
+            "bus": 15,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000297_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 4330,
+            "bus": 298,
+            "truck": 0
+          },
+          "archive_frames": 146
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000297_02761_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 17180,
+            "bus": 737,
+            "truck": 0
+          },
+          "archive_frames": 373
+        }
+      ],
+      "stages_present": [
+        "final_test",
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000300",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000300",
+          "annotation_files": 12,
+          "selected_boxes": {
+            "car": 586,
+            "bus": 5,
+            "truck": 6
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000300",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 33,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000300_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 10308,
+            "bus": 407,
+            "truck": 210
+          },
+          "archive_frames": 556
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000303",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000303",
+          "annotation_files": 12,
+          "selected_boxes": {
+            "car": 407,
+            "bus": 15,
+            "truck": 4
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000303",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 32,
+            "bus": 1,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000305",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000305",
+          "annotation_files": 14,
+          "selected_boxes": {
+            "car": 202,
+            "bus": 2,
+            "truck": 4
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000305_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 3618,
+            "bus": 264,
+            "truck": 77
+          },
+          "archive_frames": 184
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000308",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000308",
+          "annotation_files": 11,
+          "selected_boxes": {
+            "car": 165,
+            "bus": 5,
+            "truck": 1
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000308",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 26,
+            "bus": 2,
+            "truck": 0
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000308_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 2856,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 230
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000308_01380_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 1037,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 185
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "media_boundary_issue",
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000309",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000309",
+          "annotation_files": 23,
+          "selected_boxes": {
+            "car": 564,
+            "bus": 0,
+            "truck": 8
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000309_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 5706,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": 403
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "media_boundary_issue"
+      ]
+    },
+    {
+      "source_prefix": "0000313",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000313",
+          "annotation_files": 21,
+          "selected_boxes": {
+            "car": 458,
+            "bus": 1,
+            "truck": 10
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000313",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 148,
+            "bus": 0,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000315",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000315",
+          "annotation_files": 8,
+          "selected_boxes": {
+            "car": 268,
+            "bus": 0,
+            "truck": 22
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000315",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 34,
+            "bus": 0,
+            "truck": 4
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000315_00000_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 11859,
+            "bus": 0,
+            "truck": 332
+          },
+          "archive_frames": 632
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "media_boundary_issue",
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000316",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000316",
+          "annotation_files": 12,
+          "selected_boxes": {
+            "car": 112,
+            "bus": 0,
+            "truck": 10
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000316_01288_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 1133,
+            "bus": 0,
+            "truck": 142
+          },
+          "archive_frames": 127
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000323",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000323",
+          "annotation_files": 7,
+          "selected_boxes": {
+            "car": 246,
+            "bus": 4,
+            "truck": 8
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000323",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 48,
+            "bus": 1,
+            "truck": 4
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000323_01173_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 12647,
+            "bus": 210,
+            "truck": 327
+          },
+          "archive_frames": 426
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "media_boundary_issue",
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000339",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000339",
+          "annotation_files": 18,
+          "selected_boxes": {
+            "car": 458,
+            "bus": 0,
+            "truck": 46
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-val",
+          "group": "uav0000339_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 2967,
+            "bus": 0,
+            "truck": 137
+          },
+          "archive_frames": 275
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": true,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000342",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000342",
+          "annotation_files": 26,
+          "selected_boxes": {
+            "car": 609,
+            "bus": 0,
+            "truck": 57
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000342",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 50,
+            "bus": 0,
+            "truck": 3
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000342_04692_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 5507,
+            "bus": 0,
+            "truck": 581
+          },
+          "archive_frames": 277
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000345",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000345",
+          "annotation_files": 12,
+          "selected_boxes": {
+            "car": 307,
+            "bus": 4,
+            "truck": 1
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000345",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 17,
+            "bus": 0,
+            "truck": 0
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000348",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000348",
+          "annotation_files": 22,
+          "selected_boxes": {
+            "car": 102,
+            "bus": 0,
+            "truck": 12
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000348",
+          "annotation_files": 2,
+          "selected_boxes": {
+            "car": 1,
+            "bus": 0,
+            "truck": 1
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000355",
+      "members": [
+        {
+          "split": "DET-test-dev",
+          "group": "0000355",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 46,
+            "bus": 3,
+            "truck": 25
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-test-dev",
+          "group": "uav0000355_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 5544,
+            "bus": 171,
+            "truck": 1665
+          },
+          "archive_frames": 468
+        }
+      ],
+      "stages_present": [
+        "final_test"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict"
+      ]
+    },
+    {
+      "source_prefix": "0000357",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000357",
+          "annotation_files": 3,
+          "selected_boxes": {
+            "car": 66,
+            "bus": 0,
+            "truck": 2
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000357_00920_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 14551,
+            "bus": 212,
+            "truck": 521
+          },
+          "archive_frames": 691
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict"
+      ]
+    },
+    {
+      "source_prefix": "0000358",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000358",
+          "annotation_files": 6,
+          "selected_boxes": {
+            "car": 171,
+            "bus": 0,
+            "truck": 11
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "DET-val",
+          "group": "0000358",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 47,
+            "bus": 0,
+            "truck": 2
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000360",
+      "members": [
+        {
+          "split": "DET-val",
+          "group": "0000360",
+          "annotation_files": 23,
+          "selected_boxes": {
+            "car": 450,
+            "bus": 2,
+            "truck": 4
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000360_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 10650,
+            "bus": 0,
+            "truck": 300
+          },
+          "archive_frames": 421
+        }
+      ],
+      "stages_present": [
+        "train",
+        "validation"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "source_prefix_spans_proposed_stages"
+      ]
+    },
+    {
+      "source_prefix": "0000366",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "0000366",
+          "annotation_files": 25,
+          "selected_boxes": {
+            "car": 644,
+            "bus": 45,
+            "truck": 10
+          },
+          "archive_frames": null
+        },
+        {
+          "split": "MOT-train",
+          "group": "uav0000366_00001_v",
+          "annotation_files": 1,
+          "selected_boxes": {
+            "car": 14894,
+            "bus": 0,
+            "truck": 212
+          },
+          "archive_frames": 296
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "media_boundary_issue"
+      ]
+    },
+    {
+      "source_prefix": "9999985",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999985",
+          "annotation_files": 79,
+          "selected_boxes": {
+            "car": 1393,
+            "bus": 57,
+            "truck": 76
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict",
+        "media_boundary_issue"
+      ]
+    },
+    {
+      "source_prefix": "9999999",
+      "members": [
+        {
+          "split": "DET-train",
+          "group": "9999999",
+          "annotation_files": 407,
+          "selected_boxes": {
+            "car": 9634,
+            "bus": 47,
+            "truck": 986
+          },
+          "archive_frames": null
+        }
+      ],
+      "stages_present": [
+        "train"
+      ],
+      "pilot_reviewed": false,
+      "confidence": "FILENAME_PREFIX_ONLY",
+      "reasons": [
+        "annotation_schema_or_ID_class_conflict",
+        "media_boundary_issue"
+      ]
+    }
+  ],
+  "summary": {
+    "train_candidate": {
+      "components": 169,
+      "source_members": 194,
+      "annotation_files": 5511,
+      "selected_boxes": {
+        "car": 361445,
+        "bus": 9993,
+        "truck": 17220
+      }
+    },
+    "validation_candidate": {
+      "components": 45,
+      "source_members": 46,
+      "annotation_files": 408,
+      "selected_boxes": {
+        "car": 14173,
+        "bus": 127,
+        "truck": 1024
+      }
+    },
+    "final_test_candidate": {
+      "components": 64,
+      "source_members": 68,
+      "annotation_files": 1603,
+      "selected_boxes": {
+        "car": 66876,
+        "bus": 2933,
+        "truck": 10205
+      }
+    },
+    "quarantine": {
+      "components": 52,
+      "source_members": 117,
+      "annotation_files": 1187,
+      "selected_boxes": {
+        "car": 381359,
+        "bus": 7517,
+        "truck": 33400
+      }
+    }
+  },
+  "final_test_frozen": false,
+  "g1_passed": false
+}

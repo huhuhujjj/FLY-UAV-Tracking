@@ -1,0 +1,406 @@
+{
+  "archive": "MOT-train",
+  "source_url": "https://drive.usercontent.google.com/download?id=1-qX2d-P1Xr64ke6nTdlm33om1VxCUTSh&export=download&confirm=t",
+  "downloaded_at": "2026-11-17T14:13:34.162424+00:00",
+  "status": "FETCHED",
+  "scope": "source annotation members and ZIP index; no bulk images",
+  "members": [
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000013_00000_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000013_00000_v.txt",
+      "size_bytes": 247986,
+      "crc32": "cfa1a001",
+      "sha256": "881cbba6dd686795558056c3657e2f25ebf5d85cafcfbb65d328b94fd736ef80"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000013_01073_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000013_01073_v.txt",
+      "size_bytes": 31887,
+      "crc32": "bf09de2b",
+      "sha256": "3c67f3f426377f55281c0a77276c77ad0369be788671937b21f5d63bb40412a8"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000013_01392_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000013_01392_v.txt",
+      "size_bytes": 84329,
+      "crc32": "3cc319b6",
+      "sha256": "12435d2083b96f4e99ef122ee6d8b18446c05683ed6a547c5ef05da99fc6ce9a"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000020_00406_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000020_00406_v.txt",
+      "size_bytes": 293032,
+      "crc32": "80610bba",
+      "sha256": "173f21b6b7b05f53b4d68b8b0892f795b65b69181fd3602bf2fa951fd5da018a"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000071_03240_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000071_03240_v.txt",
+      "size_bytes": 174119,
+      "crc32": "e711b6c0",
+      "sha256": "4299b700c3875ebe9e92c55df57ec5dc62ee71ecc64878c0e71a5edd7e71e92e"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000072_04488_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000072_04488_v.txt",
+      "size_bytes": 267785,
+      "crc32": "29589b60",
+      "sha256": "261f84bd188f6fc50b1d83576308caefe5481698543e0dcc74e41d8334bd6712"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000072_05448_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000072_05448_v.txt",
+      "size_bytes": 307364,
+      "crc32": "4ad791cb",
+      "sha256": "e5142ad396bc7eb14c2e5b0477a8d0014823a0ee7fbe6531a9829517fca62484"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000072_06432_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000072_06432_v.txt",
+      "size_bytes": 258515,
+      "crc32": "725334ab",
+      "sha256": "f6642dbd4efd0ea080d5d96ecf76c17f52d46465125f95ed920f1f56c6a996fe"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000076_00720_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000076_00720_v.txt",
+      "size_bytes": 210912,
+      "crc32": "058c9872",
+      "sha256": "344275c629c7f7d808f0a1658139c7c7293ba11e2c0163104508a514606d0f2a"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000079_00480_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000079_00480_v.txt",
+      "size_bytes": 370079,
+      "crc32": "71d10e03",
+      "sha256": "64f678dab0dd7fad2528393fbb7a4093e08fa55be914f00a9898a4e42500ba8c"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000084_00000_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000084_00000_v.txt",
+      "size_bytes": 871740,
+      "crc32": "113b3769",
+      "sha256": "8863c1eb64ff66aaf86c9f5682d91b96c7ac2b42dc9d7cebf4244add6af33d5b"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000099_02109_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000099_02109_v.txt",
+      "size_bytes": 294512,
+      "crc32": "837de07d",
+      "sha256": "16bfcb3fa962d31576df7ea561924a3ddd5b4b8e4fb381fc3f1ef99718ecd343"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000124_00944_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000124_00944_v.txt",
+      "size_bytes": 1472657,
+      "crc32": "fddae6a7",
+      "sha256": "b7942c5a5f408b8cbe844efdb399a8ef9f494114b0f868c6d7d3656de7a4105c"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000126_00001_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000126_00001_v.txt",
+      "size_bytes": 1850838,
+      "crc32": "8d843495",
+      "sha256": "f1cf9651cb5b0644f673bd93c13dfb774200382249c498b7008db44455d92383"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000138_00000_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000138_00000_v.txt",
+      "size_bytes": 979918,
+      "crc32": "9d40d6ed",
+      "sha256": "fc49c4cc6a977662df81528e6315a4b35dce1ffaaa18c3f8614b29e736d9144a"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000140_01590_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000140_01590_v.txt",
+      "size_bytes": 483125,
+      "crc32": "1021f5a2",
+      "sha256": "77d4a94a319ceb148473851f435ac07edaed3e00faf410c4512e482e21183c7e"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000143_02250_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000143_02250_v.txt",
+      "size_bytes": 550165,
+      "crc32": "e6d65d3b",
+      "sha256": "63c84aa4a1d68abd6b1e908396ed0746eb3dbd7f2fd84f247544e01383e594f8"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000145_00000_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000145_00000_v.txt",
+      "size_bytes": 102182,
+      "crc32": "0d99257c",
+      "sha256": "6f68ad881294f73a3a699faf561bf1e1b3ae0a07f3eed75d3edd11d614ee9cc3"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000150_02310_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000150_02310_v.txt",
+      "size_bytes": 1184240,
+      "crc32": "1a8df469",
+      "sha256": "da09601682ea5203a00fc85f1045615d3d43da53875471e8e9de4ae4380dff4b"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000218_00001_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000218_00001_v.txt",
+      "size_bytes": 39955,
+      "crc32": "a2278401",
+      "sha256": "7679ee6c0fb3a871e10c1ecc74ef50c231d6424c58cd816add8b0dc40ef26fe4"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000222_03150_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000222_03150_v.txt",
+      "size_bytes": 571523,
+      "crc32": "04652e70",
+      "sha256": "c1e332ec0a1cea3af7086ce9e11cc493882ca10229b51ec44cf4280f6cca024b"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000239_03720_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000239_03720_v.txt",
+      "size_bytes": 463943,
+      "crc32": "f0254a23",
+      "sha256": "d4eae99973735e8a4fa7e46e59eb3409f9045146cf76e6fc13c4a5c04561cc69"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000239_12336_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000239_12336_v.txt",
+      "size_bytes": 349703,
+      "crc32": "942e0dcb",
+      "sha256": "1c9edb945cdd3479c4d3fe4fef11fb1c3e461ea3d3a3bb860f181521374afd35"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000243_00001_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000243_00001_v.txt",
+      "size_bytes": 572423,
+      "crc32": "cc140af3",
+      "sha256": "419c5bc1dff95f4010f19991ebdf00b31a11435328aa77191f4ad1ba3928f677"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000244_01440_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000244_01440_v.txt",
+      "size_bytes": 1355153,
+      "crc32": "e13eab04",
+      "sha256": "f027de86332f041e08c9d7f746a5294b14b9f49aa061241717ffbfbf8741ee89"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000248_00001_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000248_00001_v.txt",
+      "size_bytes": 945259,
+      "crc32": "de21ee05",
+      "sha256": "7f06194fb61614be4f253590d8def3327d4ab5a59f522b498631094518d6e00b"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000263_03289_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000263_03289_v.txt",
+      "size_bytes": 163487,
+      "crc32": "57c522b8",
+      "sha256": "b1f70411588692ccde918a2ca6c0a77d0067c8aa6c77bd8a11eadd6724ae56ef"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000264_02760_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000264_02760_v.txt",
+      "size_bytes": 361936,
+      "crc32": "5f715f4f",
+      "sha256": "12019f92216ad5956b7f942bb55a8a98e3a24819f88a5ae8e1f3e148307e3293"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000266_03598_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000266_03598_v.txt",
+      "size_bytes": 133196,
+      "crc32": "8297584f",
+      "sha256": "77413f18b768f8d9f5969cbe244f1d508ce899c4f46fa3ed4436401b4a4b2c82"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000266_04830_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000266_04830_v.txt",
+      "size_bytes": 24116,
+      "crc32": "41981eed",
+      "sha256": "43fd321cd1747558f55c62e9b25c86e62d7e2483a13e64c2db4791c45ff9bed0"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000270_00001_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000270_00001_v.txt",
+      "size_bytes": 1130224,
+      "crc32": "70dbe334",
+      "sha256": "e558df8dfdbdee6a773ae4617f95962ff8caef6dee7570ab55b7b43df1361d4d"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000273_00001_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000273_00001_v.txt",
+      "size_bytes": 777031,
+      "crc32": "74171577",
+      "sha256": "a8a8e53b191f2346725812a6584f7e74d904f7f9594043666b4d87251a497a23"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000278_00001_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000278_00001_v.txt",
+      "size_bytes": 1703354,
+      "crc32": "e389d424",
+      "sha256": "54e68a88f12b8c7ec48aeb0f1e1572f4e035b2c20fb6169e7aba896a0ce9dbb4"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000279_00001_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000279_00001_v.txt",
+      "size_bytes": 1613514,
+      "crc32": "e71aeb63",
+      "sha256": "90a7391e69799207593a82e6d9f3556602479d9a238419eee36a01b10be15b18"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000281_00460_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000281_00460_v.txt",
+      "size_bytes": 647546,
+      "crc32": "3aea780c",
+      "sha256": "40a5a6cae9c298cdccd6df0ce88233ffd8f31ab9b96736149520368f7785747b"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000288_00001_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000288_00001_v.txt",
+      "size_bytes": 2033715,
+      "crc32": "cc060142",
+      "sha256": "2112b0ed6ff508c6764ffb62d816fb49c5792136f74e7fac566665af5a6095e0"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000289_00001_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000289_00001_v.txt",
+      "size_bytes": 533501,
+      "crc32": "7cbaa516",
+      "sha256": "e7630fb7088a67d34a8b3f14d8c0bebb73279627b8c020ec6504f7e31fd25693"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000289_06922_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000289_06922_v.txt",
+      "size_bytes": 243326,
+      "crc32": "3efea2e9",
+      "sha256": "350f60ffdad373be50f0588cfbb9721a0c375f1d85d6748f4a55edd25fe02f5b"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000295_02300_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000295_02300_v.txt",
+      "size_bytes": 938886,
+      "crc32": "cb616156",
+      "sha256": "de5902d4de0f5ff020246c9a1c55b203ff4791cc8545c92182a05f7b6a6f219a"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000300_00000_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000300_00000_v.txt",
+      "size_bytes": 699641,
+      "crc32": "3ef9a4ce",
+      "sha256": "c4d99da67cf3a92a09b5a90e594a8521b0040c2a64a3d14481b76fcc77168362"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000307_00000_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000307_00000_v.txt",
+      "size_bytes": 230777,
+      "crc32": "480737c9",
+      "sha256": "c2553ad64d7f0869cc5e5723f1691bb23e2fa88f5c3b8bca2eb831a842b134e2"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000308_00000_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000308_00000_v.txt",
+      "size_bytes": 330004,
+      "crc32": "f8650a56",
+      "sha256": "28f6503c5b5f4cdbe029a85800e1ceb0187dc4740fae414caffd8e2e7eef9bc8"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000308_01380_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000308_01380_v.txt",
+      "size_bytes": 206723,
+      "crc32": "d4128ca0",
+      "sha256": "ad8d0b789dcfd5823933f471a8f540447f1d2d9db2a3b5d5e1a29d777ee895ff"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000309_00000_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000309_00000_v.txt",
+      "size_bytes": 513917,
+      "crc32": "46f9fda9",
+      "sha256": "82c7f3d726654b97d8ba2fd50d47d6b7e7fa012736cc8478fd000463b5912bd6"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000315_00000_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000315_00000_v.txt",
+      "size_bytes": 815796,
+      "crc32": "e96db2f7",
+      "sha256": "5e9b4f88f290421f694c839a06fb30957e5823e44f15853d9dff78d92dc315c7"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000316_01288_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000316_01288_v.txt",
+      "size_bytes": 125217,
+      "crc32": "cf4b6243",
+      "sha256": "81e21e8270ff713fea0522a9f7929544aff0db9c2def17839cb2d0d417c9a669"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000323_01173_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000323_01173_v.txt",
+      "size_bytes": 649346,
+      "crc32": "8040577c",
+      "sha256": "87d6217c6a1ff62e53dd31bf3a6405433c8b775e5b5cb74b935082458d6725e7"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000326_01035_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000326_01035_v.txt",
+      "size_bytes": 658361,
+      "crc32": "cab85ea4",
+      "sha256": "76f4adb4823fe5767db674acc64677af6595c7e19915c7f85c5b6f8fb802d981"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000329_04715_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000329_04715_v.txt",
+      "size_bytes": 322163,
+      "crc32": "e70fb43d",
+      "sha256": "8971155b7c0f0463eab2585f8d919430829c2f806c5cd099f32e69308bfa9353"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000342_04692_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000342_04692_v.txt",
+      "size_bytes": 386398,
+      "crc32": "81bac6d7",
+      "sha256": "72d4a9a48d71ed9240e16def93a045d1309da82921a18be15974da606bd16175"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000352_05980_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000352_05980_v.txt",
+      "size_bytes": 352784,
+      "crc32": "3115ee4f",
+      "sha256": "d8279f2b63966edf4dfd0c67c49061f935d8837ebb355255937b7ef76055172d"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000357_00920_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000357_00920_v.txt",
+      "size_bytes": 2014577,
+      "crc32": "3ee91d3a",
+      "sha256": "9b1f3431923162efc47eb09a998f1a8122d412570d5822a1b53ff1b5554965a3"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000360_00001_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000360_00001_v.txt",
+      "size_bytes": 807564,
+      "crc32": "6c5741e2",
+      "sha256": "c473b073f2d9f2a0a6b8ded463db8dfdd394f00f117f95f31b15284a1b5f16d0"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000361_02323_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000361_02323_v.txt",
+      "size_bytes": 587121,
+      "crc32": "642f4907",
+      "sha256": "d7e470adafdbed48167e4583adf00ea5f698bfa72d3b6a0ff3c44d0a60882045"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000363_00001_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000363_00001_v.txt",
+      "size_bytes": 670380,
+      "crc32": "b38454bc",
+      "sha256": "3c2ad8aea3603c61ff6658ca6536edf2c7324970c4f9e0170a99e0fafb702273"
+    },
+    {
+      "archive_member": "VisDrone2019-MOT-train/annotations/uav0000366_00001_v.txt",
+      "path": "model\\data\\raw\\MOT-train\\annotations\\uav0000366_00001_v.txt",
+      "size_bytes": 757555,
+      "crc32": "c33f454a",
+      "sha256": "1d989acc52939f38501e2299907a93a6e9133c09985529ad89e713e7fb927dab"
+    }
+  ],
+  "errors": [],
+  "archive_size_bytes": 8080572990,
+  "archive_members": 24316,
+  "annotation_members_expected": 56,
+  "network_bytes_this_run": 9683518
+}

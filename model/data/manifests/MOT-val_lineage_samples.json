@@ -1,0 +1,85 @@
+{
+  "archive": "MOT-val",
+  "status": "FETCHED",
+  "expected_groups": 7,
+  "samples": [
+    {
+      "source_group": "uav0000086_00000_v",
+      "archive_member": "VisDrone2019-MOT-val/sequences/uav0000086_00000_v/0000001.jpg",
+      "path": "model\\data\\raw\\MOT-val\\sequences\\uav0000086_00000_v\\0000001.jpg",
+      "image_sha256": "b2fc112f404bb118b312f4f847ba5d6f1221bb15aad70005a6f5c5546bb43a07",
+      "pixel_sha256": "9837b5d63d5e42a7c775eb2767c332d1016a495560364d9c3bb6ed0d1aa66fee",
+      "dhash": "4663cacc3b8a0e04",
+      "width": 1344,
+      "height": 756,
+      "role": "lineage_review_sample_not_final_test_result"
+    },
+    {
+      "source_group": "uav0000117_02622_v",
+      "archive_member": "VisDrone2019-MOT-val/sequences/uav0000117_02622_v/0000001.jpg",
+      "path": "model\\data\\raw\\MOT-val\\sequences\\uav0000117_02622_v\\0000001.jpg",
+      "image_sha256": "427a3304098af126b3d3f2b77ba531d82de5ef6c642ec4f1e184d3a94fbf032a",
+      "pixel_sha256": "820b08ee0274e3546d8dede2497b808261e315e22dd8f238083ffdd7760619b2",
+      "dhash": "9ccce1e9f8f4bed3",
+      "width": 2720,
+      "height": 1530,
+      "role": "lineage_review_sample_not_final_test_result"
+    },
+    {
+      "source_group": "uav0000137_00458_v",
+      "archive_member": "VisDrone2019-MOT-val/sequences/uav0000137_00458_v/0000001.jpg",
+      "path": "model\\data\\raw\\MOT-val\\sequences\\uav0000137_00458_v\\0000001.jpg",
+      "image_sha256": "e27e335b5f519a7bd1e4c95300920594a97bb8cdc1e7f30290584d49ca1d75d8",
+      "pixel_sha256": "dfacc48e643f40c01f98a318aa3e2d4f466c72f5e51e4e0001d049434febba5c",
+      "dhash": "6666e7ecf4ad3b73",
+      "width": 2688,
+      "height": 1512,
+      "role": "lineage_review_sample_not_final_test_result"
+    },
+    {
+      "source_group": "uav0000182_00000_v",
+      "archive_member": "VisDrone2019-MOT-val/sequences/uav0000182_00000_v/0000001.jpg",
+      "path": "model\\data\\raw\\MOT-val\\sequences\\uav0000182_00000_v\\0000001.jpg",
+      "image_sha256": "3a93fcaf06c06727eb23c7f641feebb41528209c1bcd84993938c893894fddd9",
+      "pixel_sha256": "495d9b324c3b54c26e865cf17ca98604a58173123bf49acc9f204865bed330ce",
+      "dhash": "b33379119bcbc711",
+      "width": 1344,
+      "height": 756,
+      "role": "lineage_review_sample_not_final_test_result"
+    },
+    {
+      "source_group": "uav0000268_05773_v",
+      "archive_member": "VisDrone2019-MOT-val/sequences/uav0000268_05773_v/0000001.jpg",
+      "path": "model\\data\\raw\\MOT-val\\sequences\\uav0000268_05773_v\\0000001.jpg",
+      "image_sha256": "e002d03e8a483bf20da6951f7e3d95613cb6641dbd31cb3981457d0e0c08f316",
+      "pixel_sha256": "bae5e415d7c21234ab60456aea32a5b3f4527b6535ddbff3ce2ce40d8ecae5e4",
+      "dhash": "6420a1e367260020",
+      "width": 3840,
+      "height": 2160,
+      "role": "lineage_review_sample_not_final_test_result"
+    },
+    {
+      "source_group": "uav0000305_00000_v",
+      "archive_member": "VisDrone2019-MOT-val/sequences/uav0000305_00000_v/0000001.jpg",
+      "path": "model\\data\\raw\\MOT-val\\sequences\\uav0000305_00000_v\\0000001.jpg",
+      "image_sha256": "0777f29e7b972be556526b359ff8c84692076b623356299e0be9039fa6c65dad",
+      "pixel_sha256": "3935b521cd10a577c900fa3d90be4231c058410ddca7b7078e0361405e2836f8",
+      "dhash": "5535d0d0c8c8595a",
+      "width": 1904,
+      "height": 1071,
+      "role": "lineage_review_sample_not_final_test_result"
+    },
+    {
+      "source_group": "uav0000339_00001_v",
+      "archive_member": "VisDrone2019-MOT-val/sequences/uav0000339_00001_v/0000001.jpg",
+      "path": "model\\data\\raw\\MOT-val\\sequences\\uav0000339_00001_v\\0000001.jpg",
+      "image_sha256": "28abe63399047e8ca86787a9db9d02d1baee451b3f6ecb42006c8900a6f5e5e4",
+      "pixel_sha256": "34ad71cea695d565225a6bfe386390937ad484502b3f3c41bd019c96ad95e42e",
+      "dhash": "6080c0808006b080",
+      "width": 1904,
+      "height": 1071,
+      "role": "lineage_review_sample_not_final_test_result"
+    }
+  ],
+  "network_bytes_this_run": 435775
+}

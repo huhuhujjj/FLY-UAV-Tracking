@@ -1,0 +1,13 @@
+{
+  "definition_check": "PASS",
+  "meaning": "File consistency only; this validator does not run inference, audit datasets or test the application.",
+  "acceptance_rows": 19,
+  "requirement_ids_covered": 44,
+  "system_acceptance": "NOT_EXECUTED",
+  "final_acceptance_blocked": true,
+  "blockers": [
+    "pilot thresholds unset",
+    "full dataset independence audit incomplete",
+    "formal model validation and official evaluator parity incomplete"
+  ]
+}

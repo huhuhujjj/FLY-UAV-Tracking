@@ -1,0 +1,15 @@
+{
+  "version": "det-ignore-project-pilot-1",
+  "status": "PILOT_RULE_VALIDATED_WITH_LOCAL_TESTS_NOT_OFFICIAL_SCORE_EQUIVALENCE",
+  "scope": "Local car/bus/truck DET evaluation only; no model metrics have been produced.",
+  "source_target_categories": {"4": "car", "9": "bus", "6": "truck"},
+  "ignored_source_categories": [0, 11],
+  "also_ignore_source_score_zero": true,
+  "coverage_rule": "Exclude a source target or prediction when at least 50% of its box area is covered by the union of category-0, category-11 or score-0 source boxes.",
+  "box_geometry": "Image-bound half-open pixel rectangles; invalid or out-of-image source boxes fail instead of being clipped.",
+  "non_target_categories": "Scored categories other than car, bus and truck are not local positives and do not automatically mask predictions; van remains separate from car.",
+  "official_toolkit_difference": "The official MATLAB source explicitly masks category-0 regions. Its README says others are ignored, but the inspected code does not explicitly mask category-11 boxes; the local pilot policy does. Pixel-edge conventions may also differ. Do not label local scores as official VisDrone scores until parity is checked.",
+  "training_policy": "NOT_FROZEN; audit-only YOLO labels do not encode ignore masks.",
+  "final_test_frozen": false,
+  "g1_passed": false
+}

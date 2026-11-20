@@ -1,0 +1,276 @@
+{
+  "version": "lineage-representative-screen-1",
+  "status": "SAMPLE_SCREEN_COMPLETE_FULL_PIXEL_AUDIT_PENDING",
+  "sampled_groups": 425,
+  "compared_cross_stage_pairs": 48978,
+  "exact": [],
+  "dhash_le_8_candidates": [
+    {
+      "a": "DET-train:0000182",
+      "b": "MOT-val:uav0000182_00000_v",
+      "dhash_distance": 0,
+      "same_prefix": true
+    },
+    {
+      "a": "DET-train:0000201",
+      "b": "MOT-test-dev:uav0000201_00000_v",
+      "dhash_distance": 0,
+      "same_prefix": true
+    },
+    {
+      "a": "DET-train:0000297",
+      "b": "MOT-test-dev:uav0000297_00000_v",
+      "dhash_distance": 0,
+      "same_prefix": true
+    },
+    {
+      "a": "DET-train:0000305",
+      "b": "MOT-val:uav0000305_00000_v",
+      "dhash_distance": 0,
+      "same_prefix": true
+    },
+    {
+      "a": "DET-train:0000339",
+      "b": "MOT-val:uav0000339_00001_v",
+      "dhash_distance": 0,
+      "same_prefix": true
+    },
+    {
+      "a": "DET-val:0000249",
+      "b": "MOT-test-dev:uav0000249_00001_v",
+      "dhash_distance": 0,
+      "same_prefix": true
+    },
+    {
+      "a": "DET-val:0000289",
+      "b": "MOT-train:uav0000289_00001_v",
+      "dhash_distance": 0,
+      "same_prefix": true
+    },
+    {
+      "a": "DET-val:0000323",
+      "b": "MOT-train:uav0000323_01173_v",
+      "dhash_distance": 6,
+      "same_prefix": true
+    },
+    {
+      "a": "DET-val:0000360",
+      "b": "MOT-train:uav0000360_00001_v",
+      "dhash_distance": 0,
+      "same_prefix": true
+    }
+  ],
+  "same_prefix_pairs": [
+    {
+      "a": "DET-train:0000072",
+      "b": "DET-val:0000072"
+    },
+    {
+      "a": "DET-train:0000076",
+      "b": "DET-val:0000076"
+    },
+    {
+      "a": "DET-train:0000137",
+      "b": "MOT-val:uav0000137_00458_v"
+    },
+    {
+      "a": "DET-train:0000165",
+      "b": "DET-val:0000165"
+    },
+    {
+      "a": "DET-train:0000166",
+      "b": "DET-val:0000166"
+    },
+    {
+      "a": "DET-train:0000182",
+      "b": "MOT-val:uav0000182_00000_v"
+    },
+    {
+      "a": "DET-train:0000196",
+      "b": "DET-val:0000196"
+    },
+    {
+      "a": "DET-train:0000199",
+      "b": "DET-val:0000199"
+    },
+    {
+      "a": "DET-train:0000201",
+      "b": "MOT-test-dev:uav0000201_00000_v"
+    },
+    {
+      "a": "DET-train:0000220",
+      "b": "DET-val:0000220"
+    },
+    {
+      "a": "DET-train:0000223",
+      "b": "DET-val:0000223"
+    },
+    {
+      "a": "DET-train:0000237",
+      "b": "DET-val:0000237"
+    },
+    {
+      "a": "DET-train:0000256",
+      "b": "DET-val:0000256"
+    },
+    {
+      "a": "DET-train:0000263",
+      "b": "DET-val:0000263"
+    },
+    {
+      "a": "DET-train:0000273",
+      "b": "DET-val:0000273"
+    },
+    {
+      "a": "DET-train:0000290",
+      "b": "DET-val:0000290"
+    },
+    {
+      "a": "DET-train:0000293",
+      "b": "DET-val:0000293"
+    },
+    {
+      "a": "DET-train:0000297",
+      "b": "MOT-test-dev:uav0000297_00000_v"
+    },
+    {
+      "a": "DET-train:0000297",
+      "b": "MOT-test-dev:uav0000297_02761_v"
+    },
+    {
+      "a": "DET-train:0000300",
+      "b": "DET-val:0000300"
+    },
+    {
+      "a": "DET-train:0000303",
+      "b": "DET-val:0000303"
+    },
+    {
+      "a": "DET-train:0000305",
+      "b": "MOT-val:uav0000305_00000_v"
+    },
+    {
+      "a": "DET-train:0000308",
+      "b": "DET-val:0000308"
+    },
+    {
+      "a": "DET-train:0000313",
+      "b": "DET-val:0000313"
+    },
+    {
+      "a": "DET-train:0000315",
+      "b": "DET-val:0000315"
+    },
+    {
+      "a": "DET-train:0000323",
+      "b": "DET-val:0000323"
+    },
+    {
+      "a": "DET-train:0000339",
+      "b": "MOT-val:uav0000339_00001_v"
+    },
+    {
+      "a": "DET-train:0000342",
+      "b": "DET-val:0000342"
+    },
+    {
+      "a": "DET-train:0000345",
+      "b": "DET-val:0000345"
+    },
+    {
+      "a": "DET-train:0000348",
+      "b": "DET-val:0000348"
+    },
+    {
+      "a": "DET-train:0000358",
+      "b": "DET-val:0000358"
+    },
+    {
+      "a": "DET-val:0000072",
+      "b": "MOT-train:uav0000072_04488_v"
+    },
+    {
+      "a": "DET-val:0000072",
+      "b": "MOT-train:uav0000072_05448_v"
+    },
+    {
+      "a": "DET-val:0000072",
+      "b": "MOT-train:uav0000072_06432_v"
+    },
+    {
+      "a": "DET-val:0000076",
+      "b": "MOT-train:uav0000076_00720_v"
+    },
+    {
+      "a": "DET-val:0000244",
+      "b": "MOT-train:uav0000244_01440_v"
+    },
+    {
+      "a": "DET-val:0000249",
+      "b": "MOT-test-dev:uav0000249_00001_v"
+    },
+    {
+      "a": "DET-val:0000249",
+      "b": "MOT-test-dev:uav0000249_02688_v"
+    },
+    {
+      "a": "DET-val:0000263",
+      "b": "MOT-train:uav0000263_03289_v"
+    },
+    {
+      "a": "DET-val:0000273",
+      "b": "MOT-train:uav0000273_00001_v"
+    },
+    {
+      "a": "DET-val:0000289",
+      "b": "MOT-train:uav0000289_00001_v"
+    },
+    {
+      "a": "DET-val:0000289",
+      "b": "MOT-train:uav0000289_06922_v"
+    },
+    {
+      "a": "DET-val:0000295",
+      "b": "MOT-train:uav0000295_02300_v"
+    },
+    {
+      "a": "DET-val:0000300",
+      "b": "MOT-train:uav0000300_00000_v"
+    },
+    {
+      "a": "DET-val:0000308",
+      "b": "MOT-train:uav0000308_00000_v"
+    },
+    {
+      "a": "DET-val:0000308",
+      "b": "MOT-train:uav0000308_01380_v"
+    },
+    {
+      "a": "DET-val:0000315",
+      "b": "MOT-train:uav0000315_00000_v"
+    },
+    {
+      "a": "DET-val:0000316",
+      "b": "MOT-train:uav0000316_01288_v"
+    },
+    {
+      "a": "DET-val:0000323",
+      "b": "MOT-train:uav0000323_01173_v"
+    },
+    {
+      "a": "DET-val:0000342",
+      "b": "MOT-train:uav0000342_04692_v"
+    },
+    {
+      "a": "DET-val:0000360",
+      "b": "MOT-train:uav0000360_00001_v"
+    },
+    {
+      "a": "DET-test-dev:0000278",
+      "b": "MOT-train:uav0000278_00001_v"
+    }
+  ],
+  "limits": "One representative image per source group. Negative matches cannot establish full-sequence independence. dHash candidates require visual review.",
+  "final_test_frozen": false,
+  "g1_passed": false
+}

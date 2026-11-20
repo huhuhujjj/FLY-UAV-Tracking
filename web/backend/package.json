@@ -1,0 +1,12 @@
+{
+  "name": "fly-uav-browser-tests",
+  "version": "0.2.0-alpha.3",
+  "description": "Playwright development checks for the local UAV interface.",
+  "scripts": {
+    "test:e2e": "python run_e2e.py"
+  },
+  "dependencies": {
+    "playwright": "1.49.1"
+  },
+  "private": true
+}
