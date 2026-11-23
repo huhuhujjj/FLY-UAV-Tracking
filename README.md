@@ -14,6 +14,12 @@ CAT405 Intelligent Computing Major Project。使用预训练 YOLO26l 检测航�
 
 目前没有完成航拍数据微调、代表性准确率测试或正式系统验收。输入限制、类别规则、模型阈值及性能目标仍需先导验证。开发检查记录见 [验证记录](docs/validation/2026-11-20/README.md)。
 
+## 运行结果示例
+
+![真实图片检测结果](docs/showcase/detection-result.jpg)
+
+这是 2026 年 11 月 19 日的真实本地开发运行结果。另有[视频内跟踪截图与样本说明](docs/showcase/README.md)。样例只说明流水线产生了标注结果，不代表准确率测试或正式验收通过。
+
 ## 环境与启动
 
 已验证的本地环境为 Windows、Python 3.12.14、PyTorch 2.10.0+cu128、Ultralytics 8.4.215。需要 ffmpeg 和 ffprobe 位于 PATH。以下命令从仓库根目录执行，使用 PowerShell：
