@@ -20,6 +20,16 @@ CAT405 Intelligent Computing Major Project。使用预训练 YOLO26l 检测航�
 
 这是 2026 年 11 月 19 日的真实本地开发运行结果。另有[视频内跟踪截图与样本说明](docs/showcase/README.md)。样例只说明流水线产生了标注结果，不代表准确率测试或正式验收通过。
 
+## 关联硬件原型：视觉目标检测与舵机云台
+
+另一个独立原型使用 Logitech C922、树莓派 5、PCA9685 和两台 MG996R，探索摄像头画面中的目标位置如何对应云台动作。它与本仓库的航拍车辆检测流程尚未集成。[查看原型代码与详细进展](https://github.com/huhuhujjj/vision-servo-tracker/blob/main/docs/progress.md)。
+
+| 双轴云台 | 树莓派与 C922 | PCA9685 与舵机 |
+| --- | --- | --- |
+| <img src="docs/showcase/servo-prototype/dual-axis-gimbal.jpg" alt="双轴云台侧面" width="220"> | <img src="docs/showcase/servo-prototype/raspberry-pi-c922.jpg" alt="树莓派 5 与 C922" width="220"> | <img src="docs/showcase/servo-prototype/pca9685-servos.jpg" alt="PCA9685 控制板与舵机接线" width="220"> |
+
+目前已验证 C922 经树莓派 Wi-Fi 转发至主机进行实时识别，也分别验证了两台舵机的短时动作。摄像头随云台运动的画面位移、机械行程和视觉闭环跟随仍需验证。
+
 ## 环境与启动
 
 已验证的本地环境为 Windows、Python 3.12.14、PyTorch 2.10.0+cu128、Ultralytics 8.4.215。需要 ffmpeg 和 ffprobe 位于 PATH。以下命令从仓库根目录执行，使用 PowerShell：
