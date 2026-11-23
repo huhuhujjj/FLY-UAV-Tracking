@@ -14,11 +14,11 @@ CAT405 Intelligent Computing Major Project。使用预训练 YOLO26l 检测航�
 
 目前没有完成航拍数据微调、代表性准确率测试或正式系统验收。输入限制、类别规则、模型阈值及性能目标仍需先导验证。开发检查记录见 [验证记录](docs/validation/2026-11-20/README.md)。
 
-## 运行结果示例
+## 界面与运行结果
 
-![真实图片检测结果](docs/showcase/detection-result.jpg)
+![本地图片检测前端页面](docs/showcase/frontend-image-page.png)
 
-这是 2026 年 11 月 19 日的真实本地开发运行结果。另有[视频内跟踪截图与样本说明](docs/showcase/README.md)。样例只说明流水线产生了标注结果，不代表准确率测试或正式验收通过。
+上图是本地 `0.2.0-alpha.4` 图片检测页的开发截图，包含真实推理结果。截图中的 `Test profile` 复用 YOLO26l 权重，用于验证模型选择接口；当前仓库的前端源码仍为 `0.2.0-alpha.3`。另见[原始检测结果图、视频跟踪截图和样本说明](docs/showcase/README.md)。这些样例不代表准确率测试或正式验收通过。
 
 ## 关联硬件原型：视觉目标检测与舵机云台
 
